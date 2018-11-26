@@ -1,0 +1,7504 @@
+(ENTITY,NAME,VALUE)
+$Act	1	present_ref	$Date $Geological_phenomenon
+	EV1	stay	2016-08-24|temblor
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+	MP2	$Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters or other $Structure arranged by the $Organization The $Company
+$Activity	1	relief	$Recovery
+	EV1	efforts	rescue
+	EV2	work	rescue
+	EV3	effort	rescue
+	EV4	efforts	Rescue
+	EV5	assistance	rescue
+	MP1	$Recovery $Activity
+	MP2	$Recovery and relief $Activity
+$Activity	2	civil	$Country
+	EV1	protection	Italy
+	EV2	protection	Italian
+	MP1	$Country civil $Activity
+$Activity	3	clear debris	$Thoroughfare
+	EV1	work	street
+	MP1	$Structure arranged by the $Organization The $Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP2	$Company $Defender $Activity to clear a $Thoroughfare from debris
+$Adult	1	rubble	$Country $Settlement $Geological_phenomenon
+	EV1	man	Italy|Amatrice|earthquake
+	EV2	woman	Italy|Amatrice|earthquake
+	MP1	$Adult is pulled out of the rubble following an $Geological_phenomenon in $Settlement $Country
+$Adult	2	rubble accumoli, central	$Date $Country $Geological_phenomenon $Structure
+	EV1	man	2016-08-24|Italy|earthquake|building
+	MP1	$Adult is rescued from the rubble of a $Structure after an $Geological_phenomenon , in Accumoli, central $Country $Date
+$Benefactor	1	arcuata del	$Structure
+	EV1	Rescuers	building
+	MP1	$Benefactor search a crumbled $Structure in Arcuata del
+$Case	1	local	$Date
+	EV1	time	2012-08-11
+	EV2	time	2012-08-12
+	EV3	time	2011-03-24
+	EV4	time	2012-08-10
+	EV5	time	2016-02-04
+	EV6	time	2012-08-13
+	EV7	time	2016-02-05
+	EV8	time	2011-10-23
+	EV9	time	2012-08-16
+	EV10	time	2010-02-27
+	EV11	time	2016-02-06
+	EV12	time	2016-08-23
+	EV13	time	2013-04-20
+	EV14	time	2012-08-15
+	EV15	time	2016-02-07
+	EV16	time	2011-02-21
+	EV17	time	2011-02-22
+	EV18	time	2012-08-20
+	EV19	time	2011-03-10
+	EV20	time	2008-05-13
+	EV21	time	2012-08-19
+	EV22	time	2011-03-25
+	EV23	time	2016-08-24
+	EV24	time	2016-08-25
+	EV25	time	2012-08-17
+	EV26	time	1341-XX-XX
+	EV27	time	2013-04-19
+	EV28	time	2013-10-15
+	EV29	time	2011-10-27
+	EV30	time	2011-02-25
+	EV31	time	2008-05-14
+	EV32	time	2010-03-02
+	EV33	time	2013-10-17
+	EV34	time	2014-08-05
+	EV35	time	2010-02-26
+	EV36	time	2010-02-28
+	EV37	time	2012-08-21
+	EV38	time	2010-03-07
+	EV39	time	2016-02-13
+	EV40	time	2010-02-20
+	EV41	time	2011-10-22
+	EV42	time	2010-03-08
+	MP1	$Date local $Case
+	MP2	$Case $Date
+	MP3	$Date local $Case $Date
+	MP4	local $Case $Date
+$Ceremony	1	ahead	$Administrative_district
+	EV1	funeral	state
+	MP1	$Administrative_district $Ceremony
+	MP2	ahead of a $Administrative_district $Ceremony for some of the $Unfortunate
+$Change	1	toll	$Date
+	EV1	death	2016-08-24
+	EV2	death	2012-08-11
+	EV3	death	2011-02-22
+	EV4	death	2011-03-11
+	EV5	death	2010-02-27
+	EV6	death	2014-08-03
+	EV7	death	2011-03-24
+	EV8	death	2011-03-18
+	EV9	death	2008-05-12
+	EV10	death	2016-02-06
+	MP1	$Change toll from $Date
+	MP2	$Date The $Change toll
+$Change	2	widespread	$Geological_phenomenon
+	EV1	damage	quake
+	MP1	$Geological_phenomenon wreaked widespread $Change
+	MP2	$Change from the $Geological_phenomenon
+	MP3	$Geological_phenomenon $Change
+$Change	3	widespread	$Duration $Geological_phenomenon
+	EV1	damage	5Y|quake
+	MP1	$Duration after a devastating $Geological_phenomenon wreaked widespread $Change across the $Location
+$Change_of_magnitude	1	disaster risk	$Person
+	EV1	Reduction	National
+	MP1	$Person Disaster Risk $Change_of_magnitude
+$Corporate_executive	1	national mourning,	$Duration
+	EV1	President	1D
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Date	1	local	$Case
+	EV1	2012-08-11	time
+	EV2	2012-08-12	time
+	EV3	2011-03-24	time
+	EV4	2012-08-10	time
+	EV5	2016-02-04	time
+	EV6	2012-08-13	time
+	EV7	2016-02-05	time
+	EV8	2012-08-16	time
+	EV9	2010-02-27	time
+	EV10	2011-10-23	time
+	EV11	2016-08-23	time
+	EV12	2016-02-06	time
+	EV13	2013-04-20	time
+	EV14	2016-02-07	time
+	EV15	2012-08-15	time
+	EV16	2011-02-21	time
+	EV17	2011-02-22	time
+	EV18	2012-08-20	time
+	EV19	2011-03-10	time
+	EV20	2008-05-13	time
+	EV21	2016-08-25	time
+	EV22	2012-08-19	time
+	EV23	2011-03-25	time
+	EV24	2016-08-24	time
+	EV25	1341-XX-XX	time
+	EV26	2011-10-27	time
+	EV27	2008-05-14	time
+	EV28	2012-08-17	time
+	EV29	2010-03-02	time
+	EV30	2011-02-25	time
+	EV31	2013-10-15	time
+	EV32	2013-04-19	time
+	EV33	2010-02-28	time
+	EV34	2013-10-17	time
+	EV35	2014-08-05	time
+	EV36	2010-03-07	time
+	EV37	2010-02-26	time
+	EV38	2012-08-21	time
+	EV39	2011-10-22	time
+	EV40	2016-02-13	time
+	EV41	2010-03-08	time
+	EV42	2010-02-20	time
+	MP1	$Date local $Case
+	MP2	$Case $Date
+	MP3	$Date local $Case $Date
+	MP4	local $Case $Date
+$Date	2	sichuan	$Administrative_district
+	EV1	2013-04-20	province
+	EV2	2013-04-20	Province
+	EV3	2008-05-12	Province
+	EV4	2013-04-22	province
+	EV5	2008-05-12	province
+	EV6	2013-04-25	Province
+	EV7	2008-05-18	province
+	EV8	2013-04-21	province
+	EV9	2008-05-24	Province
+	EV10	2008-05-23	province
+	EV11	2001-08-07	province
+	EV12	2008-05-19	province
+	EV13	2008-05-22	province
+	EV14	2013-04-27	Province
+	EV15	2008-05-17	Province
+	EV16	2013-04-29	Province
+	EV17	2008-05-25	province
+	EV18	2008-05-13	Province
+	EV19	2008-08	province
+	EV20	2013-04-23	province
+	EV21	2008-05-22	Province
+	EV22	2008-05-13	province
+	MP1	Sichuan $Administrative_district $Date
+	MP2	Sichuan $Administrative_district on $Date
+	MP3	Sichuan $Administrative_district , $Date The powerful $Geological_phenomenon
+	MP4	$Administrative_district at $Date
+	MP5	$Administrative_district , $Date
+	MP6	$Administrative_district $Date
+	MP7	Sichuan $Administrative_district , $Date
+	MP8	$Administrative_district on $Date
+$Date	3	least	$Number
+	EV1	2011-03-25	27
+	EV2	2016-08-24	37
+	EV3	2008-05-14	26,000
+	EV4	2011-10-23	138
+	EV5	2008-05-12	592
+	EV6	2016-08-26	247
+	EV7	2012-08-11	250
+	EV8	2016-08-24	10
+	EV9	2016-08-24	84
+	EV10	2016-02-07	16
+	EV11	2013-04-20	157
+	EV12	2016-08-24	100
+	EV13	2011-03-11	14
+	EV14	2011-03-11	630
+	EV15	2016-08-24	63
+	EV16	2016-08-24	120
+	EV17	2016-08-24	470
+	MP1	$Date At least $Number
+$Date	4	central	$Country
+	EV1	2016-08-24	Italy
+	EV2	2016-08-25	Italy
+	EV3	2016-08-29	Italy
+	EV4	2016-08	Italy
+	EV5	2016-08-26	Italy
+	EV6	2016-08-28	Italy
+	EV7	2016-08-23	Italy
+	EV8	2010-02-27	Chile
+	EV9	1999-XX-XX	Taiwan
+	EV10	2013-10-15	Philippines
+	EV11	2008-05-12	China
+	EV12	2016-08-17	Italy
+	EV13	2016-08-31	Italy
+	EV14	2010-03-03	Chile
+	MP1	central $Country $Date
+	MP2	$Country $Date
+	MP3	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+	MP4	Accumoli, central $Country $Date A devastating $Geological_phenomenon
+	MP5	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP6	Accumoli, central $Country $Date A devastating $Geological_phenomenon rocked central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept.
+	MP7	central $Country in $Date
+	MP8	Tronto, $Country $Date The $Company
+	MP9	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP10	central $Country $Date The magnitude $Number
+	MP11	Pescara Del Tronto, $Country $Date
+	MP12	$Date in $Country
+	MP13	$Country on $Date
+	MP14	central $Country $Date where a $Number
+	MP15	central $Country on $Date
+	MP16	$Number $Geological_phenomenon struck just after $Date $Country
+	MP17	$Date $Country
+	MP18	Accumoli, central $Country $Date
+	MP19	$Country in $Date
+	MP20	southern $Country $Date
+$Date	5	toll	$Change
+	EV1	2016-08-24	death
+	EV2	2012-08-11	death
+	EV3	2011-02-22	death
+	EV4	2011-03-11	death
+	EV5	2011-03-24	death
+	EV6	2010-02-27	death
+	EV7	2016-02-06	death
+	EV8	2011-03-18	death
+	EV9	2014-08-03	death
+	EV10	2008-05-12	death
+	MP1	$Change toll from $Date
+	MP2	$Date The $Change toll
+$Date	6	central	$Country $Settlement
+	EV1	2016-08-27	Italy|Amatrice
+	EV2	2016-08-29	Italy|Amatrice
+	EV3	2016-08-28	Italy|Amatrice
+	EV4	2016-08-24	Italy|Amatrice
+	EV5	2016-08-27	Italy|Ascoli Piceno
+	EV6	2016-08-26	Italy|Amatrice
+	EV7	2016-08-25	Italy|Amatrice
+	EV8	2013-10-15	Philippines|Bohol
+	EV9	2016-08-30	Italy|Amatrice
+	MP1	$Settlement central $Country $Date
+	MP2	$Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP3	$Settlement $Country $Date
+	MP4	rubble in $Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP5	Tronto, near $Settlement central $Country $Date
+$Date	7	southwest yunnan	$Country $Administrative_district
+	EV1	2014-08-05	China|Province
+	EV2	2014-08-06	China|province
+	EV3	2014-08-06	China|Province
+	EV4	2014-08-04	China|province
+	EV5	2014-08-04	China|Province
+	EV6	2011-03-10	China|Province
+	EV7	2014-08-03	China|province
+	MP1	southwest $Country Yunnan $Administrative_district $Date
+$Date	8	southwest sichuan	$Country $Administrative_district
+	EV1	2013-04-20	China|Province
+	EV2	2013-04-21	China|Province
+	EV3	2008-05-13	China|province
+	EV4	2008-05-13	China|Province
+	EV5	2013-04-23	China|Province
+	EV6	2008-05-12	China|Province
+	MP1	southwest $Country Sichuan $Administrative_district , $Date
+	MP2	southwest $Country Sichuan $Administrative_district $Date
+$Date	9	central	$Country $Settlement $Geological_phenomenon
+	EV1	2016-08-24	Italy|Amatrice|earthquake
+	EV2	2016-08-25	Italy|Amatrice|earthquake
+	EV3	2016-08-24	Italy|Amatrice|quake
+	EV4	2016-08-30	Italy|Amatrice|earthquake
+	MP1	$Geological_phenomenon in $Settlement $Country $Date
+	MP2	$Geological_phenomenon , in $Settlement central $Country $Date
+	MP3	$Geological_phenomenon in $Settlement central $Country $Date $Company
+	MP4	$Geological_phenomenon in $Settlement central $Country $Date
+	MP5	rubble following an $Geological_phenomenon in $Settlement $Country $Date
+$Date	10	southern	$Country
+	EV1	2016-02-06	Taiwan
+	EV2	2016-02-08	Taiwan
+	EV3	2016-02	Taiwan
+	EV4	2016-01-30	Taiwan
+	MP1	$Country $Date
+	MP2	southern $Country $Date
+	MP3	$Country on $Date
+	MP4	$Date $Country
+$Date	11	yunnan	$Administrative_district
+	EV1	2014-08-03	province
+	EV2	2014-08-03	Province
+	EV3	2014-08-04	province
+	EV4	2011-03-10	Province
+	MP1	Yunnan $Administrative_district $Date
+	MP2	$Administrative_district on $Date
+	MP3	$Administrative_district $Date
+	MP4	$Administrative_district , $Date
+	MP5	$Administrative_district at $Date
+$Date	12	magnitude	$Number
+	EV1	2016-08-25	6
+	EV2	2016-08-24	6
+	EV3	2016-08-31	6.2
+	MP1	$Date A magnitude $Number $Geological_phenomenon
+	MP2	$Date $Number
+	MP3	central $Country $Date The magnitude $Number
+$Date	13	lushan southwest sichuan	$Country $Region $Administrative_district
+	EV1	2013-04-21	China|county|province
+	EV2	2013-04-20	China|county|province
+	EV3	2013-04-21	China|County|province
+	MP1	Lushan $Region in southwest $Country Sichuan $Administrative_district $Date
+$Date	14	pescara del tronto,	$Country $Geological_phenomenon
+	EV1	2016-08-25	Italy|earthquake
+	EV2	2016-08-24	Italy|earthquake
+	EV3	2016-08-26	Italy|earthquake
+	MP1	$Geological_phenomenon in Pescara Del Tronto, $Country $Date
+	MP2	$Date $Country $Geological_phenomenon
+$Date	15	broad swath central	$Country $Settlement $Inhabitant
+	EV1	2016-08-24	Italy|Rome|residents
+	EV2	2016-08-23	Italy|Rome|residents
+	EV3	2016-08-25	Italy|Rome|residents
+	MP1	$Date and was felt across a broad swath of central $Country including $Settlement where $Inhabitant
+$Date	16	complex host funeral	$Date $Country $Administrative_district $Shelter
+	EV1	2016-08-30	2016-08-30|Italian|state|tent
+	EV2	2016-08-30	2016-08-31|Italian|state|tent
+	EV3	2016-08-31	2016-08-30|Italian|state|tent
+	MP1	$Creating_from_raw_materials $Unit worked through the $Date to build a $Shelter complex to host an $Country $Administrative_district funeral $Date
+$Date	17	broad swath central	$Country $Settlement
+	EV1	2016-08-24	Italy|Rome
+	EV2	2016-08-23	Italy|Rome
+	EV3	2016-08-25	Italy|Rome
+	MP1	magnitude $Number $Geological_phenomenon struck at $Date and was felt across a broad swath of central $Country including $Settlement
+$Date	18	northwestern	$Country
+	EV1	2012-08-11	Iran
+	EV2	2012-08-12	Iran
+	EV3	2012-08-16	Iran
+	MP1	northwestern $Country on $Date
+	MP2	$Country on $Date
+	MP3	$Country $Date
+	MP4	$Date $Country
+$Date	19	sichuan	$Country $Administrative_district
+	EV1	2013-04-20	China|province
+	EV2	2013-04-22	China|province
+	EV3	2008-05-19	China|province
+	MP1	$Country Sichuan $Administrative_district $Date
+	MP2	southwest $Country Sichuan $Administrative_district $Date
+$Date	20	strong	$Date $Geological_phenomenon
+	EV1	2016-08-24	2016-08-26|quake
+	EV2	2016-08-26	2016-08-24|quake
+	MP1	$Company Aerial view of the village of Saletta in central $Country $Date where a strong $Geological_phenomenon hit $Date
+$Date	21	funeral	$Administrative_district
+	EV1	2016-08-30	state
+	EV2	2016-08-27	state
+	MP1	$Administrative_district funeral $Date
+	MP2	$Date $Administrative_district
+$Date	22	pescara del tronto,	$Date $Country $Geological_phenomenon
+	EV1	2016-08-25	2016-08-31|Italy|earthquake
+	EV2	2016-08-31	2016-08-25|Italy|earthquake
+	MP1	$Date $Geological_phenomenon in Pescara Del Tronto, $Country $Date The $Company
+$Date	23	southwestern sichuan	$Country $Administrative_district
+	EV1	2013-04-21	China|province
+	EV2	2013-04-23	China|province
+	MP1	southwestern $Country Sichuan $Administrative_district , $Date
+	MP2	$Country Sichuan $Administrative_district $Date
+$Date	24	southern	$Country $Geological_phenomenon
+	EV1	2016-02-06	Taiwan|earthquake
+	EV2	2016-01-30	Taiwan|earthquake
+	MP1	$Geological_phenomenon struck southern $Country $Date
+	MP2	powerful, shallow $Geological_phenomenon struck southern $Country before $Date
+$Date	25	inside local	$Diversion
+	EV1	2016-08-25	sports
+	EV2	2016-08-26	sports
+	MP1	$Juvenile spent the $Date inside a local $Diversion $Artifact
+$Date	26	central	$Date $Country $Settlement $Geological_phenomenon
+	EV1	2016-08-25	2016-08-31|Italy|Amatrice|earthquake
+	EV2	2016-08-31	2016-08-25|Italy|Amatrice|earthquake
+	MP1	$Date $Geological_phenomenon , in $Settlement central $Country $Date
+$Date	27	powerful	$Geological_phenomenon
+	EV1	2013-04-20	earthquake
+	EV2	2013-04-21	earthquake
+	MP1	$Date $Geological_phenomenon
+	MP2	Sichuan $Administrative_district , $Date The powerful $Geological_phenomenon
+	MP3	$Date after the $Geological_phenomenon
+	MP4	$Date The powerful $Geological_phenomenon
+	MP5	$Geological_phenomenon $Date
+	MP6	$Geological_phenomenon on $Date
+$Date	28	village santi lorenzo flaviano, central	$Country
+	EV1	2016-08-27	Italy
+	MP1	village of Santi Lorenzo e Flaviano, central $Country $Date $European $Speech_act
+	MP2	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP3	$Country $Date $European $Speech_act
+	MP4	central $Country $Date $European $Speech_act
+	MP5	central $Country $Date
+$Date	29	present_ref	$Act $Geological_phenomenon
+	EV1	2016-08-24	stay|temblor
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+	MP2	$Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters or other $Structure arranged by the $Organization The $Company
+$Date	30	people unsafe	$Residence $Number
+	EV1	2016-08-24	homes|2,700
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+$Date	31	rubble accumoli, central	$Country $Adult $Geological_phenomenon $Structure
+	EV1	2016-08-24	Italy|man|earthquake|building
+	MP1	$Adult is rescued from the rubble of a $Structure after an $Geological_phenomenon , in Accumoli, central $Country $Date
+$Date	32	aerial view village saletta central	$Country $Company
+	EV1	2016-08-26	Italy|Associated Press
+	MP1	$Company Aerial view of the village of Saletta in central $Country $Date where a strong $Geological_phenomenon hit $Date
+$Date	33	powerful, shallow southern	$Country $Geological_phenomenon
+	EV1	2016-02-07	Taiwan|earthquake
+	MP1	powerful, shallow $Geological_phenomenon struck southern $Country before $Date
+$Date	34	central	$Date $Country $Geological_phenomenon
+	EV1	2016-08-24	2016-08-24|Italy|earthquake
+	MP1	Accumoli, central $Country $Date A devastating $Geological_phenomenon rocked central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept.
+$Date	35	alike	$Recovery $Unit
+	EV1	2016-08-26	rescue|crews
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+$Date	36	broad section	$Geological_phenomenon
+	EV1	2016-08-24	quake
+	MP1	$Unfortunate of $Date $Geological_phenomenon
+	MP2	$Date The $Geological_phenomenon was felt across a broad section
+	MP3	$Geological_phenomenon struck $Date
+	MP4	Tronto, central $Country where a $Number $Geological_phenomenon struck just after $Date The $Geological_phenomenon was felt across a broad section
+	MP5	$Date $Geological_phenomenon
+$Diversion	1	inside local	$Date
+	EV1	sports	2016-08-25
+	EV2	sports	2016-08-26
+	MP1	$Juvenile spent the $Date inside a local $Diversion $Artifact
+$Duration	1	strongest yunnan	$Geological_phenomenon
+	EV1	14Y	earthquake
+	EV2	14Y	quake
+	MP1	$Geological_phenomenon was the strongest to hit Yunnan in $Duration
+$Duration	2	strongest yunnan	$Company $Geological_phenomenon
+	EV1	14Y	CCTV|quake
+	MP1	$Company said the $Geological_phenomenon was the strongest to hit Yunnan in $Duration
+$Duration	3	national mourning, public	$Emblem $Position $Structure
+	EV1	1D	flags|half-staff|buildings
+	MP1	$Duration $Duration of national mourning, with $Emblem on public $Structure flying at $Position
+$Duration	4	experiences least one	$Geological_phenomenon
+	EV1	1D	earthquake
+	MP1	experiences at least one $Geological_phenomenon $Duration on average,
+	MP2	$Geological_phenomenon $Duration
+	MP3	$Duration of the $Geological_phenomenon
+	MP4	$Duration after the $Geological_phenomenon
+$Duration	5	widespread	$Change $Geological_phenomenon
+	EV1	5Y	damage|quake
+	MP1	$Duration after a devastating $Geological_phenomenon wreaked widespread $Change across the $Location
+$Duration	6	national mourning,	$Corporate_executive
+	EV1	1D	President
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Earthquake	1	eastern	$Country
+	EV1	7.2-magnitude earthquake	Turkey
+	EV2	7.2 magnitude earthquake	Turkey
+	MP1	$Earthquake struck eastern $Country
+	MP2	$Earthquake in $Country
+$Fatality	1	least	$Number
+	EV1	killing	20
+	EV2	killing	367
+	EV3	killing	175
+	EV4	killing	180
+	EV5	killing	156
+	EV6	killing	138
+	EV7	killing	381
+	EV8	killing	150
+	EV9	killing	70
+	EV10	killing	65
+	EV11	killing	375
+	EV12	killing	279
+	EV13	killing	28
+	EV14	killing	41
+	EV15	killing	85
+	EV16	killing	26
+	EV17	killing	22
+	EV18	killing	534
+	EV19	killing	19
+	EV20	killing	122
+	MP1	$Fatality at least $Number people
+	MP2	$Date $Fatality at least $Number people
+	MP3	$Date $Fatality at least $Number
+$Inhabitant	1	broad swath central	$Date $Country $Settlement
+	EV1	residents	2016-08-24|Italy|Rome
+	EV2	residents	2016-08-23|Italy|Rome
+	EV3	residents	2016-08-25|Italy|Rome
+	MP1	$Date and was felt across a broad swath of central $Country including $Settlement where $Inhabitant
+$Inhabitant	2	central	$Country $Settlement
+	EV1	residents	Italy|Rome
+	MP1	central $Country including $Settlement where $Inhabitant of the capital felt a long swaying followed by $Tremor
+$Inhabitant	3	capital long	$Tremor
+	EV1	residents	aftershocks
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+	MP2	central $Country including $Settlement where $Inhabitant of the capital felt a long swaying followed by $Tremor
+	MP3	$Inhabitant of the capital felt a long swaying followed by $Tremor
+$Inhabitant	4	slept. least	$Number
+	EV1	residents	23
+	MP1	central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept. At least $Number people were reported dead
+$Management	1	china	$Geological_phenomenon
+	EV1	Administration	Earthquake
+	MP1	China $Geological_phenomenon $Management
+	MP2	$Geological_phenomenon $Management
+$Nonaccomplishment	1	seismic	$Country
+	EV1	fault	Iran
+	MP1	$Country is located on seismic $Nonaccomplishment
+$Nonaccomplishment	2	ancient modern	$Municipality $Municipality
+	EV1	failure	towns|cities
+	MP1	$Nonaccomplishment to protect ancient $Municipality and modern $Municipality
+$Number	1	magnitude	$Geological_phenomenon
+	EV1	6	quake
+	EV2	6.1	earthquake
+	EV3	6.4	earthquake
+	EV4	6.1	quake
+	EV5	6.3	earthquake
+	EV6	6	earthquake
+	EV7	7.2	quake
+	EV8	6.4	quake
+	EV9	6.6	quake
+	EV10	6.5	earthquake
+	EV11	7.1	quake
+	EV12	6.8	quake
+	EV13	6.3	quake
+	EV14	7.2	earthquake
+	EV15	7.0	quake
+	EV16	8.8	quake
+	EV17	7.1	earthquake
+	EV18	7.3	quake
+	EV19	6.2	quake
+	EV20	8.0	quake
+	EV21	7.8	quake
+	EV22	7.9	quake
+	EV23	6.8	earthquake
+	EV24	7.6	quake
+	EV25	7.6	earthquake
+	EV26	7.7	earthquake
+	EV27	6.3	quakes
+	EV28	7.8	earthquake
+	EV29	9.5	quake
+	EV30	7.2	temblor
+	EV31	8	quake
+	EV32	7.7	quake
+	EV33	6.7	quake
+	EV34	7.4	quake
+	EV35	6.4	temblor
+	EV36	8	earthquake
+	EV37	6.0	earthquakes
+	EV38	9.0	quake
+	EV39	8.9	earthquake
+	EV40	5.7	quake
+	EV41	4.6	earthquake
+	EV42	4.8	earthquake
+	MP1	magnitude $Number $Geological_phenomenon
+	MP2	$Number $Geological_phenomenon
+	MP3	$Number magnitude $Geological_phenomenon
+	MP4	$Country where a $Number $Geological_phenomenon
+	MP5	$Date A magnitude $Number $Geological_phenomenon
+	MP6	$Date a $Number $Geological_phenomenon
+	MP7	$Number $Earthquake
+	MP8	$Geological_phenomenon measuring $Number
+	MP9	$Geological_phenomenon at $Number
+	MP10	$Date $Number $Geological_phenomenon
+	MP11	$Number The $Geological_phenomenon
+$Number	2	least	$Fatality
+	EV1	20	killing
+	EV2	367	killing
+	EV3	175	killing
+	EV4	180	killing
+	EV5	138	killing
+	EV6	381	killing
+	EV7	156	killing
+	EV8	70	killing
+	EV9	150	killing
+	EV10	65	killing
+	EV11	534	killing
+	EV12	19	killing
+	EV13	28	killing
+	EV14	279	killing
+	EV15	85	killing
+	EV16	22	killing
+	EV17	375	killing
+	EV18	41	killing
+	EV19	26	killing
+	EV20	122	killing
+	MP1	$Fatality at least $Number people
+	MP2	$Date $Fatality at least $Number people
+	MP3	$Date $Fatality at least $Number
+$Number	3	people	$Number
+	EV1	81	821
+	EV2	821	81
+	EV3	188	11,000
+	EV4	11,000	188
+	EV5	1,800	381
+	EV6	381	1,800
+	EV7	306	3,000
+	EV8	3,000	306
+	EV9	306	4,500
+	EV10	4,500	306
+	EV11	3,000	617
+	EV12	617	3,000
+	EV13	188	11000
+	EV14	398	1,000
+	EV15	398	1,800
+	EV16	1,000	398
+	EV17	2,000	250
+	EV18	250	2,000
+	EV19	11000	188
+	EV20	1,800	398
+	MP1	$Number people and injured more than $Number
+	MP2	$Date $Number people died and $Number were injured in a series of $Geological_phenomenon
+$Number	4	least	$Geological_phenomenon
+	EV1	188	earthquake
+	EV2	241	earthquake
+	EV3	186	quake
+	EV4	87	earthquake
+	EV5	381	earthquake
+	EV6	250	earthquake
+	EV7	15,000	quake
+	EV8	27	earthquake
+	EV9	196	quake
+	EV10	34,000	quake
+	EV11	35	earthquake
+	EV12	398	earthquake
+	EV13	13	quake
+	EV14	123	earthquake
+	EV15	37	earthquake
+	EV16	24	earthquake
+	EV17	50	earthquake
+	EV18	38	earthquake
+	MP1	$Geological_phenomenon killed at least $Number people
+	MP2	$Geological_phenomenon killed at least $Number
+	MP3	$Geological_phenomenon in Yunnan killed at least $Number
+$Number	5	least	$Date
+	EV1	27	2011-03-25
+	EV2	37	2016-08-24
+	EV3	26,000	2008-05-14
+	EV4	138	2011-10-23
+	EV5	84	2016-08-24
+	EV6	63	2016-08-24
+	EV7	247	2016-08-26
+	EV8	470	2016-08-24
+	EV9	120	2016-08-24
+	EV10	10	2016-08-24
+	EV11	100	2016-08-24
+	EV12	630	2011-03-11
+	EV13	14	2011-03-11
+	EV14	157	2013-04-20
+	EV15	16	2016-02-07
+	EV16	250	2012-08-11
+	EV17	592	2008-05-12
+	MP1	$Date At least $Number
+$Number	6	people dead	$Number
+	EV1	6,700	179
+	EV2	179	6,700
+	EV3	1,000	77
+	EV4	77	1,000
+	EV5	156	5,500
+	EV6	113	2,600
+	EV7	11	400
+	EV8	180	11,000
+	EV9	2,600	113
+	EV10	2,600	124
+	EV11	124	2,600
+	EV12	11,000	180
+	EV13	156	5500
+	EV14	5,500	156
+	EV15	400	11
+	EV16	5500	156
+	MP1	least $Number people dead and more than $Number
+	MP2	$Number people dead and more than $Number
+$Number	7	depth	$Settlement
+	EV1	9.9	Tabriz
+	EV2	35	Santiago
+	EV3	59.4	Santiago
+	EV4	4	Amatrice
+	MP1	$Settlement at a depth of $Number
+$Number	8	magnitude	$Date
+	EV1	6	2016-08-25
+	EV2	6	2016-08-24
+	EV3	6.2	2016-08-31
+	MP1	$Date A magnitude $Number $Geological_phenomenon
+	MP2	$Date $Number
+	MP3	central $Country $Date The magnitude $Number
+$Number	9	yunnan least	$Geological_phenomenon
+	EV1	15,000	earthquake
+	EV2	15	earthquake
+	MP1	$Geological_phenomenon in Yunnan killed at least $Number
+	MP2	$Geological_phenomenon killed at least $Number
+$Number	10	central	$Country $Settlement
+	EV1	6.1	Italy|Amatrice
+	MP1	$Settlement central $Country where a $Number $Geological_phenomenon struck just after $Date
+	MP2	$Settlement central $Country where a $Number
+$Number	11	people unsafe	$Date $Residence
+	EV1	2,700	2016-08-24|homes
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+$Number	12	slept. least	$Inhabitant
+	EV1	23	residents
+	MP1	central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept. At least $Number people were reported dead
+$Number	13	people dead three hard-hit	$Recovery $Municipality
+	EV1	23	rescue|towns
+	MP1	least $Number people were reported dead in three hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate
+$Number	14	series	$Geological_phenomenon
+	EV1	821	quakes
+	MP1	$Date $Number people died and $Number were injured in a series of $Geological_phenomenon
+$Number	15	arcuata del tronto, central	$Country
+	EV1	6.1	Italy
+	MP1	Arcuata del Tronto, central $Country where a $Number $Geological_phenomenon struck just after $Date
+	MP2	$Country where a $Number $Geological_phenomenon
+	MP3	Tronto, central $Country where a $Number $Geological_phenomenon struck just after $Date The $Geological_phenomenon was felt across a broad section
+	MP4	$Country $Number
+$Person	1	disaster risk	$Change_of_magnitude
+	EV1	National	Reduction
+	MP1	$Person Disaster Risk $Change_of_magnitude
+$Recovery	1	relief	$Activity
+	EV1	rescue	efforts
+	EV2	rescue	work
+	EV3	rescue	effort
+	EV4	Rescue	efforts
+	EV5	rescue	assistance
+	MP1	$Recovery $Activity
+	MP2	$Recovery and relief $Activity
+$Recovery	2	people dead three hard-hit	$Municipality $Number
+	EV1	rescue	towns|23
+	MP1	least $Number people were reported dead in three hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate
+$Recovery	3	alike	$Date $Unit
+	EV1	rescue	2016-08-26|crews
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+$Recovery	4	hard-hit	$Municipality
+	EV1	rescue	towns
+	MP1	hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate out of the rubble, but the toll
+$Unfortunate	1	donations	$Country $Region
+	EV1	survivors	Italy|area
+	MP1	$Unfortunate as donations began pouring into the $Region and $Country
+$Unfortunate	2	tent accommodate	$Municipality $Municipality $Organization
+	EV1	homeless	towns|cities|civil protection agency
+	MP1	$Organization set up tent $Municipality around the affected $Municipality to accommodate the $Unfortunate
+$Unfortunate	3	accommodate	$Municipality
+	EV1	homeless	towns
+	MP1	$Municipality to accommodate the $Unfortunate
+$Unfortunate	4	accommodate	$Municipality $Municipality
+	EV1	homeless	towns|cities
+	MP1	$Municipality around the affected $Municipality to accommodate the $Unfortunate
+
+(ENTITY,NAME,NULL)
+$Activity	1	international	NULL
+	EV1	support	NULL
+	EV2	help	NULL
+	EV3	education	NULL
+	MP1	international $Activity
+	MP2	offer $Activity
+	MP3	relief $Activity
+$Activity	2	relief	NULL
+	EV1	efforts	NULL
+	EV2	effort	NULL
+	EV3	work	NULL
+	MP1	relief $Activity
+	MP2	relief $Activity ,
+	MP3	all-out $Activity
+	MP4	reconstruction $Activity
+	MP5	$Activity amid
+	MP6	$Activity to clear
+$Activity	3	amid	NULL
+	EV1	search	NULL
+	EV2	use	NULL
+	MP1	$Activity amid
+	MP2	civil $Activity
+$Activity	4	civil	NULL
+	EV1	protection	NULL
+	EV2	Protection	NULL
+	MP1	civil $Activity $Skilled_worker
+	MP2	civil $Activity
+	MP3	Civil $Activity
+$Activity	5	offer	NULL
+	EV1	assistance	NULL
+	MP1	offer $Activity
+	MP2	international $Activity
+	MP3	all-out $Activity
+$Administrator	1	chief	NULL
+	EV1	executive	NULL
+	EV2	executives	NULL
+	MP1	chief $Administrator
+$Adult	1	young	NULL
+	EV1	man	NULL
+	EV2	women	NULL
+	MP1	young $Adult
+	MP2	$Adult cries
+$Adult	2	cries	NULL
+	EV1	woman	NULL
+	MP1	$Adult cries
+	MP2	young $Adult
+$Case	1	difficult	NULL
+	EV1	time	NULL
+	MP1	difficult $Case
+	MP2	local $Case $Date
+$Change	1	toll	NULL
+	EV1	death	NULL
+	EV2	Death	NULL
+	MP1	$Change toll
+	MP2	$Date The $Change toll
+	MP3	high $Change
+	MP4	$Change toll.
+	MP5	extent of the $Change
+$Change	2	extent	NULL
+	EV1	deaths	NULL
+	MP1	extent of the $Change
+$Change	3	serious	NULL
+	EV1	damage	NULL
+	MP1	serious $Change
+	MP2	substantial $Change
+	MP3	full extent of the $Change
+	MP4	widespread $Change
+	MP5	extent of the $Change
+$Change_of_magnitude	1	disaster risk	NULL
+	EV1	Reduction	NULL
+	MP1	Disaster Risk $Change_of_magnitude and $Social_control
+	MP2	Disaster Risk $Change_of_magnitude
+	MP3	Risk $Change_of_magnitude
+$Civil_authority	1	stefano petrucci	NULL
+	EV1	mayor	NULL
+	MP1	$Civil_authority Stefano Petrucci
+$Civil_authority	2	tainan	NULL
+	EV1	Mayor	NULL
+	MP1	Tainan $Civil_authority $Officeholder
+	MP2	$Civil_authority Stefano Petrucci
+$Clergyman	1	prime	NULL
+	EV1	Minister	NULL
+	EV2	minister	NULL
+	EV3	ministers	NULL
+	MP1	Prime $Clergyman
+	MP2	Prime $Clergyman $Officeholder
+	MP3	Foreign $Clergyman
+	MP4	prime $Clergyman
+	MP5	Foreign $Clergyman $Officeholder
+	MP6	interior $Clergyman
+$Communicator	1	first	NULL
+	EV1	responders	NULL
+	MP1	first $Communicator
+$Creating_from_raw_materials	1	shoddy	NULL
+	EV1	construction	NULL
+	MP1	shoddy $Creating_from_raw_materials
+$Date	1	announcer-read	NULL
+	EV1	2013-04-24	NULL
+	EV2	1534-XX-XX	NULL
+	EV3	1505-XX-XX	NULL
+	EV4	2009-XX-XX	NULL
+	EV5	1145-XX-XX	NULL
+	EV6	1340-XX-XX	NULL
+	EV7	1332-XX-XX	NULL
+	EV8	2046-XX-XX	NULL
+	EV9	1806-XX-XX	NULL
+	EV10	1934-XX-XX	NULL
+	EV11	1926-XX-XX	NULL
+	EV12	2334-XX-XX	NULL
+	EV13	2319-XX-XX	NULL
+	EV14	2248-XX-XX	NULL
+	EV15	2153-XX-XX	NULL
+	EV16	1109-XX-XX	NULL
+	EV17	1219-XX-XX	NULL
+	EV18	2341-XX-XX	NULL
+	EV19	1055-XX-XX	NULL
+	EV20	2053-XX-XX	NULL
+	EV21	2121-XX-XX	NULL
+	EV22	1536-XX-XX	NULL
+	EV23	1405-XX-XX	NULL
+	EV24	1552-XX-XX	NULL
+	EV25	1731-XX-XX	NULL
+	EV26	1834-XX-XX	NULL
+	EV27	1047-XX-XX	NULL
+	MP1	$Date Announcer-read
+	MP2	$Date Announcer-read report over video:
+	MP3	$Date we
+$Date	2	intersect	NULL
+	EV1	2010-02-27	NULL
+	EV2	2008-05-13	NULL
+	EV3	2012-08	NULL
+	EV4	2011-03-03	NULL
+	EV5	2011-02-22	NULL
+	EV6	2012-08-17	NULL
+	EV7	2010-02-22	NULL
+	EV8	2010-03-13	NULL
+	EV9	2008-01	NULL
+	EV10	2016-08	NULL
+	EV11	2010-03-06	NULL
+	EV12	2013-10-21	NULL
+	EV13	2005-03-26	NULL
+	EV14	2011-05	NULL
+	EV15	2016-02-13	NULL
+	EV16	2011-03	NULL
+	EV17	XXXX-02	NULL
+	EV18	2011-02-23	NULL
+	EV19	2010-03-04	NULL
+	EV20	2016-08-18	NULL
+	EV21	2011-02-25	NULL
+	EV22	2011-03-18	NULL
+	EV23	2011-03-23	NULL
+	MP1	$Date INTERSECT
+	MP2	$Date we
+$Date	3	we	NULL
+	EV1	2018-XX-XX	NULL
+	EV2	2011-02-11	NULL
+	EV3	2010-03-03	NULL
+	EV4	2010-03-02	NULL
+	EV5	2010-03-09	NULL
+	EV6	2011-10-25	NULL
+	EV7	2013-10-15	NULL
+	EV8	2011-03-19	NULL
+	EV9	2010-02-26	NULL
+	EV10	2010-09-04	NULL
+	EV11	2010-03-07	NULL
+	EV12	2011-10-27	NULL
+	EV13	1922-XX-XX	NULL
+	EV14	2013-10-23	NULL
+	EV15	2016-02-11	NULL
+	EV16	2011-09	NULL
+	EV17	2002-XX-XX	NULL
+	MP1	$Date we
+$Date	4	announcer-read video:	NULL
+	EV1	2013-04-23	NULL
+	EV2	2013-04-22	NULL
+	EV3	2013-04-25	NULL
+	EV4	2013-04-26	NULL
+	EV5	2237-XX-XX	NULL
+	EV6	1414-XX-XX	NULL
+	EV7	1501-XX-XX	NULL
+	EV8	1950-XX-XX	NULL
+	EV9	2235-XX-XX	NULL
+	EV10	2314-XX-XX	NULL
+	EV11	2033-XX-XX	NULL
+	EV12	2142-XX-XX	NULL
+	MP1	$Date Announcer-read report over video:
+	MP2	$Date Announcer-read
+	MP3	$Date we
+	MP4	first $Date
+$Date	5	depth	NULL
+	EV1	2014-08-03	NULL
+	EV2	2014-08-02	NULL
+	EV3	2016-08-23	NULL
+	EV4	2014-08-04	NULL
+	EV5	2011-03-10	NULL
+	EV6	2011-03-09	NULL
+	EV7	2014-07-27	NULL
+	EV8	2014-08-10	NULL
+	MP1	$Date at a depth
+	MP2	$Date A strong
+	MP3	$Date At least
+	MP4	$Date two
+$Date	6	two	NULL
+	EV1	1999-XX-XX	NULL
+	EV2	2012-08-11	NULL
+	EV3	XXXX-XX-XX	NULL
+	EV4	2010-03-05	NULL
+	EV5	2012-08-18	NULL
+	EV6	2012-05	NULL
+	EV7	2014-08-06	NULL
+	MP1	$Date two
+	MP2	$Date we
+	MP3	gmt $Date - $Organization
+	MP4	$Date At least
+$Date	7	gmt	NULL
+	EV1	2012-08-15	NULL
+	EV2	2013-04-28	NULL
+	EV3	2012-08-12	NULL
+	EV4	2012-08-14	NULL
+	EV5	2012-08-16	NULL
+	EV6	2012-08-22	NULL
+	EV7	2012-08-13	NULL
+	MP1	gmt $Date - $Organization
+$Date	8	strong	NULL
+	EV1	2016-08-24	NULL
+	EV2	2016-08-25	NULL
+	EV3	2008-05-12	NULL
+	EV4	2010-XX-XX	NULL
+	EV5	2011-03-28	NULL
+	MP1	$Date Strong
+	MP2	$Date general audience
+	MP3	$Date A strong
+	MP4	$Date broke,
+	MP5	toll from $Date
+	MP6	alike $Date
+	MP7	first $Date
+	MP8	$Date At least
+	MP9	$Date INTERSECT
+$Date	9	least	NULL
+	EV1	2011-03-25	NULL
+	EV2	2016-02-09	NULL
+	EV3	2008-05-14	NULL
+	EV4	2011-10-23	NULL
+	EV5	2011-03-11	NULL
+	MP1	$Date At least
+	MP2	$Date INTERSECT
+	MP3	toll from $Date
+	MP4	$Date we
+$Date	10	lunar	NULL
+	EV1	2016-01-01	NULL
+	EV2	2013-01-01	NULL
+	EV3	2008-01-01	NULL
+	MP1	Lunar $Date
+$Date	11	first	NULL
+	EV1	2013-04-21	NULL
+	EV2	2013-04-20	NULL
+	MP1	first $Date
+	MP2	$Date A strong
+	MP3	$Date INTERSECT
+	MP4	$Date two
+	MP5	$Date we
+	MP6	$Date At least
+$Date	12	dim	NULL
+	EV1	2016-08-26	NULL
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+	MP2	$Date Strong
+	MP3	alike $Date
+	MP4	$Date At least
+$Date	13	broke,	NULL
+	EV1	2016-02-06	NULL
+	MP1	$Date broke,
+$Date	14	signs	NULL
+	EV1	2016-02-07	NULL
+	MP1	$Benefactor on $Date found signs
+	MP2	$Date At least
+$Date	15	magnitude-7.7	NULL
+	EV1	1970-XX-XX	NULL
+	MP1	$Date a magnitude-7.7
+$Duration	1	intersect	NULL
+	EV1	10Y	NULL
+	EV2	3H	NULL
+	EV3	1M	NULL
+	EV4	2M	NULL
+	EV5	1S	NULL
+	EV6	23Y	NULL
+	EV7	90S	NULL
+	EV8	100Y	NULL
+	EV9	7M	NULL
+	MP1	INTERSECT $Duration
+$Duration	2	per	NULL
+	EV1	1H	NULL
+	EV2	1Y	NULL
+	MP1	per $Duration
+	MP2	INTERSECT $Duration
+$Duration	3	average,	NULL
+	EV1	1D	NULL
+	MP1	experiences at least one $Geological_phenomenon $Duration on average,
+	MP2	per $Duration
+	MP3	INTERSECT $Duration
+$Duration	4	yunnan	NULL
+	EV1	14Y	NULL
+	MP1	Yunnan in $Duration
+	MP2	strongest to hit Yunnan in $Duration
+$Earthquake	1	massive	NULL
+	EV1	earthquake	NULL
+	EV2	8.8 magnitude earthquake	NULL
+	EV3	9.0 magnitude earthquake	NULL
+	EV4	magnitude 8.8 earthquake	NULL
+	EV5	7.2-magnitude earthquake	NULL
+	EV6	Wenchuan earthquake	NULL
+	EV7	7.2 magnitude earthquake	NULL
+	EV8	8.8-magnitude earthquake	NULL
+	MP1	massive $Earthquake
+$Entertainment	1	video	NULL
+	EV1	shows	NULL
+	MP1	video $Entertainment
+	MP2	Video $Entertainment
+$Examination	1	u.s. geological	NULL
+	EV1	Survey	NULL
+	EV2	survey	NULL
+	EV3	Surveys	NULL
+	MP1	U.S. Geological $Examination
+	MP2	Geological $Examination
+	MP3	U.S. Geological $Examination at $Number
+$Feat	1	worst	NULL
+	EV1	hit	NULL
+	MP1	worst $Feat
+	MP2	hardest $Feat
+$Happening	1	local	NULL
+	EV1	time	NULL
+	EV2	fire	NULL
+	MP1	local $Happening
+$Inhabitant	1	local	NULL
+	EV1	residents	NULL
+	EV2	resident	NULL
+	EV3	villagers	NULL
+	MP1	local $Inhabitant
+	MP2	Accumoli, central $Country $Date A devastating $Geological_phenomenon rocked central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept.
+$Nonaccomplishment	1	major	NULL
+	EV1	faults	NULL
+	MP1	major $Nonaccomplishment
+$Nonaccomplishment	2	longmenshan	NULL
+	EV1	Fault	NULL
+	MP1	Longmenshan $Nonaccomplishment
+$Nonaccomplishment	3	lines	NULL
+	EV1	fault	NULL
+	MP1	seismic $Nonaccomplishment lines
+	MP2	$Nonaccomplishment line
+	MP3	Longmenshan $Nonaccomplishment
+	MP4	major $Nonaccomplishment
+	MP5	$Nonaccomplishment lines
+$Number	1	people	NULL
+	EV1	100	NULL
+	EV2	300	NULL
+	EV3	200	NULL
+	EV4	250	NULL
+	EV5	50	NULL
+	EV6	70	NULL
+	EV7	160	NULL
+	EV8	37	NULL
+	EV9	90,000	NULL
+	EV10	81	NULL
+	EV11	35	NULL
+	EV12	381	NULL
+	EV13	30	NULL
+	EV14	138	NULL
+	EV15	150	NULL
+	EV16	14	NULL
+	EV17	1,000	NULL
+	EV18	170	NULL
+	EV19	398	NULL
+	EV20	291	NULL
+	EV21	40	NULL
+	EV22	11	NULL
+	EV23	120	NULL
+	EV24	367	NULL
+	EV25	20,000	NULL
+	EV26	156	NULL
+	EV27	600	NULL
+	EV28	180	NULL
+	EV29	34	NULL
+	EV30	19	NULL
+	EV31	500	NULL
+	EV32	18	NULL
+	EV33	175	NULL
+	EV34	10,000	NULL
+	EV35	26,000	NULL
+	EV36	73	NULL
+	EV37	241	NULL
+	EV38	290	NULL
+	EV39	2,000	NULL
+	EV40	256	NULL
+	EV41	700	NULL
+	EV42	2,400	NULL
+	EV43	74	NULL
+	EV44	24	NULL
+	EV45	292	NULL
+	EV46	215	NULL
+	EV47	27	NULL
+	EV48	400	NULL
+	EV49	50,000	NULL
+	EV50	87,000	NULL
+	EV51	171	NULL
+	EV52	306	NULL
+	EV53	5,000	NULL
+	EV54	26	NULL
+	EV55	1,300	NULL
+	EV56	188	NULL
+	EV57	16,000	NULL
+	EV58	3,000	NULL
+	EV59	221	NULL
+	EV60	49	NULL
+	EV61	87	NULL
+	EV62	118	NULL
+	EV63	45	NULL
+	EV64	12,000	NULL
+	EV65	5,500	NULL
+	EV66	31,000	NULL
+	EV67	196	NULL
+	EV68	70,000	NULL
+	EV69	100,000	NULL
+	EV70	320	NULL
+	EV71	231	NULL
+	EV72	85	NULL
+	EV73	340	NULL
+	EV74	8,533	NULL
+	EV75	37,000	NULL
+	EV76	7,000	NULL
+	EV77	30,000	NULL
+	EV78	2,700	NULL
+	EV79	500,000	NULL
+	EV80	1000	NULL
+	EV81	185	NULL
+	EV82	28	NULL
+	EV83	161	NULL
+	EV84	17,000	NULL
+	EV85	116	NULL
+	EV86	1,655	NULL
+	EV87	220	NULL
+	EV88	27,000	NULL
+	EV89	1,600	NULL
+	EV90	318	NULL
+	EV91	410	NULL
+	EV92	1,200	NULL
+	EV93	2,500	NULL
+	EV94	132	NULL
+	EV95	190	NULL
+	EV96	80,000	NULL
+	EV97	40,000	NULL
+	EV98	484	NULL
+	EV99	59	NULL
+	EV100	650	NULL
+	EV101	117	NULL
+	EV102	1,400	NULL
+	EV103	6,000	NULL
+	EV104	79	NULL
+	EV105	3,840	NULL
+	EV106	8,500	NULL
+	EV107	600,000	NULL
+	EV108	153	NULL
+	EV109	242	NULL
+	EV110	534	NULL
+	EV111	2000	NULL
+	EV112	140,000	NULL
+	EV113	615	NULL
+	EV114	265	NULL
+	EV115	220,000	NULL
+	EV116	181	NULL
+	EV117	22,000	NULL
+	EV118	138,000	NULL
+	EV119	95,000	NULL
+	EV120	207	NULL
+	EV121	530	NULL
+	EV122	125	NULL
+	EV123	109	NULL
+	EV124	617	NULL
+	EV125	34,000	NULL
+	EV126	57,200	NULL
+	EV127	127	NULL
+	EV128	246	NULL
+	EV129	228,000	NULL
+	EV130	378	NULL
+	EV131	2,600	NULL
+	EV132	91	NULL
+	EV133	708	NULL
+	EV134	740	NULL
+	EV135	1800	NULL
+	EV136	124,000	NULL
+	EV137	550	NULL
+	EV138	1,090	NULL
+	EV139	29,400	NULL
+	EV140	127,000	NULL
+	EV141	830,000	NULL
+	EV142	12,300	NULL
+	EV143	475	NULL
+	EV144	131,700	NULL
+	EV145	1,260	NULL
+	EV146	3037	NULL
+	EV147	198	NULL
+	EV148	74,000	NULL
+	EV149	460	NULL
+	EV150	5000	NULL
+	EV151	116,000	NULL
+	EV152	733	NULL
+	EV153	337	NULL
+	EV154	1,363	NULL
+	EV155	4,500	NULL
+	EV156	11,300	NULL
+	EV157	980,000	NULL
+	EV158	520	NULL
+	EV159	112,000	NULL
+	EV160	24,949	NULL
+	EV161	187	NULL
+	EV162	375	NULL
+	EV163	210,000	NULL
+	EV164	9000	NULL
+	EV165	94	NULL
+	EV166	240,600	NULL
+	EV167	64,000	NULL
+	EV168	445	NULL
+	EV169	245	NULL
+	EV170	194	NULL
+	EV171	176	NULL
+	EV172	4,000	NULL
+	EV173	5,700	NULL
+	EV174	184	NULL
+	EV175	1600	NULL
+	EV176	2,833	NULL
+	EV177	430	NULL
+	EV178	8,181	NULL
+	EV179	104	NULL
+	EV180	350,000	NULL
+	EV181	6400	NULL
+	EV182	1,530	NULL
+	EV183	198,347	NULL
+	EV184	21,577	NULL
+	EV185	40,075	NULL
+	EV186	48,370	NULL
+	EV187	668	NULL
+	EV188	284	NULL
+	EV189	336,934	NULL
+	EV190	27,560	NULL
+	EV191	4,791	NULL
+	EV192	58	NULL
+	EV193	750,000	NULL
+	EV194	1,891	NULL
+	EV195	1,128	NULL
+	EV196	1,301	NULL
+	EV197	208	NULL
+	EV198	1,621	NULL
+	EV199	9,533	NULL
+	EV200	370,000	NULL
+	EV201	268	NULL
+	EV202	1,350	NULL
+	EV203	215,000	NULL
+	EV204	295,000	NULL
+	EV205	2,649	NULL
+	EV206	364	NULL
+	EV207	32,500	NULL
+	EV208	245,108	NULL
+	EV209	10000	NULL
+	EV210	160,000	NULL
+	EV211	120,000	NULL
+	EV212	162,566	NULL
+	EV213	214	NULL
+	EV214	356	NULL
+	EV215	97,400	NULL
+	EV216	292,481	NULL
+	EV217	821	NULL
+	EV218	352,290	NULL
+	EV219	523	NULL
+	EV220	594	NULL
+	EV221	228	NULL
+	EV222	805	NULL
+	EV223	41,000	NULL
+	EV224	5,800	NULL
+	EV225	28,100	NULL
+	EV226	52,000	NULL
+	EV227	31,978	NULL
+	EV228	3,152	NULL
+	EV229	334	NULL
+	EV230	13,000	NULL
+	EV231	6,500	NULL
+	EV232	541	NULL
+	EV233	170,000	NULL
+	EV234	18,645	NULL
+	EV235	434	NULL
+	EV236	477	NULL
+	EV237	29,328	NULL
+	EV238	380,000	NULL
+	EV239	159,000	NULL
+	EV240	102,103	NULL
+	EV241	79,000	NULL
+	EV242	155	NULL
+	EV243	7,300	NULL
+	EV244	730	NULL
+	EV245	3,444	NULL
+	EV246	1,27,100	NULL
+	EV247	69,266	NULL
+	EV248	24,960	NULL
+	EV249	189	NULL
+	EV250	1,650	NULL
+	EV251	68,608	NULL
+	EV252	276	NULL
+	EV253	112	NULL
+	MP1	$Number people
+	MP2	least $Number people
+	MP3	$Number people.
+	MP4	least $Number
+	MP5	$Number miles
+	MP6	$Number people,
+	MP7	$Number dead
+	MP8	$Number million
+	MP9	$Fatality at least $Number people
+	MP10	$Number kilometers
+	MP11	$Date $Fatality at least $Number people
+	MP12	$Number km
+	MP13	$Geological_phenomenon killed at least $Number people
+	MP14	$Number kilometers northeast
+	MP15	$Number kilometres
+	MP16	$Number miles northeast
+	MP17	$Number percent
+	MP18	$Number yuan
+	MP19	people were killed and $Number
+	MP20	$Number dead.
+	MP21	total of $Number
+	MP22	$Number per cent
+	MP23	$Number injured.
+	MP24	$Number times
+	MP25	toll at $Number
+	MP26	rose to $Number
+	MP27	$Number million yuan
+	MP28	population of $Number
+	MP29	$Number bodies
+	MP30	$Number who
+	MP31	$Number Announcer-read
+	MP32	depth of $Number
+	MP33	dead and $Number
+	MP34	$Number tons
+	MP35	dead and more than $Number
+	MP36	$Number billion
+	MP37	least $Number people dead and more than $Number
+	MP38	population of about $Number
+	MP39	$Number villages
+$Number	2	least	NULL
+	EV1	23	NULL
+	EV2	20	NULL
+	EV3	93	NULL
+	EV4	75	NULL
+	EV5	15	NULL
+	EV6	159	NULL
+	EV7	32	NULL
+	EV8	38	NULL
+	EV9	179	NULL
+	EV10	247	NULL
+	EV11	63	NULL
+	EV12	217	NULL
+	EV13	113	NULL
+	EV14	264	NULL
+	EV15	16	NULL
+	EV16	57	NULL
+	EV17	96	NULL
+	EV18	67	NULL
+	EV19	279	NULL
+	EV20	270	NULL
+	EV21	147	NULL
+	EV22	77	NULL
+	EV23	229	NULL
+	EV24	39	NULL
+	EV25	192	NULL
+	EV26	157	NULL
+	EV27	122	NULL
+	EV28	368	NULL
+	EV29	712	NULL
+	EV30	295	NULL
+	EV31	124	NULL
+	EV32	379	NULL
+	EV33	380,906	NULL
+	EV34	217,000	NULL
+	EV35	134	NULL
+	EV36	222,000	NULL
+	EV37	66	NULL
+	EV38	365	NULL
+	EV39	3,600	NULL
+	EV40	505	NULL
+	EV41	459	NULL
+	EV42	46,000	NULL
+	EV43	10,600	NULL
+	EV44	269	NULL
+	EV45	799	NULL
+	EV46	296	NULL
+	EV47	700,000	NULL
+	EV48	391	NULL
+	EV49	8000	NULL
+	EV50	164	NULL
+	EV51	107	NULL
+	EV52	2,401	NULL
+	EV53	592	NULL
+	EV54	168	NULL
+	EV55	148	NULL
+	EV56	123	NULL
+	EV57	1,700	NULL
+	EV58	193	NULL
+	EV59	12,012	NULL
+	EV60	357	NULL
+	EV61	900,000	NULL
+	EV62	244	NULL
+	EV63	2,200	NULL
+	EV64	289	NULL
+	EV65	35,000	NULL
+	EV66	248	NULL
+	EV67	15,839	NULL
+	EV68	2,360	NULL
+	EV69	271	NULL
+	EV70	627	NULL
+	EV71	2,262	NULL
+	MP1	least $Number people
+	MP2	least $Number
+	MP3	$Number people.
+	MP4	$Number people
+	MP5	$Number villages
+	MP6	least $Number people were reported dead in three hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate
+	MP7	$Number kilometers
+	MP8	$Number people,
+	MP9	$Number miles
+	MP10	$Number dead
+	MP11	$Number per cent
+	MP12	rose to $Number
+	MP13	$Number kilometres
+	MP14	total of $Number
+	MP15	least $Number people dead and more than $Number
+	MP16	$Number km
+	MP17	$Number billion
+	MP18	$Number bodies
+	MP19	$Number times
+	MP20	$Number million
+	MP21	$Number injured.
+	MP22	$Number who
+	MP23	toll at $Number
+	MP24	$Fatality at least $Number people
+	MP25	$Number per
+	MP26	people were killed and $Number
+	MP27	$Number kilometers northeast
+$Number	3	magnitude	NULL
+	EV1	6	NULL
+	EV2	6.1	NULL
+	EV3	6.2	NULL
+	EV4	6.3	NULL
+	EV5	7	NULL
+	EV6	7.0	NULL
+	EV7	6.0	NULL
+	EV8	6.4	NULL
+	EV9	6.8	NULL
+	EV10	4.7	NULL
+	EV11	7.2	NULL
+	EV12	8.8	NULL
+	EV13	6.6	NULL
+	EV14	5.1	NULL
+	EV15	7.9	NULL
+	EV16	6.5	NULL
+	EV17	7.1	NULL
+	EV18	5.4	NULL
+	EV19	4.3	NULL
+	EV20	5.0	NULL
+	EV21	7.3	NULL
+	EV22	7.7	NULL
+	EV23	4.5	NULL
+	EV24	7.8	NULL
+	EV25	9.5	NULL
+	EV26	6.7	NULL
+	EV27	9	NULL
+	EV28	6.9	NULL
+	EV29	7.6	NULL
+	EV30	5.3	NULL
+	EV31	4.2	NULL
+	EV32	5.5	NULL
+	EV33	5.6	NULL
+	EV34	9.2	NULL
+	EV35	8.5	NULL
+	EV36	9.0	NULL
+	EV37	5.8	NULL
+	EV38	4.8	NULL
+	EV39	5.9	NULL
+	EV40	5.7	NULL
+	EV41	2013	NULL
+	EV42	9.1	NULL
+	EV43	9,0	NULL
+	EV44	2.1	NULL
+	EV45	7.4	NULL
+	EV46	8.3	NULL
+	MP1	magnitude $Number $Geological_phenomenon
+	MP2	magnitude $Number
+	MP3	magnitude of $Number
+	MP4	$Number magnitude
+	MP5	magnitude $Number $Geological_phenomenon struck at $Date
+	MP6	magnitude $Number $Geological_phenomenon struck at $Date and was felt across a broad swath of central $Country including $Settlement
+	MP7	$Number on the Richter scale
+	MP8	magnitude at $Number
+	MP9	$Number on the Richter
+	MP10	$Number kilometers
+	MP11	depth of $Number
+	MP12	$Number miles
+	MP13	$Number percent
+	MP14	$Number million
+	MP15	$Number per cent
+	MP16	least $Number
+	MP17	$Number billion
+	MP18	$Number per
+	MP19	$Number degrees
+	MP20	$Number people
+	MP21	$Number INTERSECT
+	MP22	$Number kilometres
+	MP23	$Number tons
+$Number	4	million	NULL
+	EV1	5	NULL
+	EV2	1.5	NULL
+	EV3	1	NULL
+	EV4	4	NULL
+	EV5	3	NULL
+	EV6	2.6	NULL
+	EV7	1.3	NULL
+	EV8	1.8	NULL
+	EV9	89	NULL
+	EV10	1.9	NULL
+	EV11	12.5	NULL
+	EV12	4.45	NULL
+	EV13	5.2	NULL
+	EV14	1.53	NULL
+	EV15	2.2	NULL
+	EV16	3.3	NULL
+	EV17	5.36	NULL
+	EV18	4.4	NULL
+	EV19	3.75	NULL
+	EV20	33.5	NULL
+	EV21	2.9	NULL
+	EV22	2.4	NULL
+	EV23	240	NULL
+	EV24	8.64	NULL
+	EV25	108	NULL
+	EV26	2.7	NULL
+	EV27	15.6	NULL
+	EV28	2.3	NULL
+	EV29	49.6	NULL
+	EV30	1.71	NULL
+	EV31	2.8	NULL
+	EV32	1.25	NULL
+	EV33	18.2	NULL
+	EV34	62	NULL
+	EV35	154	NULL
+	EV36	1,750	NULL
+	EV37	3.6	NULL
+	EV38	549	NULL
+	EV39	1.6	NULL
+	EV40	61.71	NULL
+	MP1	$Number million
+	MP2	$Number million people
+	MP3	$Number percent
+	MP4	$Number million yuan
+	MP5	Announcer-read report over video with natural sound: $Number
+	MP6	$Number billion
+	MP7	population of $Number
+	MP8	$Number villages
+	MP9	$Number per cent
+	MP10	$Number km
+	MP11	$Number magnitude
+	MP12	less than $Number
+	MP13	$Number miles
+	MP14	$Number on the Richter
+	MP15	least $Number
+	MP16	least $Number people
+	MP17	$Number times
+	MP18	$Number tons
+	MP19	block-time updated-timeUpdated at $Number
+	MP20	$Number people
+	MP21	magnitude $Number
+	MP22	total of $Number
+$Number	5	block-time published-time	NULL
+	EV1	6.2016	NULL
+	EV2	1.2016	NULL
+	EV3	8.2016	NULL
+	EV4	5.2016	NULL
+	EV5	2.2016	NULL
+	EV6	7.41	NULL
+	EV7	3.35	NULL
+	EV8	3.31	NULL
+	EV9	5.25	NULL
+	EV10	6.25	NULL
+	EV11	7.51	NULL
+	EV12	4.31	NULL
+	EV13	3.40	NULL
+	EV14	9.31	NULL
+	EV15	11.39	NULL
+	EV16	9.2016	NULL
+	EV17	10.2016	NULL
+	EV18	2.57	NULL
+	EV19	2.32	NULL
+	EV20	10.39	NULL
+	EV21	7.44	NULL
+	EV22	11.57	NULL
+	EV23	4.55	NULL
+	EV24	8.28	NULL
+	EV25	4.27	NULL
+	EV26	7.31	NULL
+	EV27	3.50	NULL
+	EV28	12.55	NULL
+	EV29	5.46	NULL
+	EV30	3.2016	NULL
+	EV31	8.58	NULL
+	EV32	10.40	NULL
+	EV33	11.42	NULL
+	EV34	5.32	NULL
+	EV35	8.50	NULL
+	EV36	7.55	NULL
+	EV37	11.2016	NULL
+	EV38	11.28	NULL
+	MP1	block-time published-time $Number
+	MP2	block-time updated-timeUpdated at $Number
+$Number	6	people.	NULL
+	EV1	25,000	NULL
+	EV2	18,000	NULL
+	EV3	2,300	NULL
+	EV4	130,000	NULL
+	EV5	230,000	NULL
+	EV6	200,000	NULL
+	EV7	240,000	NULL
+	EV8	9,300	NULL
+	EV9	55,000	NULL
+	EV10	78,000	NULL
+	EV11	43,000	NULL
+	EV12	870000	NULL
+	EV13	6,400	NULL
+	EV14	109,000	NULL
+	EV15	75,000	NULL
+	EV16	32,000	NULL
+	EV17	60,000	NULL
+	EV18	9500	NULL
+	EV19	226,000	NULL
+	EV20	309	NULL
+	EV21	6,434	NULL
+	EV22	850,000	NULL
+	EV23	68,000	NULL
+	EV24	90000	NULL
+	EV25	31000	NULL
+	EV26	304,000	NULL
+	MP1	$Number people.
+	MP2	$Number people
+	MP3	$Number people,
+	MP4	least $Number
+	MP5	total of $Number
+	MP6	least $Number people
+	MP7	$Number dead.
+	MP8	$Number miles
+$Number	7	percent	NULL
+	EV1	80	NULL
+	EV2	90	NULL
+	EV3	8	NULL
+	EV4	95	NULL
+	EV5	88	NULL
+	EV6	2.5	NULL
+	EV7	98	NULL
+	EV8	61	NULL
+	EV9	44	NULL
+	EV10	8.2	NULL
+	EV11	48	NULL
+	EV12	43	NULL
+	EV13	96.3	NULL
+	EV14	85.8	NULL
+	EV15	72	NULL
+	EV16	99	NULL
+	EV17	9.4	NULL
+	EV18	0.3	NULL
+	EV19	0.7	NULL
+	EV20	2.03	NULL
+	EV21	5.95	NULL
+	EV22	11.9	NULL
+	EV23	1.7	NULL
+	EV24	9.6	NULL
+	MP1	$Number percent
+	MP2	$Number per cent
+	MP3	$Number kilometers
+	MP4	$Number people
+	MP5	$Number kilometres
+	MP6	$Number tons
+	MP7	less than $Number
+	MP8	least $Number
+	MP9	$Number km
+	MP10	magnitude $Number
+	MP11	$Number million
+	MP12	least $Number people
+	MP13	$Number dead
+	MP14	$Number who
+	MP15	$Number on the Richter scale
+	MP16	toll at $Number
+	MP17	$Number people.
+	MP18	$Number kilometers northeast
+	MP19	$Number people,
+$Number	8	total	NULL
+	EV1	327	NULL
+	EV2	725	NULL
+	EV3	390	NULL
+	EV4	40,265	NULL
+	EV5	464	NULL
+	EV6	45.5	NULL
+	EV7	982	NULL
+	EV8	1,669	NULL
+	EV9	79,853	NULL
+	EV10	19,309	NULL
+	EV11	2,680	NULL
+	EV12	583	NULL
+	EV13	28,971	NULL
+	EV14	82	NULL
+	EV15	558,390	NULL
+	EV16	356,600	NULL
+	EV17	2,533	NULL
+	EV18	186,300	NULL
+	EV19	28,497	NULL
+	EV20	1,097	NULL
+	EV21	313	NULL
+	EV22	2,278	NULL
+	MP1	total of $Number
+	MP2	$Number people
+	MP3	$Number million people
+	MP4	least $Number
+$Number	9	injured.	NULL
+	EV1	6,700	NULL
+	EV2	350	NULL
+	EV3	111	NULL
+	EV4	1,881	NULL
+	EV5	11,000	NULL
+	EV6	1,800	NULL
+	EV7	1,801	NULL
+	EV8	11,800	NULL
+	EV9	5500	NULL
+	EV10	288,431	NULL
+	EV11	174	NULL
+	EV12	801	NULL
+	EV13	3,143	NULL
+	EV14	1,402	NULL
+	EV15	2,373	NULL
+	EV16	11800	NULL
+	EV17	166	NULL
+	EV18	651	NULL
+	EV19	11,227	NULL
+	EV20	2,841	NULL
+	MP1	$Number injured.
+	MP2	$Number were injured.
+	MP3	$Number people
+	MP4	$Number miles
+	MP5	dead and $Number
+	MP6	$Number kilometres
+	MP7	people were killed and $Number
+	MP8	$Number kilometers
+	MP9	$Number people,
+	MP10	$Number people.
+$Number	10	degrees	NULL
+	EV1	38.4	NULL
+	EV2	46.7	NULL
+	EV3	46.8	NULL
+	EV4	17	NULL
+	EV5	103.3	NULL
+	EV6	27.1	NULL
+	EV7	97.9	NULL
+	EV8	120.54	NULL
+	EV9	22.94	NULL
+	EV10	24.7	NULL
+	EV11	103.0	NULL
+	EV12	99.8	NULL
+	EV13	20.8	NULL
+	EV14	30.3	NULL
+	EV15	28.9	NULL
+	EV16	57.3	NULL
+	EV17	43.5349	NULL
+	EV18	38.6270	NULL
+	EV19	46.6	NULL
+	MP1	$Number degrees
+	MP2	depth of $Number kilometers
+	MP3	$Number km
+	MP4	$Number dead
+	MP5	least $Number
+$Number	11	billion	NULL
+	EV1	1.1	NULL
+	EV2	263.5	NULL
+	EV3	81.95	NULL
+	EV4	40.5	NULL
+	EV5	433.26	NULL
+	EV6	1.55	NULL
+	EV7	21.4	NULL
+	EV8	121.7	NULL
+	EV9	1.78	NULL
+	EV10	1.86	NULL
+	EV11	910	NULL
+	EV12	16.6	NULL
+	EV13	780	NULL
+	EV14	151.7	NULL
+	EV15	1.12	NULL
+	EV16	2.02	NULL
+	EV17	4.88	NULL
+	EV18	56.18	NULL
+	EV19	8,968	NULL
+	MP1	$Number billion
+$Number	12	block-time	NULL
+	EV1	7.2016	NULL
+	EV2	8.27	NULL
+	EV3	4.2016	NULL
+	EV4	12.2016	NULL
+	EV5	6.52	NULL
+	EV6	12.34	NULL
+	EV7	11.25	NULL
+	EV8	4.28	NULL
+	EV9	4.25	NULL
+	EV10	6.54	NULL
+	EV11	6.51	NULL
+	EV12	9.46	NULL
+	EV13	2.36	NULL
+	EV14	7.48	NULL
+	EV15	9.38	NULL
+	EV16	7.53	NULL
+	EV17	7.47	NULL
+	EV18	9.28	NULL
+	MP1	block-time updated-timeUpdated at $Number
+	MP2	block-time published-time $Number
+$Number	13	miles	NULL
+	EV1	60	NULL
+	EV2	22	NULL
+	EV3	55	NULL
+	EV4	1,500	NULL
+	EV5	21	NULL
+	EV6	105	NULL
+	EV7	53	NULL
+	EV8	330	NULL
+	EV9	167	NULL
+	EV10	385	NULL
+	EV11	205	NULL
+	EV12	197	NULL
+	EV13	1,035	NULL
+	EV14	930	NULL
+	EV15	450	NULL
+	MP1	$Number miles
+	MP2	$Number people
+	MP3	$Number villages
+	MP4	least $Number
+	MP5	$Number percent
+	MP6	depth of $Number
+	MP7	$Number people.
+	MP8	$Number million
+	MP9	$Number kilometers
+	MP10	$Number dead
+	MP11	$Number kilometres
+	MP12	$Number million yuan
+	MP13	$Number billion
+$Number	14	per cent	NULL
+	EV1	84	NULL
+	EV2	4.1	NULL
+	EV3	11.6	NULL
+	EV4	0.5	NULL
+	EV5	4.979	NULL
+	EV6	23.3	NULL
+	EV7	32.7	NULL
+	EV8	20.1	NULL
+	EV9	4.37	NULL
+	EV10	59.17	NULL
+	EV11	0.917	NULL
+	EV12	99.9	NULL
+	EV13	10.55	NULL
+	EV14	23.9	NULL
+	MP1	$Number per cent
+	MP2	least $Number people
+	MP3	$Number magnitude
+	MP4	$Number on the Richter
+	MP5	$Number percent
+	MP6	less than $Number
+$Number	15	rose	NULL
+	EV1	144	NULL
+	EV2	97	NULL
+	EV3	582	NULL
+	EV4	201	NULL
+	EV5	55,239	NULL
+	EV6	28,881	NULL
+	EV7	55,740	NULL
+	EV8	11,921	NULL
+	EV9	723	NULL
+	EV10	142	NULL
+	EV11	34,073	NULL
+	EV12	522	NULL
+	EV13	195	NULL
+	MP1	rose to $Number
+	MP2	$Number people
+	MP3	least $Number people
+	MP4	$Number kilometers
+	MP5	$Number dead
+	MP6	least $Number
+	MP7	toll at $Number
+	MP8	$Number people.
+$Number	16	announcer-read	NULL
+	EV1	305	NULL
+	EV2	913	NULL
+	EV3	321	NULL
+	EV4	858	NULL
+	EV5	734	NULL
+	EV6	924	NULL
+	EV7	451	NULL
+	EV8	714	NULL
+	EV9	609	NULL
+	EV10	525	NULL
+	EV11	535	NULL
+	EV12	425	NULL
+	MP1	$Number Announcer-read
+$Number	17	kilometres	NULL
+	EV1	800	NULL
+	EV2	589	NULL
+	EV3	225	NULL
+	EV4	235	NULL
+	EV5	772	NULL
+	EV6	640	NULL
+	EV7	64	NULL
+	EV8	680	NULL
+	EV9	1,234	NULL
+	EV10	12.1	NULL
+	EV11	325	NULL
+	MP1	$Number kilometres
+	MP2	$Number km
+	MP3	$Number people.
+	MP4	least $Number people
+	MP5	$Number miles
+	MP6	$Number dead
+	MP7	$Number kilometers
+	MP8	total of $Number
+	MP9	$Number million
+	MP10	toll at $Number
+	MP11	$Number times
+	MP12	least $Number
+$Number	18	km	NULL
+	EV1	140	NULL
+	EV2	47	NULL
+	EV3	630	NULL
+	EV4	92	NULL
+	EV5	36.4	NULL
+	EV6	44.5	NULL
+	EV7	43.0	NULL
+	EV8	126	NULL
+	EV9	280	NULL
+	EV10	35.6	NULL
+	EV11	59.4	NULL
+	MP1	$Number km
+	MP2	least $Number people
+	MP3	$Number kilometers
+	MP4	$Number billion
+	MP5	$Number people
+	MP6	$Number million
+	MP7	$Number who
+	MP8	$Number per cent
+$Number	19	people,	NULL
+	EV1	15,000	NULL
+	EV2	186	NULL
+	EV3	9,000	NULL
+	EV4	41	NULL
+	EV5	430,000	NULL
+	EV6	894	NULL
+	EV7	69,000	NULL
+	EV8	3,158,009	NULL
+	EV9	3,542,281	NULL
+	EV10	5,400	NULL
+	EV11	103,000	NULL
+	MP1	$Number people,
+	MP2	least $Number
+	MP3	$Number people
+	MP4	$Number people.
+	MP5	least $Number people
+	MP6	total of $Number
+	MP7	$Number km
+	MP8	population of $Number
+	MP9	$Number per
+	MP10	$Number were injured.
+$Number	20	kilometers	NULL
+	EV1	65	NULL
+	EV2	25	NULL
+	EV3	56	NULL
+	EV4	115	NULL
+	EV5	33	NULL
+	EV6	570	NULL
+	EV7	42	NULL
+	EV8	511	NULL
+	EV9	770	NULL
+	EV10	870	NULL
+	EV11	24.4	NULL
+	MP1	$Number kilometers
+	MP2	least $Number people
+	MP3	$Number people
+	MP4	least $Number
+	MP5	$Number kilometers ,
+	MP6	$Number dead
+	MP7	$Number miles
+	MP8	$Number kilometres
+	MP9	$Number km
+	MP10	$Number percent
+	MP11	$Number million
+	MP12	$Number per cent
+	MP13	$Number miles northeast
+	MP14	depth of $Number
+	MP15	$Number villages
+	MP16	$Number who
+	MP17	$Number bodies
+$Number	21	million yuan	NULL
+	EV1	31.37	NULL
+	EV2	10.02	NULL
+	EV3	51.5	NULL
+	EV4	1.42	NULL
+	EV5	387.7	NULL
+	EV6	164.23	NULL
+	EV7	332	NULL
+	EV8	1.4	NULL
+	EV9	14.63	NULL
+	EV10	670	NULL
+	MP1	$Number million yuan
+$Number	22	dead	NULL
+	EV1	14,000	NULL
+	EV2	32,477	NULL
+	EV3	172	NULL
+	EV4	220,109	NULL
+	EV5	548	NULL
+	EV6	17,923	NULL
+	EV7	106	NULL
+	EV8	281	NULL
+	EV9	605	NULL
+	MP1	dead and $Number
+	MP2	$Number people
+	MP3	$Number dead
+	MP4	$Number people,
+$Number	23	population	NULL
+	EV1	300,000	NULL
+	EV2	265,900	NULL
+	EV3	400,000	NULL
+	EV4	105,000	NULL
+	EV5	58,000	NULL
+	EV6	161,000	NULL
+	EV7	2,730	NULL
+	EV8	480,000	NULL
+	MP1	population of $Number
+	MP2	population of about $Number
+	MP3	$Number people,
+	MP4	$Number people
+	MP5	$Number people.
+	MP6	$Number yuan
+$Number	24	million people	NULL
+	EV1	1.2	NULL
+	EV2	3.4	NULL
+	EV3	1.99	NULL
+	EV4	1.08	NULL
+	EV5	4.9	NULL
+	EV6	5.47	NULL
+	EV7	3.43	NULL
+	EV8	3.1	NULL
+	MP1	$Number million people
+	MP2	$Number million
+	MP3	least $Number
+	MP4	$Number magnitude
+$Number	25	villages	NULL
+	EV1	12	NULL
+	EV2	110	NULL
+	EV3	130	NULL
+	EV4	3,669	NULL
+	EV5	960	NULL
+	EV6	307	NULL
+	EV7	1,494	NULL
+	MP1	$Number villages
+	MP2	least $Number
+	MP3	$Number million
+	MP4	depth of $Number
+	MP5	$Number people
+	MP6	people were killed and $Number
+	MP7	$Number kilometers
+$Number	26	depth	NULL
+	EV1	10	NULL
+	EV2	9.9	NULL
+	EV3	9.8	NULL
+	EV4	16.7	NULL
+	EV5	12.4	NULL
+	EV6	7.20	NULL
+	MP1	depth of $Number kilometers
+	MP2	depth of $Number
+	MP3	$Number kilometers
+	MP4	$Number dead
+	MP5	shallow depth of $Number
+	MP6	$Number kilometres
+	MP7	$Number km
+$Number	27	times	NULL
+	EV1	900	NULL
+	EV2	236,400	NULL
+	EV3	3,093,400	NULL
+	EV4	000	NULL
+	EV5	3,661,400	NULL
+	EV6	501	NULL
+	MP1	$Number times
+	MP2	$Number miles
+	MP3	$Number people
+	MP4	$Number kilometres
+	MP5	$Number people,
+$Number	28	intersect	NULL
+	EV1	2016	NULL
+	EV2	2010	NULL
+	EV3	2012	NULL
+	EV4	2011	NULL
+	EV5	2004	NULL
+	MP1	$Number INTERSECT
+$Number	29	richter scale	NULL
+	EV1	3.9	NULL
+	EV2	7.5	NULL
+	EV3	3.8	NULL
+	EV4	8.6	NULL
+	EV5	3.0	NULL
+	MP1	$Number on the Richter scale
+	MP2	$Number per cent
+	MP3	$Number million
+	MP4	depth of $Number
+	MP5	magnitude $Number $Geological_phenomenon
+	MP6	$Number per
+	MP7	$Number percent
+	MP8	magnitude $Number
+$Number	30	dead.	NULL
+	EV1	267	NULL
+	EV2	308	NULL
+	EV3	15,621	NULL
+	EV4	76	NULL
+	MP1	$Number dead.
+	MP2	least $Number people
+	MP3	$Number dead
+	MP4	$Number people
+	MP5	$Number Announcer-read
+	MP6	least $Number
+	MP7	dead and $Number
+$Number	31	tons	NULL
+	EV1	8,000	NULL
+	EV2	1,355	NULL
+	EV3	470,000	NULL
+	EV4	164,000	NULL
+	MP1	$Number tons
+	MP2	$Number times
+	MP3	$Number people
+$Number	32	per	NULL
+	EV1	3.07	NULL
+	EV2	3.33	NULL
+	EV3	22.4	NULL
+	EV4	3.2	NULL
+	MP1	$Number per
+	MP2	$Number per cent
+$Number	33	toll	NULL
+	EV1	277	NULL
+	EV2	242,000	NULL
+	EV3	46	NULL
+	MP1	toll at $Number
+	MP2	$Number miles northeast
+	MP3	least $Number people
+	MP4	$Number people
+	MP5	$Number people.
+	MP6	$Number people,
+$Number	34	yuan	NULL
+	EV1	800,000	NULL
+	EV2	453,400	NULL
+	EV3	32.68	NULL
+	MP1	$Number yuan
+$Number	35	miles northeast	NULL
+	EV1	230	NULL
+	EV2	29	NULL
+	EV3	212	NULL
+	MP1	$Number miles northeast
+	MP2	least $Number people
+	MP3	least $Number
+	MP4	$Number villages
+	MP5	$Number injured.
+	MP6	$Number million
+	MP7	$Number km
+	MP8	$Number miles
+$Number	36	who	NULL
+	EV1	36	NULL
+	EV2	78	NULL
+	EV3	52	NULL
+	MP1	$Number who
+	MP2	least $Number
+	MP3	least $Number people
+	MP4	$Number miles
+	MP5	$Number per cent
+	MP6	$Number people
+$Number	37	bodies	NULL
+	EV1	114	NULL
+	EV2	145	NULL
+	MP1	$Number bodies
+	MP2	$Number people
+	MP3	$Number dead
+$Number	38	ludian, population	NULL
+	EV1	429,000	NULL
+	EV2	429	NULL
+	MP1	Ludian, which has a population of about $Number
+	MP2	$Number people
+	MP3	$Number people.
+	MP4	population of about $Number
+$Number	39	kilometers northeast	NULL
+	EV1	366	NULL
+	EV2	370	NULL
+	MP1	$Number kilometers northeast
+	MP2	$Number kilometres
+	MP3	$Number people,
+$Number	40	shallow depth	NULL
+	EV1	12.2	NULL
+	MP1	shallow depth of $Number
+$Number	41	announcer-read video natural sound:	NULL
+	EV1	2	NULL
+	MP1	Announcer-read report over video with natural sound: $Number
+	MP2	$Number million
+	MP3	$Number million people
+	MP4	$Number million yuan
+	MP5	$Number billion
+$Number	42	richter	NULL
+	EV1	8.0	NULL
+	MP1	$Number on the Richter
+	MP2	magnitude $Number $Geological_phenomenon
+	MP3	$Number on the Richter scale
+$Number	43	less	NULL
+	EV1	13	NULL
+	MP1	less than $Number
+	MP2	$Number kilometers ,
+	MP3	$Number miles
+	MP4	$Number million
+	MP5	$Number people
+$Officeholder	1	secretary-general	NULL
+	EV1	Ban Ki-moon	NULL
+	EV2	Ban Ki-Moon	NULL
+	MP1	Secretary-General $Officeholder
+$Officeholder	2	pirozzi	NULL
+	EV1	Sergio	NULL
+	MP1	$Officeholder Pirozzi
+	MP2	$Officeholder Pirozzi,
+$Person	1	who	NULL
+	EV1	residents	NULL
+	EV2	workers	NULL
+	EV3	woman	NULL
+	EV4	man	NULL
+	EV5	Americans	NULL
+	EV6	resident	NULL
+	EV7	relatives	NULL
+	EV8	users	NULL
+	EV9	women	NULL
+	EV10	Wen Jiabao	NULL
+	EV11	neighbours	NULL
+	EV12	professional	NULL
+	EV13	worker	NULL
+	EV14	Aquino	NULL
+	EV15	friends	NULL
+	EV16	Recep Tayyip Erdogan	NULL
+	EV17	villagers	NULL
+	EV18	Li Keqiang	NULL
+	EV19	fighters	NULL
+	EV20	Huang Ju	NULL
+	EV21	Erdogan	NULL
+	EV22	Naoto Kan	NULL
+	EV23	Roxas	NULL
+	EV24	engineer	NULL
+	EV25	Tsai Ing-wen	NULL
+	EV26	leader	NULL
+	EV27	friend	NULL
+	EV28	John Saunders	NULL
+	EV29	Australians	NULL
+	EV30	Workers	NULL
+	EV31	Islanders	NULL
+	EV32	nationals	NULL
+	EV33	Benjamin Netanyahu	NULL
+	EV34	Najib	NULL
+	EV35	dwellers	NULL
+	EV36	engineers	NULL
+	EV37	John Key	NULL
+	EV38	Michelle Bachelet	NULL
+	EV39	traveler	NULL
+	EV40	Washington	NULL
+	EV41	Benigno Aquino III	NULL
+	EV42	Huang Qi	NULL
+	EV43	Renho	NULL
+	EV44	Binay	NULL
+	EV45	Juan Ponce Enrile	NULL
+	EV46	Hillary Clinton	NULL
+	EV47	experts	NULL
+	EV48	Women	NULL
+	EV49	Florencio Abad	NULL
+	EV50	Castro	NULL
+	EV51	user	NULL
+	MP1	$Person who
+$Person	2	u.s.	NULL
+	EV1	scientists	NULL
+	EV2	National	NULL
+	MP1	U.S. $Person
+	MP2	$Person Disaster
+$Priest	1	giovanni	NULL
+	EV1	Bishop	NULL
+	MP1	$Priest Giovanni
+$Recovery	1	relief	NULL
+	EV1	rescue	NULL
+	EV2	Rescue	NULL
+	MP1	$Recovery and relief
+	MP2	$Recovery operation
+$Skilled_worker	1	local	NULL
+	EV1	official	NULL
+	EV2	fishermen	NULL
+	MP1	local $Skilled_worker
+	MP2	$Skilled_worker said.
+$Skilled_worker	2	said.	NULL
+	EV1	officials	NULL
+	MP1	$Skilled_worker said.
+	MP2	local $Skilled_worker
+$Transaction	1	relief	NULL
+	EV1	operations	NULL
+	MP1	relief $Transaction
+$Unfortunate	1	rubble, toll	NULL
+	EV1	survivors	NULL
+	MP1	hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate out of the rubble, but the toll
+$Vibration	1	strong	NULL
+	EV1	tremors	NULL
+	EV2	tremor	NULL
+	MP1	strong $Vibration
+	MP2	strong $Vibration before.
+$Woman	1	little	NULL
+	EV1	girl	NULL
+	MP1	little $Woman
+$Work	1	funeral	NULL
+	EV1	service	NULL
+	MP1	funeral $Work
+$Workman	1	heavy	NULL
+	EV1	excavators	NULL
+	EV2	movers	NULL
+	MP1	$Workman and other heavy
+
+(ENTITY,NULL,VALUE)
+$Act	1	NULL	$Number
+	EV1	stay	58
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+	MP2	$Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters or other $Structure arranged by the $Organization The $Company
+$Activity	1	NULL	$Country
+	EV1	assistance	Italy
+	EV2	assistance	Taiwan
+	EV3	assistance	Chile
+	EV4	assistance	Iran
+	EV5	support	Japan
+	EV6	assistance	Turkey
+	EV7	help	Taiwan
+	EV8	support	China
+	EV9	assistance	Myanmar
+	EV10	assistance	Iraqi Kurds
+	EV11	help	Italy
+	MP1	$Activity to $Country
+$Activity	2	NULL	$Recovery
+	EV1	search	rescue
+	EV2	Search	Rescue
+	EV3	process	rescue
+	EV4	Search	rescue
+	EV5	attempt	rescue
+	EV6	efforts	RESCUE
+	EV7	work	Rescue
+	EV8	HELP	RESCUE
+	EV9	effort	Rescue
+	MP1	$Activity and $Recovery
+	MP2	$Recovery $Activity
+$Activity	3	NULL	$Unit
+	EV1	Construction	crews
+	EV2	protection	crews
+	EV3	search	teams
+	EV4	Search	teams
+	EV5	construction	crew
+	EV6	construction	teams
+	EV7	work	team
+	EV8	Assistance	Teams
+	EV9	search	team
+	MP1	$Activity $Unit
+$Activity	4	NULL	$Unfortunate
+	EV1	search	survivors
+	EV2	searches	survivors
+	EV3	search	victims
+	EV4	Search	survivors
+	EV5	Assistance	Victims
+	EV6	efforts	victims
+	EV7	help	victims
+	EV8	effort	survivors
+	MP1	$Activity for $Unfortunate
+$Activity	5	NULL	$Improvement
+	EV1	efforts	recovery
+	EV2	effort	recovery
+	EV3	efforts	Recovery
+	EV4	work	recovery
+	EV5	efforts	conservation
+	EV6	work	Recovery
+	MP1	$Improvement $Activity
+$Activity	6	NULL	$Speech_act
+	EV1	help	offers
+	EV2	help	offer
+	EV3	assistance	offer
+	EV4	assistance	offers
+	EV5	support	offers
+	MP1	$Speech_act of $Activity
+$Activity	7	NULL	$Benefactor
+	EV1	work	Rescuers
+	EV2	search	Rescuers
+	EV3	searches	rescuer
+	MP1	$Benefactor $Activity
+	MP2	$Company $Benefactor $Activity
+$Activity	8	NULL	$Person
+	EV1	protection	workers
+	EV2	protection	worker
+	EV3	game	changer
+	MP1	$Activity $Person
+$Activity	9	NULL	$Defender
+	EV1	work	Firefighters
+	EV2	search	Firefighters
+	EV3	ASSISTANCE	FIREFIGHTERS
+	MP1	$Structure arranged by the $Organization The $Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP2	$Defender $Activity
+	MP3	$Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP4	$Company $Defender $Activity
+$Activity	10	NULL	$Building
+	EV1	efforts	hotel
+	EV2	search	hotel
+	MP1	$Activity at the $Building ,
+$Activity	11	NULL	$Crisis
+	EV1	services	emergency
+	EV2	services	Emergency
+	MP1	$Crisis $Activity
+$Activity	12	NULL	$Skilled_worker
+	EV1	protection	officials
+	MP1	civil $Activity $Skilled_worker
+$Activity	13	NULL	$Interrogation
+	EV1	lesson	catechism
+	MP1	$Interrogation $Activity
+$Adult	1	NULL	$Duration
+	EV1	girl	8Y
+	EV2	girl	18M
+	EV3	man	40Y
+	EV4	woman	80Y
+	EV5	girl	10Y
+	EV6	woman	52Y
+	EV7	man	20Y
+	EV8	woman	56Y
+	EV9	man	45Y
+	EV10	man	42Y
+	EV11	girl	2Y
+	EV12	girl	4Y
+	EV13	woman	55Y
+	EV14	woman	50Y
+	EV15	woman	25Y
+	EV16	girl	10M
+	EV17	woman	68Y
+	EV18	woman	83Y
+	EV19	girl	12Y
+	EV20	girl	6M
+	EV21	woman	33Y
+	EV22	girl	10D
+	EV23	woman	38Y
+	EV24	woman	27Y
+	EV25	man	28Y
+	EV26	woman	34Y
+	EV27	man	80Y
+	EV28	man	18Y
+	EV29	woman	20Y
+	EV30	man	43Y
+	EV31	woman	89Y
+	EV32	woman	61Y
+	EV33	girl	16Y
+	EV34	woman	53Y
+	EV35	man	50Y
+	EV36	girl	9Y
+	EV37	woman	60Y
+	EV38	girl	13Y
+	EV39	woman	28Y
+	EV40	man	60Y
+	EV41	girl	7Y
+	EV42	girl	5Y
+	EV43	man	19Y
+	EV44	woman	31Y
+	EV45	girl	14Y
+	MP1	$Duration $Adult
+$Adult	2	NULL	$Company
+	EV1	man	Associated Press
+	EV2	woman	Associated Press
+	EV3	man	Reuters
+	MP1	$Company A $Adult
+$Adult	3	NULL	$Date $Company
+	EV1	man	2016-08-25|Associated Press
+	EV2	woman	2016-08-24|Associated Press
+	MP1	$Date The $Company A $Adult
+$Affair	1	NULL	$Date
+	EV1	celebrations	2016-01-01
+	EV2	celebrations	2016-02-08
+	EV3	ceremony	2012-08-14
+	EV4	Celebrations	2016-01-01
+	EV5	ceremonies	2008-05-19
+	EV6	celebrations	2016-02-01
+	MP1	$Date $Affair
+$Associate	1	NULL	$Unit
+	EV1	members	family
+	EV2	members	team
+	EV3	member	team
+	EV4	members	Team
+	EV5	MEMBER	FAMILY
+	EV6	MEMBERS	FAMILY
+	MP1	$Unit $Associate
+$Associate	2	NULL	$Unit $Officeholder
+	EV1	members	family|Matteo Renzi
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP2	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+$Associate	3	NULL	$Ceremony $Administrative_district
+	EV1	members	funeral|state
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Beginning	1	NULL	$Date
+	EV1	START	2010-02-26
+	EV2	START	2010-02-27
+	MP1	$Magazine $Beginning : $Date
+	MP2	$Beginning : $Date
+$Beginning	2	NULL	$Magazine
+	EV1	START	TIME
+	MP1	$Magazine $Beginning : $Date
+$Benefactor	1	NULL	$Date
+	EV1	Rescuers	2016-02-07
+	EV2	Rescuers	2013-04-21
+	EV3	Rescuers	2016-08-24
+	EV4	rescuers	2016-02-07
+	EV5	Rescuers	2014-08-04
+	EV6	Rescuers	2014-08-05
+	EV7	Rescuers	2011-02-23
+	EV8	rescuers	2008-05-15
+	EV9	Rescuer	2016-08-24
+	EV10	Rescuers	2013-04-20
+	EV11	rescuers	2016-02-09
+	EV12	rescuers	2016-02-02
+	EV13	Rescuers	2016-02-06
+	EV14	rescuers	2014-08-06
+	EV15	rescuers	2016-02-08
+	EV16	rescuers	2008-05-11
+	EV17	rescuers	2008-05-12
+	EV18	Rescuers	2014-08-06
+	EV19	Rescuers	2016-02-09
+	EV20	Rescuers	2016-02-08
+	EV21	Rescuers	2013-10-19
+	EV22	Rescuers	2008-05-12
+	EV23	Humanitarian	1216-XX-XX
+	EV24	SPONSOR	2010-02-27
+	EV25	rescuers	2008-05-20
+	EV26	Rescuers	2011-10-26
+	EV27	Rescuers	2016-08-25
+	EV28	rescuers	2012-08-11
+	EV29	Rescuers	2008-05-21
+	EV30	Rescuers	2016-01-01
+	MP1	$Date $Benefactor
+	MP2	$Benefactor on $Date found signs
+	MP3	$Benefactor on $Date
+	MP4	$Settlement $Country $Date $Benefactor
+$Benefactor	2	NULL	$Number
+	EV1	Rescuers	11,000
+	EV2	rescuers	2,000
+	EV3	rescuers	7,000
+	EV4	rescuers	1,236
+	EV5	rescuers	1,100
+	EV6	rescuers	1,400
+	EV7	rescuers	392
+	EV8	rescuers	20
+	EV9	rescuers	100
+	EV10	rescuers	31
+	EV11	rescuers	870
+	EV12	rescuers	700
+	EV13	rescuers	28,971
+	EV14	rescuers	600
+	EV15	Rescuers	11000
+	EV16	rescuers	150
+	EV17	Rescuers	2
+	MP1	$Number $Benefactor
+$Benefactor	3	NULL	$Company
+	EV1	Rescuers	Associated Press
+	EV2	Rescuers	China Central Television
+	EV3	Rescuers	AP
+	EV4	Rescuers	REUTERS
+	MP1	$Company $Benefactor
+	MP2	$Company $Benefactor $Activity
+$Benefactor	4	NULL	$Activity
+	EV1	Rescuers	search
+	EV2	Rescuers	work
+	EV3	rescuer	searches
+	MP1	$Benefactor $Activity
+	MP2	$Company $Benefactor $Activity
+$Benefactor	5	NULL	$Building
+	EV1	Rescuers	houses
+	MP1	$Benefactor make their way through destroyed $Building
+$Calamity	1	NULL	$Informing
+	EV1	tsunami	warning
+	EV2	tsunami	warnings
+	EV3	Tsunami	Warning
+	EV4	Tsunami	Warnings
+	EV5	Tsunami	warnings
+	EV6	TSUNAMI	WARNING
+	EV7	Tsunami	warning
+	EV8	TSUNAMI	WARNINGS
+	MP1	$Calamity $Informing
+$Calamity	2	NULL	$Geological_phenomenon
+	EV1	tsunami	earthquake
+	EV2	tsunami	quake
+	EV3	Tsunami	Earthquake
+	EV4	tsunami	Earthquake
+	EV5	tsunamis	earthquakes
+	MP1	$Geological_phenomenon and $Calamity
+$Case	1	NULL	$Date
+	EV1	time	2016-01-30
+	EV2	time	2011-02-23
+	EV3	Time	2013-04-21
+	EV4	time	2008-05-15
+	EV5	time	2011-04-19
+	MP1	$Case $Date
+	MP2	$Date local $Case $Date
+$Ceremony	1	NULL	$Unfortunate
+	EV1	funeral	victims
+	MP1	$Ceremony for some of the $Unfortunate
+	MP2	ahead of a $Administrative_district $Ceremony for some of the $Unfortunate
+$Ceremony	2	NULL	$Administrative_district $Associate
+	EV1	funeral	state|members
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Change	1	NULL	$Number
+	EV1	deaths	17
+	EV2	deaths	80
+	EV3	deaths	53
+	EV4	deaths	1,400
+	EV5	deaths	61
+	EV6	deaths	138
+	EV7	deaths	159
+	EV8	deaths	12
+	EV9	deaths	800
+	EV10	deaths	80,000
+	EV11	deaths	146
+	EV12	deaths	500
+	EV13	deaths	20
+	EV14	deaths	3,771
+	EV15	deaths	65
+	EV16	deaths	42
+	EV17	deaths	40
+	EV18	deaths	114
+	EV19	deaths	85
+	EV20	deaths	400
+	EV21	deaths	708
+	EV22	deaths	170
+	EV23	deaths	3,000
+	EV24	deaths	10,000
+	EV25	deaths	240
+	EV26	deaths	70,000
+	EV27	deaths	700
+	EV28	deaths	190
+	EV29	Death	3.2016
+	EV30	damage	70
+	EV31	deaths	36
+	EV32	damage	50
+	EV33	deaths	200,000
+	EV34	deaths	217
+	EV35	deaths	103
+	EV36	deaths	51,151
+	EV37	deaths	144
+	EV38	damage	175
+	EV39	deaths	224
+	EV40	deaths	100,000
+	EV41	deaths	300
+	EV42	deaths	185
+	EV43	deaths	181
+	EV44	deaths	1,500
+	EV45	deaths	160,000
+	EV46	deaths	8
+	EV47	deaths	799
+	EV48	deaths	50,000
+	EV49	Death	6.2016
+	EV50	deaths	12,012
+	EV51	death	14
+	EV52	deaths	9,000
+	MP1	$Number $Change
+$Change	2	NULL	$Date
+	EV1	killing	2014-08-03
+	EV2	Death	2016-08-24
+	EV3	killing	2013-10-15
+	EV4	killing	2011-10-23
+	EV5	killing	2013-04-20
+	EV6	killing	2012-08-11
+	EV7	death	2016-08
+	EV8	killing	2008-05
+	EV9	killing	2011-03-24
+	EV10	killing	2008-04-20
+	EV11	Death	2010-XX-XX
+	EV12	killing	2016-08-24
+	EV13	Deaths	2016-08-24
+	EV14	death	2014-08-06
+	EV15	killing	2011-03-10
+	EV16	killing	2011-02-22
+	EV17	slowing	2013-04-20
+	EV18	killing	2016-02-06
+	EV19	death	2014-08-02
+	EV20	killing	2014-08-10
+	EV21	Deaths	2016-08-23
+	EV22	killing	2010-02-26
+	EV23	killing	2010-02-27
+	EV24	death	2011-10-24
+	EV25	Death	2008-05-12
+	EV26	killing	1896-XX-XX
+	EV27	Damage	2011-02-22
+	EV28	death	2010-XX-XX
+	EV29	Death	2011-10-23
+	EV30	Death	2010-02-27
+	EV31	Damage	2011-03-11
+	EV32	killing	2008-08
+	EV33	death	2016-02-10
+	EV34	Death	2016-08-25
+	EV35	killing	2008-XX-XX
+	EV36	Death	2016-08-23
+	MP1	$Date $Change
+	MP2	$Date The $Change toll
+$Change	3	NULL	$Geological_phenomenon
+	EV1	damage	earthquake
+	EV2	deaths	earthquake
+	EV3	death	quake
+	EV4	death	earthquake
+	EV5	Death	Earthquake
+	EV6	damage	Earthquake
+	EV7	Deaths	Earthquake
+	EV8	Death	quake
+	EV9	deaths	quake
+	EV10	Damage	Earthquake
+	MP1	$Geological_phenomenon $Change
+	MP2	$Change from the $Geological_phenomenon
+$Change	4	NULL	$Location
+	EV1	damage	region
+	MP1	$Change across the $Location
+	MP2	$Duration after a devastating $Geological_phenomenon wreaked widespread $Change across the $Location
+$Change_of_magnitude	1	NULL	$Social_control
+	EV1	Reduction	Management
+	EV2	reduction	management
+	MP1	Disaster Risk $Change_of_magnitude and $Social_control
+	MP2	$Change_of_magnitude and $Social_control
+$Child	1	NULL	$Duration
+	EV1	infant	10D
+	EV2	baby	10D
+	EV3	son	4Y
+	EV4	baby	4M
+	EV5	baby	6M
+	EV6	son	2Y
+	EV7	baby	8M
+	EV8	son	27Y
+	EV9	son	3D
+	EV10	SON	4Y
+	EV11	son	8Y
+	EV12	son	14M
+	EV13	son	9Y
+	EV14	son	42Y
+	EV15	son	14Y
+	EV16	baby	70D
+	EV17	baby	3M
+	MP1	$Duration $Child
+$Civil_authority	1	NULL	$Officeholder
+	EV1	Mayor	Lai Ching-te
+	EV2	Mayor	Sergio
+	EV3	Mayor	Bob Parker
+	EV4	mayor	Sergio
+	EV5	Mayor	William Lai
+	EV6	mayor	Bob Parker
+	EV7	Mayor	BOB PARKER
+	EV8	Mayor	Lai Ching-Te
+	EV9	mayor	William Lai
+	EV10	Mayor	Han Zheng
+	EV11	Mayor	Eric Garcetti
+	EV12	Mayor	Gavin Newsom
+	MP1	$Civil_authority $Officeholder
+	MP2	Tainan $Civil_authority $Officeholder
+$Civil_authority	2	NULL	$Settlement
+	EV1	mayor	Amatrice
+	EV2	Mayor	Christchurch
+	EV3	mayor	Tainan
+	EV4	mayors	Bohol
+	EV5	Mayor	Amatrice
+	EV6	mayor	Christchurch
+	EV7	mayor	Cebu
+	EV8	mayor	Mandalay
+	EV9	mayors	Christchurch
+	EV10	Mayor	Tainan city
+	EV11	mayor	Timaru
+	EV12	Mayor	Shanghai
+	MP1	$Settlement $Civil_authority
+	MP2	$Civil_authority of $Settlement
+$Clergyman	1	NULL	$Officeholder
+	EV1	Minister	Recep Tayyip Erdogan
+	EV2	Minister	John Key
+	EV3	Minister	Benjamin Netanyahu
+	EV4	Minister	Frank-Walter Steinmeier
+	EV5	Minister	Dario Franceschini
+	EV6	Minister	Paolo Gentiloni
+	EV7	Minister	Naoto Kan
+	EV8	Minister	Shinzo Abe
+	EV9	Minister	Manmohan Singh
+	EV10	Minister	Mostafa Mohammad Najjar
+	EV11	minister	Banri Kaieda
+	EV12	Minister	Bill English
+	EV13	Minister	Dacian Ciolos
+	EV14	Minister	Marzieh Vahid Dastjerdi
+	EV15	Minister	Erdogan
+	EV16	Minister	Matteo Renzi
+	EV17	Minister	Radoslaw Sikorski
+	EV18	Minister	Samak Sundaravej
+	EV19	Minister	Yun Byung-se
+	EV20	Minister	Mostafa Mohammad-Najjar
+	EV21	minister	Angelino Alfano
+	EV22	Minister	Julia Gillard
+	EV23	Minister	Datuk Seri Najib Razak
+	EV24	Minister	Muhammad Nawaz Sharif
+	EV25	minister	Bill English
+	EV26	minister	Recep Tayyip Erdogan
+	EV27	Minister	Nawaz Sharif
+	EV28	Minister	Maurice Williamson
+	EV29	Minister	Silvio Berlusconi
+	EV30	Minister	Rudd
+	EV31	minister	Matteo Renzi
+	EV32	Minister	Franco Frattini
+	EV33	Minister	Marty Natalegawa
+	EV34	Minister	Yang Jiechi
+	EV35	Minister	Najib Razak
+	EV36	Minister	Raja Pervez Ashraf
+	EV37	Minister	Safar Abiyev
+	EV38	minister	John Key
+	EV39	Minister	Abhisit Vejjajiva
+	EV40	Minister	Guido Westerwelle
+	EV41	Minister	David Choquehuanca
+	EV42	Minister	Thein Sein
+	EV43	Minister	Banri Kaieda
+	EV44	Minister	Wen Jiabao
+	EV45	Minister	Renho
+	EV46	Minister	Masahiko Komura
+	EV47	Minister	Datuk Seri Najib Tun Razak
+	EV48	Minister	Sheikh Hasina
+	EV49	Minister	Stephen Harper
+	EV50	minister	Bulent Arinc
+	EV51	Minister	Sergio
+	EV52	Minister	Egemen Bagis
+	EV53	Minister	Michele Bachelet
+	MP1	$Clergyman $Officeholder
+	MP2	Prime $Clergyman $Officeholder
+	MP3	Foreign $Clergyman $Officeholder
+$Clergyman	2	NULL	$Region
+	EV1	Minister	Interior
+	EV2	MINISTER	INTERIOR
+	MP1	$Region $Clergyman
+$Communicator	1	NULL	$Company
+	EV1	broadcaster	CCTV
+	EV2	writers	Associated Press
+	EV3	correspondents	dpa
+	EV4	broadcaster	NTV
+	EV5	writer	Associated Press
+	EV6	broadcaster	China Central Television
+	EV7	correspondents	GlobalPost
+	EV8	Broadcaster	CCTV
+	EV9	Broadcaster	ITV
+	MP1	$Administrative_district $Communicator $Company
+	MP2	$Company $Communicator
+	MP3	$Communicator $Company
+$Communicator	2	NULL	$Administrative_district
+	EV1	broadcaster	state
+	EV2	broadcaster	State
+	MP1	$Administrative_district $Communicator $Company
+	MP2	$Administrative_district $Communicator
+$Corporate_executive	1	NULL	$Officeholder
+	EV1	President	Sergio Mattarella
+	EV2	President	Xi Jinping
+	EV3	President	Ma Ying-jeou
+	EV4	President	Michelle Bachelet
+	EV5	President	Abdullah Gul
+	EV6	President	Francois Hollande
+	EV7	President	Hu Jintao
+	EV8	President	Mahmoud Ahmadinejad
+	EV9	President	Vladimir Putin
+	EV10	President	Thein Sein
+	EV11	President	Serzh Sargsyan
+	EV12	President	Nursultan Nazarbayev
+	EV13	President	Rajapaksa
+	EV14	president	Michelle Bachelet
+	EV15	President	Ahmadinejad
+	EV16	President	Massoud Barzani
+	EV17	President	Putin
+	EV18	President	Ilham Aliyev
+	EV19	President	Nicolas Sarkozy
+	EV20	President	Hamid Karzai
+	EV21	president	Xi Jinping
+	EV22	President	Dalia Grybauskaite
+	EV23	President	Pranab Mukherjee
+	EV24	President	Jejomar Binay
+	EV25	President	Luiz Inacio Lula da Silva
+	EV26	President	Nicolae Timofti
+	EV27	PRESIDENT	Jakaya Kikwete
+	EV28	President	Cristina Fernandez
+	EV29	President	Robert Zoellick
+	EV30	President	Mohammad Reza Rahimi
+	EV31	President	Jose Mujica
+	EV32	President	Michele Bachelet
+	EV33	president	Hu Jintao
+	EV34	President	Sergio
+	EV35	President	Hugo Chavez
+	EV36	President	Lee Myung-bak
+	EV37	President	Jimmy Carter
+	EV38	President	Alan Garcia
+	EV39	President	Jose Manuel Durao Barroso
+	EV40	President	Mamnoon Hussain
+	EV41	president	Sergio
+	EV42	President	Jerzy Buzek
+	EV43	President	Rafael Correa
+	EV44	President	Raul Castro
+	MP1	$Corporate_executive $Officeholder
+	MP2	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP3	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+	MP4	$Corporate_executive $Officeholder and $Head_of_state $Officeholder
+$Corporate_executive	2	NULL	$Person
+	EV1	President	Barack Obama
+	EV2	President	Jacques Rogge
+	EV3	President	Shimon Peres
+	EV4	President	Bush
+	EV5	president	Jacques Rogge
+	EV6	PRESIDENT	OBAMA
+	EV7	President	Obama
+	MP1	$Corporate_executive $Person
+$Creating_from_raw_materials	1	NULL	$Date $Unit
+	EV1	Construction	2016-08-30|crews
+	EV2	Construction	2016-08-31|crews
+	MP1	$Creating_from_raw_materials $Unit worked through the $Date to build a $Shelter complex to host an $Country $Administrative_district funeral $Date
+$Crime	1	NULL	$Nonaccomplishment
+	EV1	fraud	negligence
+	MP1	$Nonaccomplishment or $Crime
+$Crisis	1	NULL	$Unit
+	EV1	emergency	teams
+	EV2	emergency	crews
+	EV3	emergency	team
+	EV4	Emergency	teams
+	EV5	Emergency	crews
+	MP1	$Crisis $Unit
+$Crisis	2	NULL	$Consequence
+	EV1	emergency	response
+	EV2	Emergency	Response
+	EV3	Emergency	response
+	MP1	$Crisis $Consequence
+$Crisis	3	NULL	$Person
+	EV1	emergency	workers
+	EV2	Emergency	workers
+	EV3	emergency	worker
+	MP1	$Crisis $Person
+$Crisis	4	NULL	$Activity
+	EV1	emergency	services
+	EV2	Emergency	services
+	MP1	$Crisis $Activity
+$Crisis	5	NULL	$Social_control
+	EV1	emergency	management
+	EV2	Emergency	Management
+	MP1	$Crisis $Social_control
+$Date	1	NULL	$Number
+	EV1	2016-08-27	6.1
+	EV2	2016-08-29	6.1
+	EV3	2016-08-24	6.2
+	EV4	2012-09	81
+	EV5	2016-08-28	6.1
+	EV6	1999-XX-XX	2,300
+	EV7	2016-08-25	6.1
+	EV8	2016-08	27
+	EV9	2012-08-11	6.2
+	EV10	2016-08-30	2016
+	EV11	2010-02-27	3
+	EV12	2016-02-08	100
+	EV13	2016-08-29	2016
+	EV14	2014-08-03	6.1
+	EV15	2008-05-14	14,463
+	EV16	2013-04-23	600
+	EV17	1999-XX-XX	20,000
+	EV18	2010-02	27
+	EV19	2014-08-03	6.5
+	EV20	2011-02-22	6.3
+	EV21	1974-XX-XX	6.8
+	EV22	2009-XX-XX	6.3
+	EV23	2016-08-24	13
+	EV24	2012-10	15
+	EV25	1933-08-25	9,300
+	EV26	2010-02-27	8.8
+	EV27	2016-08-29	3
+	EV28	2016-02-05	246
+	EV29	2016-02-09	41
+	EV30	2016-02-08	38
+	EV31	2012-09	80
+	EV32	2013-04-20	7.0
+	EV33	1974-XX-XX	7.1
+	EV34	2016-08-23	2,000
+	EV35	2014-08-03	4.30
+	EV36	2010-03	12
+	EV37	2010-01-20	7.2
+	EV38	2010-02-26	3
+	EV39	2010-09-04	350,000
+	EV40	2014-08-04	1,363
+	EV41	2014-08-06	500
+	EV42	2003-XX-XX	26,000
+	EV43	2008-05-15	12.5
+	EV44	2014-08-03	600
+	EV45	2014-08-04	4.30
+	EV46	2016-02-05	22
+	EV47	2016-08-25	247
+	EV48	2016-08-25	241
+	EV49	1999-XX-XX	7.6
+	EV50	2013-10-16	144
+	EV51	2011-XX-XX	2011
+	EV52	1923-09-01	7.9
+	EV53	2010-09	4
+	EV54	2013-10-11	12
+	EV55	1960-XX-XX	9.5
+	EV56	2010-09	7.1
+	EV57	2011-03	29
+	EV58	2011-03	25
+	EV59	2011-03	24
+	EV60	2013-04-20	95
+	EV61	2011-10-23	7.2
+	EV62	2012-XX-XX	11
+	EV63	2013-04-21	11,300
+	EV64	2016-XX-XX	73
+	EV65	2012-09	5.6
+	EV66	2008-05-24	40
+	EV67	2010-09-04	4.35
+	EV68	2008-05	15
+	EV69	2011-03-11	30
+	EV70	2016-02-07	22
+	EV71	2011-09	7.1
+	EV72	2011-XX-XX	17
+	EV73	2011-03-09	-13
+	EV74	2011-01-01	4.6
+	EV75	2008-05-15	50,000
+	EV76	2013-04-20	24
+	EV77	1970-XX-XX	7.7
+	EV78	2010-02-27	47
+	EV79	2008-05-16	159,000
+	EV80	2003-12-26	6.8
+	EV81	2010-02-27	2010
+	EV82	2012-08-10	22
+	EV83	2013-10-16	110
+	EV84	2010-03-06	20
+	EV85	1920-12-16	7.6
+	EV86	2010-02-28	708
+	EV87	2011-03-24	6.8
+	EV88	2010-02-28	700
+	EV89	2016-02-05	221
+	EV90	2012-07	2012
+	EV91	2011-XX-XX	9
+	EV92	2011-03-24	7.0
+	EV93	2011-03-18	2011
+	EV94	2008-05-22	167
+	EV95	2012-08-18	958
+	EV96	2008-05-13	12,000
+	EV97	2016-02-11	76
+	EV98	2010-02-27	30
+	EV99	2014-08-04	4,000
+	EV100	2011-02-19	200
+	EV101	1920-XX-XX	16
+	EV102	2016-02-05	2016
+	EV103	2008-05-22	50,000
+	EV104	2016-02-06	6.4
+	EV105	2013-04-26	4.8
+	EV106	2014-08-06	589
+	EV107	2005-08	78,000
+	EV108	2008-05-15	151
+	EV109	2008-05-12	7.8
+	EV110	2012-02-22	6.3
+	EV111	2013-04-22	2,283
+	EV112	2881-XX-XX	546
+	EV113	2012-XX-XX	7
+	EV114	2008-08	4
+	EV115	2008-06	15
+	EV116	2011-11-06	7.2
+	EV117	2016-02-10	44
+	EV118	2014-08-04	460
+	EV119	2013-10-19	180
+	EV120	2013-XX-XX	22
+	EV121	1915-01-13	68
+	EV122	2013-10-19	522
+	EV123	2010-XX-XX	14
+	EV124	2011-02-27	4.9
+	EV125	2013-XX-XX	28
+	EV126	2011-03-11	9.0
+	EV127	2010-03-08	5.9
+	EV128	2011-03-25	9
+	EV129	2014-08-03	460
+	EV130	2011-02-21	10
+	EV131	2013-11-07	8
+	EV132	2014-08-06	18
+	EV133	2011-10-24	279
+	EV134	2016-02-10	46
+	EV135	2013-04-20	14
+	EV136	2016-01-30	6.4
+	EV137	1970-XX-XX	15,000
+	EV138	2013-10-16	142
+	EV139	2010-02	7
+	EV140	2014-08-06	3,143
+	EV141	2010-04-14	250
+	EV142	2014-08-05	2.30
+	EV143	2016-02-06	22
+	EV144	2008-05-12	7.9
+	EV145	2012-08-22	4.3
+	EV146	2014-07-28	460
+	EV147	2010-09-04	000
+	EV148	2011-03-25	244
+	EV149	2011-10-23	70
+	EV150	2008-05-22	51,151
+	EV151	1800-XX-XX	381
+	EV152	2010-03-06	25
+	EV153	2009-04	20
+	EV154	2011-10-24	200
+	EV155	XXXX-XX-XX	19
+	EV156	2013-10	28
+	EV157	2016-08-23	120
+	EV158	2016-02-08	35
+	EV159	2010-02-22	20
+	EV160	2017-08-24	250
+	EV161	2008-04-23	69,000
+	EV162	2013-06	35
+	EV163	2013-04-21	1.5
+	EV164	2003-XX-XX	30,000
+	EV165	2008-08	3
+	EV166	XXXX-XX-XX	7
+	EV167	2014-07-28	411
+	EV168	2013-10-18	3.43
+	EV169	2016-08-25	2016
+	EV170	2011-02-25	228
+	EV171	2011-02-25	113
+	EV172	2008-05-15	15
+	EV173	2013-04-20	2,500
+	EV174	1970-XX-XX	1,000
+	EV175	2011-03	10.2
+	EV176	2016-02-13	109
+	EV177	2008-05-12	8500
+	EV178	2014-08-04	398
+	EV179	2014-08-03	18
+	EV180	2013-04-20	138
+	EV181	2014-08-04	2014
+	EV182	2011-03-15	8,181
+	EV183	2016-XX-XX	120
+	EV184	2011-02-22	12.51
+	EV185	2008-04-21	30
+	EV186	2008-05-13	11,921
+	EV187	2013-11	15
+	EV188	2013-10-19	179
+	EV189	2011-02-28	18
+	EV190	2013-11	10
+	EV191	2012-08-17	1222
+	EV192	2011-03-25	-4
+	EV193	2011-02-26	145
+	EV194	2016-02-07	35
+	EV195	2010-01	12
+	EV196	2016-08-26	267
+	EV197	2012-08-12	2,600
+	EV198	1225-XX-XX	2011
+	EV199	1976-XX-XX	28
+	EV200	2016-08-25	215
+	EV201	2011-03-23	9,47
+	EV202	2011-XX-XX	1,600
+	EV203	2012-08-11	2,600
+	EV204	2013-10-19	431
+	EV205	2011-03-22	15
+	EV206	2011-03-14	7,49
+	EV207	2010-03	7
+	EV208	2014-08-04	18
+	EV209	2011-03	9.0
+	EV210	2012-08	26
+	EV211	2008-05-13	0
+	EV212	2009-XX-XX	300
+	EV213	2012-08-10	37
+	EV214	2011-XX-XX	10
+	EV215	2011-03-01	6.3
+	EV216	2011-10	22
+	EV217	2013-11	7
+	EV218	1980-11	6.3
+	EV219	2016-08-24	190
+	EV220	1927-XX-XX	23
+	EV221	2011-03-16	6,63
+	EV222	2012-08	956
+	EV223	1970-XX-XX	5
+	EV224	2016-08-25	4.8
+	EV225	2014-XX-XX	11
+	EV226	2011-02-24	2.30
+	EV227	2018-08-04	7.1
+	EV228	1974-XX-XX	1,400
+	EV229	2013-XX-XX	23
+	EV230	2016-08-24	4,370
+	EV231	2011-10-29	2011
+	EV232	2010-03-01	723
+	MP1	$Date $Number
+	MP2	$Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP3	$Number $Date
+	MP4	$Date $Number $Geological_phenomenon
+	MP5	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP6	$Number on $Date
+	MP7	rubble in $Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP8	$Date killed more than $Number
+	MP9	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP10	$Date a $Number $Geological_phenomenon
+	MP11	$Date More than $Number
+	MP12	$Date A $Number
+	MP13	$Date $Number people died and $Number were injured in a series of $Geological_phenomenon
+	MP14	central $Country $Date where a $Number
+	MP15	$Date where a $Number
+$Date	2	NULL	$Geological_phenomenon
+	EV1	2016-08-24	earthquake
+	EV2	2016-08-24	temblor
+	EV3	2016-08-25	earthquake
+	EV4	2016-08-31	earthquake
+	EV5	2008-XX-XX	quake
+	EV6	2016-02-06	earthquake
+	EV7	2011-02-22	earthquake
+	EV8	2013-04-20	quake
+	EV9	2008-05-12	earthquake
+	EV10	2009-XX-XX	earthquake
+	EV11	2008-04-20	quake
+	EV12	2012-08-11	quakes
+	EV13	2014-08-03	earthquake
+	EV14	2013-10-15	earthquake
+	EV15	2011-03-11	earthquake
+	EV16	2011-10-23	earthquake
+	EV17	2014-08-03	quake
+	EV18	2013-04-21	quake
+	EV19	2008-XX-XX	earthquake
+	EV20	2016-02-07	earthquake
+	EV21	2016-08	earthquake
+	EV22	2009-XX-XX	quake
+	EV23	2010-09-04	earthquake
+	EV24	2008-05-12	quake
+	EV25	2010-09	quake
+	EV26	2011-02-22	quake
+	EV27	1988-XX-XX	earthquake
+	EV28	2011-10-23	quake
+	EV29	2011-03-24	quake
+	EV30	1997-XX-XX	quake
+	EV31	2011-03-24	earthquake
+	EV32	2013-10-15	quake
+	EV33	2010-02-27	quake
+	EV34	2012-08-11	earthquake
+	EV35	2011-10-23	temblor
+	EV36	2012-08-04	quake
+	EV37	1999-XX-XX	earthquake
+	EV38	2016-08-18	temblor
+	EV39	1999-XX-XX	quake
+	EV40	2011-09	earthquake
+	EV41	2016-08-17	quake
+	EV42	2012-08-05	quake
+	EV43	2014-08-10	quake
+	EV44	2011-XX-XX	Earthquake
+	EV45	2010-01-12	earthquake
+	EV46	2016-08-23	temblor
+	EV47	2016-08-24	Quake
+	EV48	2012-08-11	earthquakes
+	EV49	2008-05	earthquake
+	EV50	2016-02-06	quake
+	EV51	2013-10-14	quake
+	EV52	2010-09-04	quake
+	EV53	2011-03	quake
+	EV54	2011-XX-XX	earthquake
+	EV55	2011-02	quake
+	EV56	2011-10-24	quake
+	EV57	2016-02-05	earthquake
+	EV58	2012-08-03	quake
+	EV59	2003-XX-XX	quake
+	EV60	2014-08-02	quake
+	EV61	1976-XX-XX	earthquake
+	EV62	2016-08	quake
+	EV63	1995-XX-XX	earthquake
+	EV64	1960-XX-XX	quake
+	EV65	2008-05-13	earthquake
+	EV66	2010-09	temblor
+	EV67	1999-XX-XX	quakes
+	EV68	2016-08-23	earthquake
+	EV69	2011-03-09	quake
+	EV70	2013-04-23	earthquake
+	EV71	1041-XX-XX	quake
+	EV72	2010-02-27	EARTHQUAKE
+	EV73	2016-02-08	earthquake
+	EV74	2016-XX-XX	earthquake
+	EV75	2008-05-12	temblor
+	EV76	2011-03-18	earthquake
+	EV77	2016-02-05	temblor
+	EV78	2012-08-11	quake
+	EV79	2008-05-11	earthquake
+	EV80	2013-10	earthquake
+	EV81	2016-02	earthquake
+	EV82	1931-XX-XX	earthquake
+	EV83	2016-02-07	quake
+	EV84	2014-08-10	earthquake
+	EV85	2011-09	quake
+	EV86	2011-03-25	earthquake
+	EV87	1995-03-24	earthquake
+	EV88	2014-08-17	earthquake
+	EV89	2011-03-10	quake
+	EV90	2010-02-28	earthquake
+	EV91	1041-XX-XX	earthquake
+	EV92	2011-10-22	temblor
+	EV93	2011-03-10	earthquake
+	EV94	2010-03-04	quake
+	EV95	1976-XX-XX	quake
+	EV96	2013-10-14	temblor
+	EV97	2008-04-21	earthquake
+	EV98	1985-XX-XX	quake
+	EV99	2011-02-24	quake
+	EV100	2011-10-21	temblor
+	EV101	2008-05	Earthquake
+	EV102	2011-10-16	quake
+	EV103	1999-09	temblor
+	EV104	2014-08-03	temblor
+	EV105	2008-05	quake
+	EV106	2016-02-06	EARTHQUAKE
+	EV107	2016-08-25	quake
+	EV108	2008-05-14	quake
+	EV109	2016-02-05	quake
+	EV110	2012-08-10	quakes
+	EV111	2011-03-11	quake
+	EV112	2004-XX-XX	quake
+	EV113	2008-04-26	quake
+	EV114	2011-10-31	quake
+	EV115	2011-02-26	quake
+	EV116	1989-XX-XX	quake
+	EV117	2012-08-18	earthquakes
+	EV118	2008-05-19	earthquake
+	EV119	2012-09	quakes
+	EV120	2016-08-31	quake
+	EV121	2013-04-24	earthquake
+	EV122	2016-11-24	quake
+	EV123	2011-04-01	quake
+	EV124	2011-03-18	quake
+	EV125	2012-08-12	quakes
+	EV126	1556-XX-XX	quake
+	EV127	2012-08-13	Earthquake
+	EV128	2011-03-01	earthquake
+	EV129	2016-08-30	quake
+	EV130	2002-XX-XX	quake
+	EV131	1639-XX-XX	earthquakes
+	EV132	2011-10-25	quake
+	EV133	2011-03-11	temblor
+	EV134	2009-04-06	earthquake
+	EV135	2010-03-02	earthquake
+	EV136	2012-08-06	quake
+	EV137	2008-05-14	earthquake
+	EV138	2011-03-15	earthquake
+	EV139	2011-02	quakes
+	EV140	2011-05	earthquake
+	EV141	2016-02-13	earthquake
+	EV142	2011-02-26	Earthquake
+	EV143	2004-12-26	quake
+	EV144	2013-10-16	quake
+	EV145	2011-03-23	earthquake
+	EV146	1638-XX-XX	earthquake
+	EV147	2011-02-21	earthquake
+	EV148	2010-02	quake
+	EV149	1999-08-17	earthquake
+	EV150	2016-08-25	temblor
+	EV151	1999-XX-XX	earthquakes
+	EV152	2010-03-01	quake
+	EV153	2008-04-22	quake
+	EV154	2011-03-02	quake
+	EV155	2012-08	earthquakes
+	EV156	1931-02-03	earthquake
+	EV157	2011-10-30	quake
+	EV158	2010-02-27	Earthquake
+	EV159	2011-XX-XX	quake
+	EV160	2010-03-08	temblor
+	EV161	2008-XX-XX	Earthquake
+	EV162	2013-04-27	earthquake
+	EV163	2016-02-17	quake
+	EV164	2011-04-07	earthquake
+	EV165	2010-01	temblor
+	EV166	2012-08-05	earthquake
+	EV167	2013-04-19	earthquake
+	EV168	2010-02-26	EARTHQUAKES
+	EV169	2010-XX-XX	Earthquake
+	EV170	1963-10-16	earthquake
+	EV171	2011-03-20	earthquake
+	EV172	2010-02-26	quake
+	EV173	2012-XX-XX	earthquake
+	EV174	2011-10-17	quake
+	EV175	2016-08-26	quake
+	EV176	2008-05-15	earthquake
+	EV177	2011-02-21	Earthquake
+	EV178	1990-XX-XX	earthquake
+	EV179	2008-05-13	quake
+	EV180	2008-04-23	earthquake
+	EV181	2010-02-27	temblor
+	EV182	2011-03-25	Earthquake
+	EV183	1995-XX-XX	Earthquake
+	EV184	2016-01-01	earthquake
+	EV185	2014-07-27	quake
+	EV186	2010-XX-XX	quake
+	EV187	2008-05-XX	quake
+	EV188	2010-03-03	quake
+	EV189	2010-03-05	quake
+	EV190	2014-08-04	Earthquake
+	EV191	1995-01	earthquake
+	EV192	1995-XX-XX	quake
+	EV193	2010-02-27	QUAKE
+	EV194	2013-04-22	earthquake
+	EV195	2012-08	earthquake
+	EV196	1931-02-27	earthquake
+	EV197	2016-08-23	quake
+	EV198	2012-09	earthquake
+	EV199	1994-XX-XX	quake
+	EV200	2013-10-24	earthquake
+	EV201	1562-XX-XX	temblor
+	EV202	1923-XX-XX	temblor
+	EV203	2009-05-12	earthquake
+	MP1	$Date $Geological_phenomenon
+	MP2	$Unfortunate of $Date $Geological_phenomenon
+	MP3	$Geological_phenomenon $Date
+	MP4	$Geological_phenomenon struck at $Date
+	MP5	$Geological_phenomenon in $Date
+	MP6	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+	MP7	Accumoli, central $Country $Date A devastating $Geological_phenomenon
+	MP8	$Geological_phenomenon struck just after $Date
+	MP9	$Geological_phenomenon struck $Date
+	MP10	$Geological_phenomenon on $Date
+	MP11	$Date $Earthquake
+	MP12	$Date after the $Geological_phenomenon
+	MP13	$Geological_phenomenon of $Date
+	MP14	$Geological_phenomenon struck on $Date
+	MP15	$Geological_phenomenon , which struck at $Date
+	MP16	$Date The $Geological_phenomenon
+	MP17	$Earthquake $Date
+	MP18	$Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+$Date	3	NULL	$Country
+	EV1	2016-08-24	Italian
+	EV2	2016-08-29	Italian
+	EV3	2011-03-24	Myanmar
+	EV4	2011-03-11	Japan
+	EV5	2014-08-03	China
+	EV6	2016-08-30	Italy
+	EV7	2011-10-23	Turkey
+	EV8	1999-09	Taiwan
+	EV9	2012-08-13	Iran
+	EV10	2013-04-20	Chinese
+	EV11	2016-01-01	Chinese
+	EV12	2013-04-21	China
+	EV13	2010-XX-XX	Gaza Strip
+	EV14	2011-03-25	India
+	EV15	2011-03-12	Japan
+	EV16	2011-03-25	Myanmar
+	EV17	2011-03-10	Myanmar
+	EV18	2011-10-24	Turkey
+	EV19	1995-XX-XX	Japan
+	EV20	1960-05-22	Chile
+	EV21	2008-05-18	China
+	EV22	2014-08-04	China
+	EV23	2011-XX-XX	Japan
+	EV24	2013-04-20	China
+	EV25	2010-03-01	Chile
+	EV26	2011-03-18	Japan
+	EV27	2011-10-30	Turkey
+	EV28	2016-02-12	Taiwan
+	EV29	2016-08-24	Europe
+	EV30	2013-10-24	President
+	EV31	1501-XX-XX	European Union
+	EV32	2011-10	Turkey
+	EV33	2011-03-29	India
+	EV34	2013-10-17	Philippines
+	EV35	2013-04-25	Saudi Arabia
+	EV36	2016-09-04	Italy
+	EV37	2008-05-17	Russia
+	EV38	2008-05-15	China
+	EV39	2008-05	China
+	EV40	2010-03-06	Chile
+	EV41	2012-XX-XX	Iran
+	EV42	2014-08-11	China
+	EV43	2011-03-25	Indonesia
+	EV44	2011-03-24	Israel
+	EV45	2008-05	Myanmar
+	EV46	2013-04-25	Bangladesh
+	EV47	2011-02-18	United States
+	EV48	2016-08-25	Canada
+	EV49	2013-04-22	China
+	EV50	1960-XX-XX	Chile
+	EV51	2013-04	Japan
+	EV52	2002-XX-XX	Malaysia
+	EV53	1906-XX-XX	Ecuador
+	EV54	2013-04-26	Bangladesh
+	EV55	2016-08-25	Italian
+	EV56	2012-02	United States
+	EV57	2008-05-19	China
+	EV58	2008-XX-XX	Chile
+	EV59	2014-08-10	Chinese
+	EV60	2010-05	Chile
+	EV61	2014-08-06	China
+	EV62	2008-04	China
+	EV63	1001-XX-XX	Burma
+	EV64	2012-08-11	IRAN
+	EV65	2014-08-05	Sri Lanka
+	EV66	1979-XX-XX	China
+	EV67	2013-04-26	China
+	EV68	1945-08-06	Japan
+	EV69	2013-04-22	United Kingdom
+	EV70	1274-XX-XX	Japan
+	EV71	2016-02-15	France
+	EV72	2010-02-28	South Korea
+	EV73	2010-03-10	President-elect
+	EV74	2012-08-11	Azerbaijan
+	EV75	1978-XX-XX	American
+	EV76	2013-10-21	Philippines
+	EV77	2007-XX-XX	Chile
+	EV78	2016-02-07	Taiwan
+	EV79	2013-04-25	China
+	EV80	2010-03-07	Chile
+	EV81	2016-02-08	Taiwanese
+	EV82	1996-XX-XX	United States
+	EV83	2011-04-04	President
+	EV84	2010-02-27	United States
+	EV85	2011-03-22	India
+	EV86	2013-04-20	Russia
+	EV87	2010-04	Chile
+	EV88	2011-10-23	Iran
+	EV89	2014-XX-XX	India
+	EV90	2010-02-26	Chile
+	EV91	2013-10-16	President
+	EV92	2011-03-14	Myanmar
+	EV93	2016-XX-XX	Europe
+	EV94	2010-02	Chile
+	EV95	2011-04-01	Japan
+	EV96	2012-08-14	Japanese
+	EV97	2013-04-23	Thailand
+	EV98	2013-04-26	PRC
+	EV99	2014-08-05	Nepal
+	EV100	2013-04-20	United Kingdom
+	EV101	2012-08-13	Kazakhstan
+	EV102	2013-10-18	United Kingdom
+	EV103	2016-08-25	Spanish
+	EV104	1995-XX-XX	Chile
+	EV105	1976-XX-XX	China
+	EV106	2011-03-26	Singapore
+	EV107	2000-XX-XX	Japan
+	EV108	2014-08-03	Chinese
+	EV109	2012-08-23	Azerbaijani
+	EV110	2003-XX-XX	Chile
+	EV111	1556-01-23	China
+	EV112	1993-XX-XX	Chile
+	EV113	2008-05-12	Japan
+	EV114	2012-08	American
+	EV115	2010-XX-XX	Chile
+	EV116	2013-10-18	Philippines
+	EV117	2010-02-27	CAN
+	EV118	2011-03-13	Japan
+	EV119	1991-03-06	Chile
+	EV120	2013-04-26	Bahrain
+	EV121	2010-03-05	Chile
+	EV122	2013-04-25	Tang
+	EV123	2016-08-24	Romania
+	EV124	1995-07-30	Chile
+	EV125	2040-05-21	China
+	EV126	2011-10-23	Turkish
+	EV127	2011-03-07	UK
+	EV128	2008-05-13	China
+	EV129	2013-04-26	DPRK
+	EV130	2014-08-10	China
+	EV131	2008-05-20	Japan
+	EV132	1002-XX-XX	Chile
+	EV133	2013-04-21	Chinese
+	EV134	2009-XX-XX	Taiwan
+	EV135	2016-02-06	Chinese
+	EV136	2008-05-23	China
+	EV137	2011-10-24	Iran
+	EV138	2010-01	Chile
+	EV139	2010-02-26	Japan
+	EV140	2010-02-20	Chile
+	EV141	2011-02-22	United States
+	EV142	2010-02-28	Chile
+	EV143	2016-02-05	Taiwan
+	EV144	2011-03-24	Laos
+	EV145	2012-08-18	Iran
+	EV146	2010-02-23	Chile
+	EV147	2013-04-20	USA
+	EV148	1987-XX-XX	President
+	EV149	2013-04-25	PRC
+	EV150	2012-08-23	Azerbaijan
+	EV151	XXXX-XX-XX	junta
+	EV152	2016-08-24	Britons
+	EV153	2010-02-27	Philippines
+	EV154	1974-XX-XX	China
+	EV155	2012-08-22	Iran
+	EV156	2013-10-18	Malaya
+	EV157	2010-03-11	Chile
+	EV158	1960-05	Chile
+	EV159	2011-02	Myanmar
+	EV160	1001-XX-XX	Bahrain
+	EV161	2004-XX-XX	China
+	EV162	2010-02-27	South Korea
+	EV163	2010-03-03	Haiti
+	EV164	2013-04-25	DPRK
+	EV165	2008-05-17	Nationwide
+	EV166	2016-01-01	Malaysia
+	EV167	1989-XX-XX	Taiwan
+	EV168	1985-XX-XX	Chile
+	EV169	2014-04-01	Chile
+	EV170	2011-03	Cuba
+	EV171	2013-04-24	Thailand
+	EV172	2011-07	Myanmar
+	EV173	2016-08	Italian
+	EV174	2013-04-24	Hong Kong
+	EV175	2010-03	Chile
+	EV176	2011-03-24	Thailand
+	EV177	2114-08-06	China
+	EV178	2012-08-13	Japanese
+	MP1	$Date $Country
+	MP2	$Country $Date
+	MP3	$Country on $Date
+	MP4	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP5	$Country in $Date
+	MP6	$Date in $Country
+$Date	4	NULL	$Settlement
+	EV1	2016-08-26	Amatrice
+	EV2	2009-XX-XX	L'Aquila
+	EV3	2016-08-24	Amatrice
+	EV4	2016-08-18	Norcia
+	EV5	2013-10-15	Bohol
+	EV6	2016-08-28	Amatrice
+	EV7	2011-02-22	Christchurch
+	EV8	2016-02-06	Tainan
+	EV9	2016-08-18	Amatrice
+	EV10	2016-08-17	Ascoli Piceno
+	EV11	2003-12	Kerman province
+	EV12	2013-10-16	Cebu
+	EV13	2016-08-25	Rome
+	EV14	2011-03-25	Mae Sai
+	EV15	2011-02-25	Christchurch
+	EV16	2011-02-24	Christchurch
+	EV17	2013-10-09	Cebu
+	EV18	2013-04-20	Beijing
+	EV19	1000-XX-XX	Christchurch
+	EV20	2011-02-23	Christchurch
+	EV21	2013-10-16	Bohol
+	EV22	2016-08-25	Amatrice
+	EV23	2013-04-22	Beijing
+	EV24	1999-XX-XX	Izmit
+	EV25	2010-02-27	Santiago
+	EV26	2008-05-18	Beichuan
+	EV27	2013-10-24	Bohol
+	EV28	2013-10-23	Bohol
+	EV29	2237-XX-XX	Shanghai
+	EV30	2011-03-25	New Delhi
+	EV31	2010-03-02	Santiago
+	EV32	2011-03	New Delhi
+	EV33	2008-05-11	Wenchuan county
+	EV34	2008-XX-XX	Wenchuan
+	EV35	2011-03-11	Tohoku region
+	EV36	2009-XX-XX	l'Aquila
+	EV37	2012-08-10	Helmand province
+	EV38	2013-10-17	Bohol
+	EV39	2012-03	New Delhi
+	EV40	2016-02-09	Tainan
+	EV41	2012-08-12	Tabriz
+	EV42	2011-03-01	Whenuapai
+	EV43	2013-11-25	Bohol
+	EV44	2016-08-25	Norcia
+	EV45	2016-08-23	Rome
+	EV46	2016-02-06	Taipei
+	EV47	2016-XX-XX	Amatrice
+	EV48	2010-09-04	Christchurch
+	EV49	2010-09	Christchurch
+	EV50	2012-08-17	Esfahan Province
+	EV51	2003-XX-XX	Bam
+	EV52	2008-05-12	Wenchuan County
+	EV53	2016-08-29	Amatrice
+	EV54	2016-02-06	Kaohsiung City
+	EV55	2008-05-19	Chongqing
+	EV56	2016-02-12	Tainan
+	EV57	2012-08-12	East Azarbaijan province
+	EV58	2010-01	Port-au-Prince
+	EV59	2012-08-11	Tabriz
+	EV60	2010-01-12	Port-au-Prince
+	EV61	2013-10-21	Bohol
+	EV62	2011-03-01	Canterbury
+	EV63	XXXX-XX-XX	Amatrice
+	EV64	2008-05-14	Taipei
+	EV65	2013-10-10	Cebu
+	EV66	2011-03-15	Mandalay
+	EV67	2016-02-06	Tainan city
+	EV68	2012-08-13	East Azarbaijan province
+	EV69	2008-08	Tianjin
+	EV70	2014-08-08	Beijing
+	EV71	2008-05-12	Wenchuan county
+	EV72	2011-10-28	Duhok
+	EV73	2011-02-28	Christchurch
+	EV74	2011-04-12	Tachilek
+	EV75	2008-05-16	Beichuan
+	EV76	2016-08-26	Rome
+	EV77	1934-XX-XX	Pahiatua
+	EV78	XXXX-XX-XX	Cebu city
+	EV79	1428-XX-XX	Beijing
+	EV80	2011-03-30	New Delhi
+	EV81	2013-04-27	Beijing
+	EV82	2008-02	Chongqing
+	EV83	2003-12	Kerman Province
+	EV84	2011-03-09	Christchurch
+	EV85	2011-02-15	Christchurch
+	EV86	2011-03-12	Far North
+	EV87	2011-10-23	New Delhi
+	EV88	2016-02-07	Tainan
+	EV89	2010-06	Waiuku
+	EV90	2013-04-23	BEIJING
+	EV91	2011-03-28	New Delhi
+	EV92	2011-03	Christchurch
+	EV93	2014-08-05	New Delhi
+	EV94	2010-12	Christchurch
+	EV95	1989-XX-XX	San Francisco Bay Area
+	EV96	2011-03-06	Christchurch
+	EV97	2008-04-23	Wenchuan
+	EV98	2016-02-13	Tainan
+	EV99	2011-02	Christchurch
+	EV100	2008-05-18	Beijing
+	EV101	2012-08-11	East Azarbaijan province
+	EV102	2011-03-15	Kanto region
+	EV103	2016-02-07	Taipei
+	EV104	2010-03-01	Santiago
+	EV105	1848-XX-XX	Christchurch
+	EV106	2011-03-24	Chiang Rai province
+	EV107	2013-04-25	Beijing
+	EV108	1939-XX-XX	Erzincan
+	EV109	2013-10-08	Bohol
+	EV110	2016-02-08	Tainan
+	EV111	2013-10-17	BOHOL
+	EV112	2013-04-24	Beijing
+	EV113	2013-10-19	Bohol
+	EV114	2013-10	Bohol
+	EV115	1917-10-13	Fatima, Portugal
+	EV116	2011-02-20	Christchurch
+	EV117	2013-10-16	Camiguin
+	EV118	2011-03-01	Christchurch
+	EV119	2016-08-24	Bolton
+	EV120	2014-XX-XX	Kaohsiung
+	EV121	1985-XX-XX	Mexico City
+	EV122	2012-08-17	Fars Province
+	EV123	2008-04-20	BEIJING
+	EV124	2011-03-26	Mae Sai
+	EV125	1990-02-08	Bohol
+	EV126	2011-10-25	Jerusalem
+	EV127	2011-03-14	Tokyo
+	EV128	1990-XX-XX	Bohol
+	EV129	1931-XX-XX	Pahiatua
+	EV130	2011-03-25	Kanto region
+	EV131	2016-08-25	Roma
+	EV132	2008-05-20	Shanghai
+	EV133	2003-12	Bam
+	EV134	2016-02-06	Kaohsiung
+	EV135	2013-07	Bohol
+	EV136	2013-04-29	Beijing
+	EV137	2011-03-14	Magwe
+	EV138	2011-03-29	New Delhi
+	EV139	2006-XX-XX	Amatrice
+	EV140	2013-04-21	Beijing
+	EV141	2013-10-19	Cebu
+	EV142	1908-XX-XX	Messina
+	EV143	2008-05-16	Beichuan County
+	EV144	2016-08-23	Acquasparta
+	EV145	2011-02-17	Christchurch
+	EV146	2008-08	Beijing
+	EV147	2013-10-17	Cebu
+	EV148	1976-XX-XX	Songpan
+	EV149	2014-08-07	New Delhi
+	EV150	2010-02-26	Santiago
+	EV151	2010-03-09	Santiago
+	EV152	2011-02-19	Christchurch
+	MP1	$Settlement $Date
+	MP2	$Settlement on $Date
+	MP3	$Date $Settlement
+	MP4	$Date in $Settlement
+	MP5	$Settlement in $Date
+$Date	5	NULL	$City
+	EV1	2013-04-22	Suzhou
+	EV2	2011-03-25	Yangon
+	EV3	2011-03-12	Karachi
+	EV4	2008-05-25	Yangon
+	EV5	2011-03-21	Nay Pyi Taw
+	EV6	2011-02-23	Sydney
+	EV7	2013-04-23	Karachi
+	EV8	2014-08-04	Zhaotong
+	EV9	2013-10	Pasig City
+	EV10	2011-03-26	Naypyidaw
+	EV11	1976-07-28	Tangshan
+	EV12	2012-08-13	Tehran
+	EV13	2013-04-21	Hyderabad
+	EV14	2013-04-20	Chengdu
+	EV15	2014-08-11	SAN DIEGO
+	EV16	2016-02-06	KUALA LUMPUR
+	EV17	2008-05-12	Dujiangyan
+	EV18	2011-02-23	Auckland
+	EV19	2008-05-22	Ningbo
+	EV20	2008-05-16	Chengdu
+	EV21	2013-04-22	Yangzhou
+	EV22	2011-04-04	DHAKA
+	EV23	2011-02-28	Karachi
+	EV24	2011-03-17	Rangoon
+	EV25	2006-02-22	Newcastle
+	EV26	2011-02-23	Melbourne
+	EV27	2008-05-14	Mumbai
+	EV28	2011-02-22	MELBOURNE
+	EV29	1999-08-17	Istanbul
+	EV30	2011-10-27	Ankara
+	EV31	2011-02-25	Chicago
+	EV32	2011-03-01	Karachi
+	EV33	2011-02-22	Newcastle
+	EV34	2012-04-24	Karachi
+	EV35	2013-04-23	Yangzhou
+	EV36	2008-05-15	Dallas
+	EV37	2011-03-11	Sendai
+	EV38	2008-05-17	Chengdu
+	EV39	2012-08-15	Karachi
+	EV40	2010-03-01	Montevideo
+	EV41	2011-02-21	Auckland
+	EV42	2011-03-24	Tokyo
+	EV43	2011-03-24	Luang Namtha
+	EV44	2012-08-12	TEHRAN
+	EV45	2008-08	Chengdu
+	EV46	2013-04-20	Dar es Salaam
+	EV47	2012-08-12	Varzaghan
+	EV48	2011-04-04	Nay Pyi Taw
+	EV49	2014-08-07	ISLAMABAD
+	EV50	2011-10-24	Istanbul
+	EV51	2012-08-18	Tehran
+	EV52	2011-04-04	Rangoon
+	EV53	2011-03-21	Havana
+	EV54	1500-XX-XX	Tehran
+	EV55	2011-02-22	Wellington
+	EV56	2012-08-12	Tehran
+	EV57	2011-03	Melbourne
+	EV58	2011-03	Wellington
+	EV59	2011-03-28	Rangoon
+	EV60	2008-05-13	Mianyang
+	EV61	2008-05-25	Rangoon
+	EV62	1995-03-16	Kobe
+	MP1	$City $Date
+	MP2	$City on $Date
+$Date	6	NULL	$Earthquake
+	EV1	2010-02-27	earthquake
+	EV2	2010-09	earthquake
+	EV3	2013-04-21	7.0-magnitude earthquake
+	EV4	2008-XX-XX	Wenchuan earthquake
+	EV5	2011-03	earthquake
+	EV6	2013-04-20	7.0-magnitude earthquake
+	EV7	1995-XX-XX	Great Hanshin Earthquake
+	EV8	2013-10-15	7.2-magnitude earthquake
+	EV9	2010-01	Haiti
+	EV10	1960-XX-XX	earthquake
+	EV11	2008-05-12	7.8-magnitude earthquake
+	EV12	2011-02	earthquake
+	EV13	2010-XX-XX	earthquake
+	EV14	2011-10-23	magnitude 7.2 earthquake
+	EV15	2011-03-11	Tohoku earthquake
+	EV16	2004-12	Indian Ocean tsunami
+	EV17	2010-01	earthquake
+	EV18	1976-XX-XX	Tangshan earthquake
+	EV19	2008-XX-XX	Wenchuan quake
+	EV20	2004-XX-XX	Indian Ocean tsunami
+	EV21	2010-XX-XX	Haiti
+	EV22	2010-02-27	8.8-magnitude earthquake
+	EV23	1995-01	Great Hanshin Earthquake
+	EV24	2010-02-27	Haiti
+	EV25	2011-02-23	earthquake
+	EV26	2008-05-12	7.9 magnitude earthquake
+	EV27	1999-XX-XX	magnitude 7.3 earthquake
+	EV28	2010-01-12	Haiti
+	EV29	2013-10	magnitude 7.2 earthquake
+	EV30	2010-02	Chilean earthquake
+	EV31	1985-XX-XX	earthquake
+	EV32	2010-03	earthquake
+	EV33	2016-02-05	magnitude 6.4 earthquake
+	EV34	2015-XX-XX	Nepal earthquake
+	EV35	1986-XX-XX	earthquake
+	EV36	2008-05-07	7.8-magnitude earthquake
+	EV37	1960-XX-XX	Chilean earthquake
+	EV38	2013-10-15	magnitude 7.2 earthquake
+	EV39	2011-03-08	earthquake
+	EV40	2010-02-26	8.8-magnitude earthquake
+	EV41	1994-XX-XX	Northridge
+	EV42	2010-03	8.8 magnitude earthquake
+	EV43	2012-XX-XX	Two earthquakes
+	EV44	2008-04-21	Wenchuan quake
+	EV45	2011-01	Haiti
+	EV46	2010-03-06	magnitude 8.8 earthquake
+	EV47	2012-10	Bohol earthquake
+	EV48	1995-XX-XX	Great Hanshin-Awaji Earthquake
+	EV49	2008-04-23	Wenchuan earthquake
+	EV50	2008-04-21	Wenchuan earthquake
+	EV51	2008-04-21	8.0-magnitude earthquake
+	EV52	2010-03-13	8.8-magnitude earthquake
+	EV53	2010-02-27	8.8 magnitude earthquake
+	EV54	1923-XX-XX	Great Kanto earthquake
+	EV55	1922-11	earthquake
+	EV56	2011-10-23	7.2 magnitude earthquake
+	EV57	1960-XX-XX	Great Chilean Earthquake
+	EV58	2010-02	Haiti
+	EV59	1923-XX-XX	Great Kanto Earthquake
+	MP1	$Date $Earthquake
+	MP2	$Earthquake $Date
+	MP3	$Earthquake in $Date
+	MP4	$Date A $Earthquake
+	MP5	$Date $Geological_phenomenon
+	MP6	$Geological_phenomenon $Date
+	MP7	$Geological_phenomenon in $Date
+	MP8	$Date after the $Geological_phenomenon
+	MP9	$Geological_phenomenon of $Date
+$Date	7	NULL	$Company
+	EV1	2016-08	Associated Press
+	EV2	2016-08-25	Associated Press
+	EV3	2016-08-24	REUTERS
+	EV4	2016-08-28	Associated Press
+	EV5	2016-08-24	Associated Press
+	EV6	2016-08-24	AP
+	EV7	2008-04-20	Associated Press
+	EV8	2016-02-06	Associated Press
+	EV9	2016-01-01	Associated Press
+	EV10	2016-XX-XX	Associated Press
+	EV11	2016-XX-XX	Cox Media Group
+	EV12	1100-XX-XX	CCTV
+	EV13	2016-08-23	Associated Press
+	EV14	2016-08-27	Associated Press
+	EV15	2011-03-14	Toyota
+	EV16	2016-08-23	Reuters
+	EV17	2016-08-24	Facebook
+	EV18	2016-08-24	Ansa
+	EV19	1990-XX-XX	Associated Press
+	EV20	2012-XX-XX	Trend News Agency
+	EV21	2016-XX-XX	Getty Images
+	EV22	2010-02-27	Reuters
+	EV23	2016-XX-XX	Trend News Agency
+	EV24	2013-04-20	Associated press
+	EV25	2011-03	NTT
+	EV26	2016-02-18	TSMC
+	EV27	2011-XX-XX	Trend News Agency
+	EV28	2008-05-12	State Grid
+	EV29	2011-03-15	Astellas Pharma
+	EV30	2016-08-24	ANSA
+	EV31	2014-08-04	Reuters
+	EV32	2008-05-13	Hitachi
+	EV33	2016-08-24	Reuters
+	EV34	2010-04	RIO TINTO
+	EV35	2008-05-13	Reuters
+	EV36	2016-02-06	Facebook
+	EV37	2016-03	Apple
+	EV38	2016-08-24	BBC
+	EV39	2016-02	Apple
+	EV40	2011-03-24	KYODO
+	EV41	2010-02-27	RED
+	EV42	2011-03-24	BBC
+	EV43	2011-03-17	Tohoku Electric Power
+	EV44	2011-02-24	Fonterra
+	EV45	2011-03-24	AFP
+	EV46	2011-03-14	Hitachi, Ltd.
+	EV47	2010-XX-XX	Time Inc
+	EV48	2016-XX-XX	The China Post
+	EV49	2011-02-21	Cunard
+	EV50	2014-08	Qualcomm
+	EV51	2011-03-14	Mazda
+	EV52	2014-08-05	Associated Press
+	EV53	2011-03-11	Astellas
+	EV54	2008-XX-XX	McClatchy-Tribune News Service
+	EV55	2011-03-14	Teijin
+	MP1	$Date The $Company
+	MP2	$Date $Company
+	MP3	$Company $Date
+	MP4	$Geological_phenomenon in $Settlement central $Country $Date $Company
+	MP5	Tronto, $Country $Date The $Company
+	MP6	$Date $Geological_phenomenon in Pescara Del Tronto, $Country $Date The $Company
+$Date	8	NULL	$Region
+	EV1	2012-XX-XX	area
+	EV2	2013-04-20	county
+	EV3	2014-08-04	area
+	EV4	2013-04-21	county
+	EV5	2013-04-20	County
+	EV6	2008-04-22	areas
+	EV7	2011-10-23	area
+	EV8	2014-08-05	area
+	EV9	2016-08-30	area
+	EV10	2014-08-03	areas
+	EV11	2012-08-14	area
+	EV12	2008-04-23	areas
+	EV13	2014-08-11	area
+	EV14	2008-05-13	areas
+	EV15	2008-05-17	areas
+	EV16	2013-04-21	County
+	EV17	2014-08-03	area
+	EV18	2013-04-27	County
+	EV19	2008-04-21	areas
+	EV20	2013-10-15	area
+	EV21	2011-03-23	district
+	EV22	2014-08-04	County
+	EV23	2009-05-12	area
+	EV24	2008-05-18	county
+	EV25	2013-04-21	areas
+	EV26	2008-05-14	areas
+	EV27	2010-03-01	areas
+	EV28	2010-03-13	area
+	EV29	2010-09	area
+	EV30	2011-03-25	area
+	EV31	2013-04-23	County
+	EV32	2012-08-21	area
+	EV33	2011-03-20	areas
+	EV34	1933-XX-XX	area
+	EV35	2011-03-21	area
+	EV36	2013-10-09	areas
+	EV37	2011-10-22	area
+	EV38	2008-05-12	areas
+	EV39	2013-04-21	area
+	EV40	2011-11-01	areas
+	EV41	2013-04-22	areas
+	EV42	2008-05-24	district
+	EV43	2013-10-16	areas
+	EV44	2011-03-11	area
+	EV45	2011-05	areas
+	EV46	2013-04-24	area
+	EV47	2010-02-27	area
+	EV48	2008-08	county
+	MP1	$Region on $Date
+	MP2	$Region $Date
+	MP3	$Region in $Date
+$Date	9	NULL	$Administrative_district
+	EV1	2012-08-10	province
+	EV2	2014-08-04	Province
+	EV3	2012-08-12	province
+	EV4	2013-04-21	state
+	EV5	2016-08-23	state
+	EV6	2012-08-13	province
+	EV7	2014-07-27	Province
+	EV8	2014-08-06	province
+	EV9	2012-08-11	Province
+	EV10	2012-08-11	province
+	EV11	2011-10-24	province
+	EV12	2012-08-16	province
+	EV13	2014-08-10	province
+	EV14	2014-08-05	province
+	EV15	2500-XX-XX	state
+	EV16	2013-10-15	province
+	EV17	2011-10-23	province
+	EV18	2014-08-17	Province
+	EV19	2013-10-17	province
+	EV20	2013-04-20	state
+	EV21	2011-10-30	province
+	EV22	2008-03-31	province
+	EV23	2014-08-02	Province
+	EV24	2011-03-10	state
+	EV25	2012-08-19	Province
+	EV26	2011-03-24	state
+	EV27	2013-10-16	municipality
+	EV28	2012-08-15	province
+	EV29	2012-XX-XX	province
+	EV30	2011-03-10	province
+	EV31	2013-10-15	municipality
+	EV32	2014-08-05	state
+	EV33	2008-05-25	state
+	EV34	2012-08-18	province
+	EV35	2014-08-07	province
+	EV36	2012-08-14	state
+	EV37	2012-08-20	province
+	EV38	2011-10-28	province
+	MP1	$Administrative_district at $Date
+	MP2	$Administrative_district on $Date
+	MP3	$Date $Administrative_district
+	MP4	$Administrative_district , $Date
+	MP5	$Administrative_district $Date
+$Date	10	NULL	$Duration
+	EV1	2013-04-20	5Y
+	EV2	2016-08-26	2D
+	EV3	2016-08-25	27H
+	EV4	2013-04-22	2D
+	EV5	2016-08-25	17H
+	EV6	2014-08-04	1D
+	EV7	2013-04-21	14Y
+	EV8	2016-08-23	6Y
+	EV9	2008-05-18	139H
+	EV10	2016-02-08	2D
+	EV11	1995-02	1M
+	EV12	2016-02-05	2H
+	EV13	2013-04-21	1D
+	EV14	2011-06	2010Y
+	EV15	2014-08-05	2D
+	EV16	1976-XX-XX	1D
+	EV17	2016-02-08	1D
+	EV18	2008-05-15	80H
+	EV19	2011-10-27	4D
+	EV20	2016-08-25	7Y
+	EV21	2011-03-16	5D
+	EV22	2010-02-27	1M
+	EV23	2016-08-25	8Y
+	EV24	2016-08-27	1D
+	EV25	2016-08-24	18M
+	EV26	2008-05-14	2D
+	EV27	2014-08-06	3D
+	EV28	2010-XX-XX	1Y
+	EV29	2011-10-24	1D
+	EV30	2012-08-10	1S
+	EV31	2011-03-14	3D
+	EV32	2008-05-17	5D
+	EV33	2008-08-06	2D
+	EV34	2016-08-24	17H
+	EV35	2016-08-24	15H
+	EV36	2012-08-12	24H
+	MP1	$Date $Duration
+$Date	11	NULL	$Change
+	EV1	2014-08-03	killing
+	EV2	2016-08-24	Death
+	EV3	2013-10-15	killing
+	EV4	2011-10-23	killing
+	EV5	2012-08-11	killing
+	EV6	2013-04-20	killing
+	EV7	2008-04-20	killing
+	EV8	2008-05	killing
+	EV9	2016-08	death
+	EV10	2011-02-22	killing
+	EV11	2016-02-06	killing
+	EV12	2011-03-10	killing
+	EV13	2016-08-24	killing
+	EV14	2010-XX-XX	Death
+	EV15	2011-03-24	killing
+	EV16	2016-08-24	Deaths
+	EV17	2013-04-20	slowing
+	EV18	2014-08-06	death
+	EV19	2010-02-27	killing
+	EV20	2008-08	killing
+	EV21	2016-02-10	death
+	EV22	2010-XX-XX	death
+	EV23	1896-XX-XX	killing
+	EV24	2016-08-23	Death
+	EV25	2011-10-23	Death
+	EV26	2011-02-22	Damage
+	EV27	2014-08-10	killing
+	EV28	2016-08-25	Death
+	EV29	2008-XX-XX	killing
+	EV30	2014-08-02	death
+	EV31	2016-08-23	Deaths
+	EV32	2010-02-27	Death
+	EV33	2011-03-11	Damage
+	EV34	2011-10-24	death
+	EV35	2010-02-26	killing
+	EV36	2008-05-12	Death
+	MP1	$Date $Change
+	MP2	$Date $Fatality at least $Number people
+	MP3	$Date The $Change toll
+	MP4	$Date $Fatality at least $Number
+$Date	12	NULL	$Benefactor
+	EV1	2016-02-07	Rescuers
+	EV2	2013-04-21	Rescuers
+	EV3	2016-08-24	Rescuers
+	EV4	2016-02-07	rescuers
+	EV5	2014-08-04	Rescuers
+	EV6	2014-08-05	Rescuers
+	EV7	2011-02-23	Rescuers
+	EV8	2013-04-20	Rescuers
+	EV9	2008-05-15	rescuers
+	EV10	2016-08-24	Rescuer
+	EV11	2016-02-02	rescuers
+	EV12	2016-02-06	Rescuers
+	EV13	2014-08-06	rescuers
+	EV14	2016-02-09	rescuers
+	EV15	2016-08-25	Rescuers
+	EV16	2011-10-26	Rescuers
+	EV17	2016-02-08	rescuers
+	EV18	2008-05-12	rescuers
+	EV19	2016-02-09	Rescuers
+	EV20	2016-01-01	Rescuers
+	EV21	2008-05-20	rescuers
+	EV22	2016-02-08	Rescuers
+	EV23	2008-05-12	Rescuers
+	EV24	2013-10-19	Rescuers
+	EV25	2008-05-11	rescuers
+	EV26	2012-08-11	rescuers
+	EV27	2014-08-06	Rescuers
+	EV28	2010-02-27	SPONSOR
+	EV29	1216-XX-XX	Humanitarian
+	EV30	2008-05-21	Rescuers
+	MP1	$Date $Benefactor
+	MP2	$Benefactor on $Date found signs
+	MP3	$Benefactor on $Date
+	MP4	$Settlement $Country $Date $Benefactor
+$Date	13	NULL	$Officeholder
+	EV1	2016-08-24	Benjamin Netanyahu
+	EV2	2016-08-25	Andrew Cuomo
+	EV3	2016-08-28	Matteo Renzi
+	EV4	2011-10-24	Abdullah Gul
+	EV5	2014-08-04	Li Keqiang
+	EV6	2011-10-23	Abdullah Gul
+	EV7	2010-03-01	Michelle Bachelet
+	EV8	2012-08-12	Mahmoud Ahmadinejad
+	EV9	2013-04-22	Putin
+	EV10	2011-10-24	Egemen Bagis
+	EV11	2016-02-10	Ma Ying-jeou
+	EV12	2008-05	Washington
+	EV13	2013-10-23	Rodolfo Biazon
+	EV14	2013-04-21	Jakaya Kikwete
+	EV15	2013-10-18	Benigno Aquino III
+	EV16	2014-08-04	Rajapaksa
+	EV17	2016-02-06	Ma Ying-jeou
+	EV18	2016-09-04	Matteo Renzi
+	EV19	2013-10-22	Roxas
+	EV20	2011-03-31	Nicolas Sarkozy
+	EV21	2014-08-07	Pranab Mukherjee
+	EV22	2016-02-13	Lai Ching-te
+	EV23	2011-03-26	Manmohan Singh
+	EV24	2016-02-06	Tsai Ing-wen
+	EV25	2011-03-13	Naoto Kan
+	EV26	2016-02-11	Tsai Ing-wen
+	EV27	2013-04-20	Xi Jinping
+	EV28	2008-05-13	Kim Jong-il
+	EV29	2010-XX-XX	David Miliband
+	MP1	$Officeholder on $Date
+$Date	14	NULL	$Organization
+	EV1	2012-08-15	Access World News
+	EV2	2013-04-22	Access World News
+	EV3	2013-04-28	Access World News
+	EV4	2012-08-12	Access World News
+	EV5	2012-08-14	Access World News
+	EV6	2012-08-18	Access World News
+	EV7	2010-03-14	Access World News
+	EV8	2011-10-28	Access World News
+	EV9	2012-08-17	Access World News
+	EV10	2011-10-25	Access World News
+	EV11	2008-05-19	Access World News
+	EV12	2010-03-11	Access World News
+	EV13	2012-08-16	Access World News
+	EV14	2011-03-15	Access World News
+	EV15	2012-08-13	Access World News
+	EV16	2010-02-27	Access World News
+	EV17	2011-10-26	Access World News
+	EV18	2013-10-16	Access World News
+	EV19	2013-04-23	Access World News
+	EV20	2008-05-16	Access World News
+	EV21	2012-08-22	Access World News
+	EV22	2011-03-25	Access World News
+	EV23	2011-03-12	Access World News
+	EV24	1976-XX-XX	Access World News
+	EV25	2011-10-24	Access World News
+	MP1	$Date - $Organization
+	MP2	gmt $Date - $Organization
+$Date	15	NULL	$Person
+	EV1	2016-08-24	searchers
+	EV2	2016-08-25	searchers
+	EV3	2016-08-27	Relatives
+	EV4	2009-05	HAVE
+	EV5	2011-03-01	Ajmal
+	EV6	2013-XX-XX	White
+	EV7	2012-XX-XX	Negros
+	EV8	2010-02-26	Scientists
+	EV9	2008-05-13	Workers
+	EV10	2008-05-12	National
+	EV11	2011-03-18	killer
+	EV12	2011-03-11	killer
+	EV13	2008-05-12	workers
+	EV14	2016-08	Relatives
+	EV15	2013-10-15	killer
+	EV16	2011-03	killer
+	EV17	2008-05-22	Workers
+	EV18	2013-10	killer
+	EV19	2010-02-26	KRISTEN WIIG
+	EV20	2010-02-27	FRIENDS
+	MP1	$Date $Person
+$Date	16	NULL	$Inhabitant
+	EV1	2016-08-24	Italians
+	EV2	2013-04-21	Residents
+	EV3	2016-08-24	Residents
+	EV4	2016-02-06	Residents
+	EV5	2008-05-17	residents
+	EV6	2016-08-24	Briton
+	EV7	2013-04-20	Residents
+	EV8	2011-XX-XX	Australian
+	EV9	2010-03-03	residents
+	EV10	2010-09	Australians
+	EV11	2010-02-26	AMERICAN
+	EV12	2010-02-27	SAME
+	EV13	2013-04-22	residents
+	EV14	2010-02-27	residents
+	EV15	2016-08-28	residents
+	EV16	2016-08-27	residents
+	EV17	2010-02-27	RESIDENTS
+	EV18	2008-05-19	residents
+	EV19	2013-04-14	villagers
+	MP1	$Date $Inhabitant
+$Date	17	NULL	$Residence
+	EV1	2014-08-04	homes
+	EV2	2008-05-13	homes
+	EV3	2010-03-14	home
+	EV4	2011-02-16	home
+	EV5	2016-08-25	homes
+	EV6	2011-03-08	home
+	EV7	2014-08-05	homes
+	EV8	2016-XX-XX	homes
+	EV9	2011-03-11	home
+	EV10	2011-03-26	homes
+	EV11	2014-08-04	home
+	EV12	2014-07-28	homes
+	MP1	$Residence $Date
+$Date	18	NULL	$Unfortunate
+	EV1	2016-08-24	victims
+	EV2	2011-10-23	victims
+	EV3	2016-02	victims
+	EV4	2014-08-10	victims
+	EV5	2016-02-06	victims
+	EV6	2016-08	victims
+	EV7	2013-10	victims
+	EV8	2016-08-24	victim
+	EV9	2012-08-11	victim
+	EV10	2011-04	survivors
+	EV11	2014-08-03	survivors
+	EV12	2013-04-20	victims
+	MP1	$Unfortunate of $Date $Geological_phenomenon
+	MP2	$Unfortunate of $Date
+$Date	19	NULL	$Representation
+	EV1	2014-08-10	Photos
+	EV2	2014-08-03	Photos
+	EV3	2016-08-24	Pictures
+	EV4	2011-03-11	Photos
+	EV5	2012-08-12	photo
+	EV6	2016-02-06	photo
+	EV7	2011-02-27	Photos
+	EV8	2008-05-19	photo
+	EV9	2013-04-22	photo
+	EV10	2011-10-24	PHOTO
+	EV11	2011-02-22	Photo
+	MP1	$Date $Representation
+$Date	20	NULL	$Broadcasting $Administrative_district
+	EV1	2012-08-11	TV|state
+	EV2	2012-08-13	television|State
+	EV3	2012-08-12	television|state
+	EV4	2012-08-13	television|state
+	EV5	2012-08-11	television|state
+	EV6	2012-08-12	TV|state
+	EV7	2012-08-12	television|State
+	EV8	2012-08-19	television|state
+	EV9	2008-05-25	television|state
+	EV10	2014-08-03	television|State
+	MP1	$Date $Administrative_district $Broadcasting
+$Date	21	NULL	$Skilled_worker
+	EV1	2016-08-25	officials
+	EV2	2011-03-25	officials
+	EV3	2011-03-25	official
+	EV4	2008-05-14	official
+	EV5	2011-04-01	officials
+	EV6	2011-03-27	official
+	EV7	2011-03-26	officials
+	EV8	2011-03-13	officials
+	EV9	2008-05-23	official
+	EV10	2013-10-20	official
+	MP1	$Skilled_worker said $Date
+$Date	22	NULL	$Geographic_point
+	EV1	2016-08-24	epicenter
+	EV2	2013-04-20	epicentre
+	EV3	2008-05-12	epicenter
+	EV4	2014-08-03	epicenter
+	EV5	2010-02-27	epicenter
+	EV6	2013-10-15	epicentre
+	EV7	2014-08-03	epicentre
+	EV8	2016-02-06	epicenter
+	EV9	2009-04-06	epicenter
+	MP1	$Geographic_point of $Date
+$Date	23	NULL	$Country $Settlement
+	EV1	2016-02-07	Taiwan|Tainan
+	EV2	2016-02-06	Taiwan|Tainan
+	EV3	2016-02-08	Taiwan|Tainan
+	EV4	2016-08-26	Italy|Ascoli Piceno
+	EV5	2016-02-09	Taiwan|Tainan
+	EV6	2016-08-31	Italy|Maranello
+	EV7	2012-08-11	Iran|TABRIZ
+	EV8	2016-08-25	Italy|Ascoli Piceno
+	EV9	2016-08-24	Italy|Ascoli Piceno
+	MP1	$Settlement $Country $Date
+	MP2	$Settlement $Country $Date $Benefactor
+$Date	24	NULL	$Number $Geological_phenomenon
+	EV1	2016-08-24	6.1|earthquake
+	EV2	2016-08-23	6|quake
+	EV3	2016-08-24	6|quake
+	EV4	2016-08-23	6.1|earthquake
+	EV5	2016-08-25	6|quake
+	EV6	2013-10-15	7.2|quake
+	EV7	2014-08-02	6.1|quake
+	MP1	$Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP2	$Settlement central $Country where a $Number $Geological_phenomenon struck just after $Date
+	MP3	magnitude $Number $Geological_phenomenon struck at $Date
+	MP4	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP5	magnitude $Number $Geological_phenomenon struck at $Date and was felt across a broad swath of central $Country including $Settlement
+	MP6	rubble in $Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP7	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP8	$Number $Geological_phenomenon struck just after $Date $Country
+	MP9	$Number $Geological_phenomenon struck at $Date
+	MP10	Arcuata del Tronto, central $Country where a $Number $Geological_phenomenon struck just after $Date
+$Date	25	NULL	$Country $Geological_phenomenon
+	EV1	2011-XX-XX	New Zealand|earthquake
+	EV2	2010-09	New Zealand|earthquake
+	EV3	2011-02	New Zealand|Earthquake
+	EV4	1960-XX-XX	Chile|earthquake
+	EV5	2004-XX-XX	Indonesia|quake
+	EV6	2010-09	New Zealand|earthquakes
+	EV7	2010-09	New Zealand|Earthquake
+	MP1	$Date $Country $Geological_phenomenon
+$Date	26	NULL	$Affair
+	EV1	2016-01-01	celebrations
+	EV2	2016-02-08	celebrations
+	EV3	2012-08-14	ceremony
+	EV4	2016-02-01	celebrations
+	EV5	2016-01-01	Celebrations
+	EV6	2008-05-19	ceremonies
+	MP1	$Date $Affair
+$Date	27	NULL	$Country $Polity
+	EV1	2016-08-24	Italian|authorities
+	EV2	2016-08-29	Italian|authorities
+	EV3	2012-08-14	Iran|government
+	EV4	2011-03	Japanese|authorities
+	EV5	2012-08-21	Iran|government
+	MP1	$Date $Country $Polity
+$Date	28	NULL	$Case
+	EV1	2016-01-30	time
+	EV2	2011-02-23	time
+	EV3	2013-04-21	Time
+	EV4	2011-04-19	time
+	EV5	2008-05-15	time
+	MP1	$Case $Date
+	MP2	$Date local $Case $Date
+$Date	29	NULL	$Building
+	EV1	2016-08-31	houses
+	EV2	2011-03-24	houses
+	EV3	2012-08-11	house
+	EV4	2014-08-17	house
+	MP1	$Building $Date
+$Date	30	NULL	$Date $Country $Settlement $Geological_phenomenon
+	EV1	2016-02-07	2016-02-06|Taiwan|Tainan|earthquake
+	EV2	2016-02-06	2016-02-07|Taiwan|Tainan|earthquake
+	MP1	$Date $Geological_phenomenon in $Settlement $Country $Date
+$Date	31	NULL	$Company $Adult
+	EV1	2016-08-25	Associated Press|man
+	EV2	2016-08-24	Associated Press|woman
+	MP1	$Date The $Company A $Adult
+$Date	32	NULL	$Beginning
+	EV1	2010-02-26	START
+	EV2	2010-02-27	START
+	MP1	$Magazine $Beginning : $Date
+	MP2	$Beginning : $Date
+$Date	33	NULL	$Recovery
+	EV1	2016-08-26	Rescue
+	EV2	2016-08-25	Rescue
+	MP1	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+$Date	34	NULL	$Country $Settlement $Geological_phenomenon
+	EV1	2016-02-07	Taiwan|Tainan|earthquake
+	EV2	2016-02-06	Taiwan|Tainan|earthquake
+	MP1	$Geological_phenomenon in $Settlement $Country $Date
+$Date	35	NULL	$Juvenile
+	EV1	2016-08-25	children
+	EV2	2016-08-26	children
+	MP1	$Juvenile spent the $Date inside a local $Diversion $Artifact
+$Date	36	NULL	$Creating_from_raw_materials $Unit
+	EV1	2016-08-30	Construction|crews
+	EV2	2016-08-31	Construction|crews
+	MP1	$Creating_from_raw_materials $Unit worked through the $Date to build a $Shelter complex to host an $Country $Administrative_district funeral $Date
+$Date	37	NULL	$Country $Settlement $Geological_phenomenon $Structure
+	EV1	2016-02-06	Taiwan|Tainan|earthquake|building
+	MP1	$Structure after an $Geological_phenomenon in $Settlement $Country $Date
+$Date	38	NULL	$Residence $Region $Inhabitant
+	EV1	2016-08-24	homes|top|residents
+	MP1	Accumoli, central $Country $Date A devastating $Geological_phenomenon rocked central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept.
+	MP2	central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept. At least $Number people were reported dead
+$Date	39	NULL	$European
+	EV1	2016-08-27	Italians
+	MP1	village of Santi Lorenzo e Flaviano, central $Country $Date $European $Speech_act
+	MP2	$Country $Date $European $Speech_act
+	MP3	$Date $Inhabitant
+	MP4	central $Country $Date $European $Speech_act
+$Date	40	NULL	$Recovery $Residence $Unit $Tremor
+	EV1	2016-08-25	Rescue|homes|crews|aftershocks
+	MP1	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+	MP2	$Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+$Defender	1	NULL	$Activity
+	EV1	Firefighters	work
+	EV2	Firefighters	search
+	EV3	FIREFIGHTERS	ASSISTANCE
+	MP1	$Structure arranged by the $Organization The $Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP2	$Defender $Activity
+	MP3	$Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP4	$Company $Defender $Activity
+$Defender	2	NULL	$Company
+	EV1	Firefighters	Associated Press
+	EV2	Firefighter	Associated Press
+	MP1	$Company $Defender
+	MP2	$Company $Defender $Activity to clear a $Thoroughfare from debris
+	MP3	$Company $Defender $Activity
+$Defender	3	NULL	$Organization $Company $Structure
+	EV1	Firefighters	Civil Protection agency|Associated Press|shelters
+	MP1	$Structure arranged by the $Organization The $Company $Defender $Activity to clear a $Thoroughfare from debris
+$Diversion	1	NULL	$Artifact
+	EV1	sports	facility
+	MP1	$Juvenile spent the $Date inside a local $Diversion $Artifact
+	MP2	$Diversion $Artifact
+$Duration	1	NULL	$Adult
+	EV1	8Y	girl
+	EV2	18M	girl
+	EV3	40Y	man
+	EV4	80Y	woman
+	EV5	10Y	girl
+	EV6	20Y	man
+	EV7	52Y	woman
+	EV8	56Y	woman
+	EV9	45Y	man
+	EV10	42Y	man
+	EV11	2Y	girl
+	EV12	4Y	girl
+	EV13	55Y	woman
+	EV14	10M	girl
+	EV15	50Y	woman
+	EV16	68Y	woman
+	EV17	25Y	woman
+	EV18	28Y	man
+	EV19	38Y	woman
+	EV20	80Y	man
+	EV21	83Y	woman
+	EV22	34Y	woman
+	EV23	6M	girl
+	EV24	27Y	woman
+	EV25	12Y	girl
+	EV26	10D	girl
+	EV27	33Y	woman
+	EV28	7Y	girl
+	EV29	50Y	man
+	EV30	16Y	girl
+	EV31	5Y	girl
+	EV32	61Y	woman
+	EV33	60Y	woman
+	EV34	53Y	woman
+	EV35	28Y	woman
+	EV36	13Y	girl
+	EV37	20Y	woman
+	EV38	43Y	man
+	EV39	89Y	woman
+	EV40	19Y	man
+	EV41	9Y	girl
+	EV42	18Y	man
+	EV43	60Y	man
+	EV44	31Y	woman
+	EV45	14Y	girl
+	MP1	$Duration $Adult
+$Duration	2	NULL	$Geological_phenomenon
+	EV1	2D	earthquake
+	EV2	10H	quake
+	EV3	27H	earthquake
+	EV4	17H	quake
+	EV5	20H	quake
+	EV6	5Y	quake
+	EV7	20H	earthquake
+	EV8	24H	quake
+	EV9	3H	quake
+	EV10	2D	quakes
+	EV11	3D	earthquake
+	EV12	2H	quake
+	EV13	1D	quake
+	EV14	15H	quake
+	EV15	12H	quake
+	EV16	1H	quake
+	EV17	2D	quake
+	EV18	67H	quake
+	EV19	24H	earthquake
+	EV20	45D	earthquake
+	EV21	6M	earthquake
+	EV22	48H	quake
+	EV23	3D	quake
+	EV24	4H	quake
+	EV25	200H	earthquake
+	EV26	1D	earthquakes
+	EV27	100H	earthquake
+	EV28	60H	earthquake
+	EV29	72H	quake
+	EV30	10S	earthquake
+	EV31	7D	earthquake
+	EV32	2H	earthquake
+	EV33	1H	earthquake
+	EV34	30H	quake
+	EV35	11D	quake
+	EV36	3H	earthquake
+	EV37	1Y	earthquake
+	EV38	17H	earthquake
+	EV39	5Y	Earthquake
+	EV40	80H	quake
+	EV41	5H	earthquake
+	EV42	36H	quake
+	EV43	7Y	earthquake
+	EV44	1Y	earthquakes
+	MP1	$Duration after the $Geological_phenomenon
+	MP2	$Duration of the $Geological_phenomenon
+	MP3	$Duration after an $Geological_phenomenon
+	MP4	$Duration after a devastating $Geological_phenomenon
+	MP5	$Geological_phenomenon $Duration
+$Duration	3	NULL	$Date
+	EV1	5Y	2013-04-20
+	EV2	2D	2016-08-26
+	EV3	27H	2016-08-25
+	EV4	2D	2013-04-22
+	EV5	17H	2016-08-25
+	EV6	6Y	2016-08-23
+	EV7	139H	2008-05-18
+	EV8	1D	2014-08-04
+	EV9	14Y	2013-04-21
+	EV10	2D	2016-02-08
+	EV11	2H	2016-02-05
+	EV12	1M	1995-02
+	EV13	1D	2013-04-21
+	EV14	2010Y	2011-06
+	EV15	80H	2008-05-15
+	EV16	8Y	2016-08-25
+	EV17	18M	2016-08-24
+	EV18	3D	2014-08-06
+	EV19	5D	2008-05-17
+	EV20	1S	2012-08-10
+	EV21	24H	2012-08-12
+	EV22	1D	2016-02-08
+	EV23	3D	2011-03-14
+	EV24	2D	2008-08-06
+	EV25	2D	2008-05-14
+	EV26	5D	2011-03-16
+	EV27	1Y	2010-XX-XX
+	EV28	17H	2016-08-24
+	EV29	1D	2011-10-24
+	EV30	2D	2014-08-05
+	EV31	1D	1976-XX-XX
+	EV32	4D	2011-10-27
+	EV33	1D	2016-08-27
+	EV34	1M	2010-02-27
+	EV35	7Y	2016-08-25
+	EV36	15H	2016-08-24
+	MP1	$Date $Duration
+$Duration	4	NULL	$Country
+	EV1	1S	Italy
+	EV2	1D	China
+	EV3	1D	Italy
+	EV4	1Y	Chile
+	EV5	1D	Chile
+	EV6	4D	Peru
+	EV7	1D	Canadian
+	EV8	1D	Turkey
+	EV9	10M	Iran
+	EV10	1Y	Greenland
+	EV11	2M	Japan
+	EV12	1D	Turkish
+	EV13	48H	Turkey
+	EV14	15D	Chile
+	EV15	1000Y	UN
+	EV16	8H	China
+	EV17	1Y	China
+	EV18	4Y	China
+	EV19	48H	Italy
+	EV20	24H	Turkey
+	MP1	$Country observed $Duration
+	MP2	$Country $Duration
+$Duration	5	NULL	$Child
+	EV1	10D	infant
+	EV2	10D	baby
+	EV3	4Y	son
+	EV4	4M	baby
+	EV5	6M	baby
+	EV6	2Y	son
+	EV7	8M	baby
+	EV8	3D	son
+	EV9	27Y	son
+	EV10	4Y	SON
+	EV11	8Y	son
+	EV12	3M	baby
+	EV13	42Y	son
+	EV14	9Y	son
+	EV15	14Y	son
+	EV16	70D	baby
+	EV17	14M	son
+	MP1	$Duration $Child
+$Duration	6	NULL	$Number
+	EV1	12Y	11
+	EV2	1D	306
+	EV3	1M	1,200
+	EV4	5Y	12
+	EV5	1Y	19
+	EV6	1D	22,000
+	EV7	1Y	13
+	EV8	2M	150
+	EV9	1D	2008
+	EV10	1Y	2
+	EV11	1Y	5
+	EV12	5Y	5,500
+	EV13	1Y	24
+	EV14	9M	40
+	EV15	1H	1
+	EV16	40S	30
+	EV17	1Y	15,000
+	MP1	$Number $Duration
+$Duration	7	NULL	$Person
+	EV1	11Y	boy
+	EV2	7Y	boy
+	EV3	5Y	boy
+	EV4	4Y	boy
+	EV5	13Y	boy
+	EV6	15Y	boy
+	EV7	12Y	boy
+	EV8	10Y	boy
+	EV9	14Y	boys
+	EV10	1Y	boy
+	MP1	$Duration $Person
+$Duration	8	NULL	$Settlement
+	EV1	1D	Quds
+	EV2	1Y	Venice
+	EV3	1H	Tabriz
+	EV4	1D	Jerusalem
+	EV5	1D	Cebu
+	EV6	1S	Tabriz
+	EV7	1D	Shanghai
+	EV8	2D	Tainan
+	EV9	1D	Christchurch
+	MP1	$Settlement $Duration
+$Duration	9	NULL	$Duration
+	EV1	1D	1S
+	EV2	1S	1D
+	MP1	$Duration $Duration of national mourning, with $Emblem on public $Structure flying at $Position
+$Duration	10	NULL	$European
+	EV1	1D	Italians
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Earthquake	1	NULL	$Date
+	EV1	earthquake	2010-02-27
+	EV2	7.0-magnitude earthquake	2013-04-21
+	EV3	Wenchuan earthquake	2008-XX-XX
+	EV4	earthquake	2010-09
+	EV5	7.0-magnitude earthquake	2013-04-20
+	EV6	Great Hanshin Earthquake	1995-XX-XX
+	EV7	earthquake	2011-02-22
+	EV8	7.2-magnitude earthquake	2013-10-15
+	EV9	earthquake	2008-05-12
+	EV10	earthquake	2011-03
+	EV11	Haiti	2010-01
+	EV12	7.8-magnitude earthquake	2008-05-12
+	EV13	earthquake	2011-10-23
+	EV14	magnitude 7.2 earthquake	2011-10-23
+	EV15	Indian Ocean tsunami	2004-12
+	EV16	earthquake	2013-10-15
+	EV17	earthquake	2010-01
+	EV18	Tangshan earthquake	1976-XX-XX
+	EV19	earthquake	1960-XX-XX
+	EV20	Tohoku earthquake	2011-03-11
+	EV21	Wenchuan quake	2008-XX-XX
+	EV22	Haiti	2010-XX-XX
+	EV23	8.8-magnitude earthquake	2010-02-27
+	EV24	Haiti	2010-02-27
+	EV25	earthquake	2011-02
+	EV26	Great Hanshin Earthquake	1995-01
+	EV27	earthquake	2010-XX-XX
+	EV28	Indian Ocean tsunami	2004-XX-XX
+	EV29	earthquake	1922-11
+	EV30	Wenchuan earthquake	2008-04-21
+	EV31	earthquake	2010-09-04
+	EV32	Wenchuan earthquake	2008-04-23
+	EV33	magnitude 7.2 earthquake	2013-10-15
+	EV34	7.9 magnitude earthquake	2008-05-12
+	EV35	Chilean earthquake	1960-XX-XX
+	EV36	earthquake	2011-03-08
+	EV37	Haiti	2011-01
+	EV38	earthquake	1986-XX-XX
+	EV39	8.8-magnitude earthquake	2010-03-13
+	EV40	magnitude 6.4 earthquake	2016-02-05
+	EV41	earthquake	1985-XX-XX
+	EV42	Northridge	1994-XX-XX
+	EV43	Great Kanto earthquake	1923-XX-XX
+	EV44	Haiti	2010-01-12
+	EV45	magnitude 8.8 earthquake	2010-03-06
+	EV46	Wenchuan quake	2008-04-21
+	EV47	8.8 magnitude earthquake	2010-02-27
+	EV48	8.8-magnitude earthquake	2010-02-26
+	EV49	earthquake	2008-XX-XX
+	EV50	earthquake	2013-04-23
+	EV51	Great Hanshin-Awaji Earthquake	1995-XX-XX
+	EV52	Nepal earthquake	2015-XX-XX
+	EV53	Bohol earthquake	2012-10
+	EV54	earthquake	2010-03
+	EV55	7.8-magnitude earthquake	2008-05-07
+	EV56	earthquake	2010-01-12
+	EV57	earthquake	2011-02-23
+	EV58	magnitude 7.3 earthquake	1999-XX-XX
+	EV59	earthquake	2016-02-08
+	EV60	Two earthquakes	2012-XX-XX
+	EV61	8.8 magnitude earthquake	2010-03
+	EV62	magnitude 7.2 earthquake	2013-10
+	EV63	earthquake	2012-08-11
+	EV64	Chilean earthquake	2010-02
+	EV65	8.0-magnitude earthquake	2008-04-21
+	EV66	Great Chilean Earthquake	1960-XX-XX
+	EV67	earthquake	2011-03-24
+	EV68	Great Kanto Earthquake	1923-XX-XX
+	EV69	7.2 magnitude earthquake	2011-10-23
+	EV70	Haiti	2010-02
+	MP1	$Date $Earthquake
+	MP2	$Earthquake $Date
+	MP3	$Earthquake in $Date
+	MP4	$Date A $Earthquake
+$Earthquake	2	NULL	$Country
+	EV1	earthquake	Chile
+	EV2	earthquake	China
+	EV3	earthquake	Myanmar
+	EV4	earthquake	Italy
+	EV5	earthquake	Japan
+	EV6	8.8-magnitude earthquake	Chile
+	EV7	7.0-magnitude earthquake	Myanmar
+	EV8	earthquake	Indonesian
+	EV9	earthquake	Burma
+	EV10	earthquake	Argentina
+	EV11	Haiti	Chile
+	EV12	8.8 magnitude earthquake	Chile
+	EV13	Tohoku earthquake	Japan
+	EV14	7.8-magnitude earthquake	China
+	EV15	earthquake	Peru
+	EV16	7.2-magnitude earthquake	Philippines
+	EV17	earthquake	Turkey
+	EV18	earthquake	Iran
+	EV19	Two earthquakes	Iran
+	MP1	$Earthquake in $Country
+	MP2	$Country $Earthquake
+$Earthquake	3	NULL	$Number
+	EV1	earthquake	8.8
+	EV2	earthquake	6.1
+	EV3	earthquake	9.5
+	EV4	earthquake	7.0
+	EV5	earthquake	5.8
+	EV6	earthquake	6.4
+	EV7	earthquake	6.2
+	EV8	Wenchuan quake	8.0
+	EV9	earthquake	5.2
+	EV10	earthquake	7.9
+	EV11	aftershock	5.2
+	EV12	earthquake	6.5
+	EV13	earthquake	8.5
+	EV14	earthquake	7.2
+	EV15	earthquake	7.1
+	EV16	aftershock	5.6
+	EV17	Loma Prieta earthquake	6.9
+	EV18	earthquake	6.8
+	MP1	$Number $Earthquake
+$Earthquake	4	NULL	$Unfortunate
+	EV1	earthquake	victims
+	EV2	earthquake	homeless
+	EV3	Bohol earthquake	victims
+	EV4	earthquake	survivors
+	MP1	$Earthquake $Unfortunate
+$Enlisted_person	1	NULL	$Number
+	EV1	soldiers	1,000
+	EV2	soldiers	5,000
+	EV3	soldiers	2,000
+	EV4	soldiers	10,000
+	EV5	soldiers	800
+	EV6	soldiers	24
+	EV7	soldiers	850
+	EV8	soldiers	18,000
+	EV9	soldiers	400
+	EV10	soldiers	200
+	EV11	soldiers	2,500
+	EV12	soldiers	100,000
+	EV13	soldiers	7,000
+	EV14	soldiers	2500
+	EV15	soldiers	8,000
+	EV16	soldiers	17
+	EV17	soldiers	5000
+	EV18	soldiers	20,000
+	EV19	soldiers	1,600
+	EV20	soldiers	166
+	EV21	soldiers	000
+	EV22	soldiers	326
+	EV23	soldiers	60
+	EV24	soldiers	19,000
+	EV25	soldiers	13
+	EV26	soldiers	7000
+	MP1	$Number $Enlisted_person
+$European	1	NULL	$Speech_act
+	EV1	Italians	bid
+	MP1	village of Santi Lorenzo e Flaviano, central $Country $Date $European $Speech_act
+	MP2	$European $Speech_act
+	MP3	$Country $Date $European $Speech_act
+	MP4	central $Country $Date $European $Speech_act
+$European	2	NULL	$Date
+	EV1	Italians	2016-08-27
+	MP1	village of Santi Lorenzo e Flaviano, central $Country $Date $European $Speech_act
+	MP2	$Country $Date $European $Speech_act
+	MP3	central $Country $Date $European $Speech_act
+$European	3	NULL	$Duration
+	EV1	Italians	1D
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+$Examination	1	NULL	$Number
+	EV1	Survey	6.6
+	MP1	U.S. Geological $Examination at $Number
+$Expedient	1	NULL	$Structure
+	EV1	makeshift	shelters
+	EV2	makeshift	shelter
+	EV3	makeshift	housing
+	EV4	makeshift	cross
+	MP1	$Expedient $Structure
+$Expedient	2	NULL	$Military_quarters
+	EV1	makeshift	camp
+	EV2	makeshift	camps
+	EV3	MAKESHIFT	CAMPS
+	MP1	$Expedient $Military_quarters
+$Fatality	1	NULL	$Date
+	EV1	killing	2014-08-03
+	EV2	killing	2013-10-15
+	EV3	killing	2011-10-23
+	EV4	killing	2013-04-20
+	EV5	killing	2012-08-11
+	EV6	killing	2008-04-20
+	EV7	killing	2011-03-10
+	EV8	killing	2011-02-22
+	EV9	killing	2016-02-06
+	EV10	killing	2010-02-27
+	MP1	$Date $Fatality at least $Number people
+	MP2	$Date $Fatality at least $Number
+$Feat	1	NULL	$Country
+	EV1	hits	Myanmar
+	EV2	hits	Turkey
+	EV3	hits	Philippines
+	EV4	hits	China
+	EV5	hits	Chile
+	EV6	hits	Iran
+	EV7	hit	Iran
+	EV8	hits	Italian
+	EV9	hits	Taiwan
+	EV10	hit	Japan
+	EV11	Hits	Turkey
+	EV12	hits	Italy
+	EV13	hit	Chile
+	MP1	$Feat $Country
+$Feat	2	NULL	$Geological_phenomenon
+	EV1	hit	earthquake
+	EV2	hit	quake
+	EV3	hits	quake
+	EV4	hits	earthquake
+	EV5	hits	Earthquake
+	EV6	hit	earthquakes
+	EV7	Hit	Earthquake
+	EV8	Hits	Earthquake
+	EV9	HITS	QUAKE
+	MP1	$Geological_phenomenon $Feat
+$Happening	1	NULL	$Division
+	EV1	fire	department
+	EV2	Fire	Department
+	EV3	fire	departments
+	EV4	Fire	department
+	MP1	$Happening $Division
+$Head	1	NULL	$Officeholder
+	EV1	Secretary	Yukio Edano
+	EV2	Secretary	Xi Jinping
+	EV3	Secretary	Ash Carter
+	EV4	Secretary	William Hague
+	EV5	Secretary	David Miliband
+	EV6	Secretary	Manuel Roxas II
+	EV7	secretary	Robert Gibbs
+	EV8	Secretary	Hu Jintao
+	EV9	Secretary	He Guoqiang
+	EV10	Secretary	Janet Napolitano
+	EV11	Secretary	Yoshihide Suga
+	EV12	Secretary	Roxas
+	EV13	Secretary	Boris Johnson
+	EV14	Secretary	Robert Gibbs
+	EV15	secretary	Hillary Clinton
+	MP1	$Head $Officeholder
+$Head	2	NULL	$Administrative_district
+	EV1	Secretary	State
+	EV2	secretary	state
+	MP1	$Head of $Administrative_district
+$Head_of_state	1	NULL	$Officeholder
+	EV1	Premier	Matteo Renzi
+	EV2	Premier	Sergio Mattarella
+	EV3	Premier	Li Keqiang
+	EV4	Premier	Wen Jiabao
+	EV5	Premier	Xi Jinping
+	EV6	Premier	Dacian Ciolos
+	EV7	Premier	Recep Tayyip Erdogan
+	EV8	Premier	Hu Jintao
+	EV9	premier	Matteo Renzi
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP2	$Head_of_state $Officeholder
+	MP3	$Country $Head_of_state $Officeholder
+	MP4	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+	MP5	$Corporate_executive $Officeholder and $Head_of_state $Officeholder
+	MP6	$Officeholder and $Head_of_state $Officeholder
+$Head_of_state	2	NULL	$Country
+	EV1	Premier	Chinese
+	EV2	Premier	Italian
+	EV3	premier	Italian
+	MP1	$Country $Head_of_state $Officeholder
+$Improvement	1	NULL	$Activity
+	EV1	recovery	efforts
+	EV2	recovery	effort
+	EV3	Recovery	efforts
+	EV4	recovery	work
+	EV5	conservation	efforts
+	EV6	Recovery	work
+	MP1	$Improvement $Activity
+$Informing	1	NULL	$Calamity
+	EV1	warning	tsunami
+	EV2	warnings	tsunami
+	EV3	Warning	Tsunami
+	EV4	Warnings	Tsunami
+	EV5	warnings	Tsunami
+	EV6	WARNING	TSUNAMI
+	EV7	warning	Tsunami
+	EV8	WARNINGS	TSUNAMI
+	MP1	$Calamity $Informing
+$Inhabitant	1	NULL	$Number
+	EV1	Romanians	8,000
+	EV2	Romanians	10,000
+	EV3	Romanians	17
+	EV4	Romanians	11
+	EV5	residents	4,200
+	EV6	residents	122
+	EV7	residents	10
+	EV8	residents	40,000
+	EV9	residents	6,000
+	EV10	residents	800
+	EV11	residents	10,000
+	EV12	residents	600,000
+	EV13	residents	30,000
+	EV14	residents	200,000
+	EV15	residents	5,000
+	EV16	Residents	6.0
+	EV17	villagers	20
+	EV18	villagers	620
+	EV19	residents	50,000
+	EV20	residents	22,000
+	EV21	Romanians	21
+	EV22	residents	400,000
+	EV23	residents	256
+	EV24	residents	1,500
+	EV25	residents	390,000
+	EV26	residents	440,000
+	EV27	Spaniard	1
+	EV28	Romanians	16
+	EV29	residents	5,555
+	EV30	Romanians	19
+	EV31	residents	100
+	EV32	Residents	0450
+	EV33	residents	120
+	EV34	residents	47,000
+	EV35	residents	2,000
+	EV36	Romanians	2
+	EV37	residents	43
+	EV38	Romanians	8
+	EV39	Australians	400
+	EV40	Australian	2011
+	EV41	Australians	8000
+	EV42	villagers	1,000
+	EV43	Australian	2014
+	EV44	residents	250
+	EV45	residents	430,000
+	EV46	AUSTRALIANS	400
+	EV47	residents	57,200
+	MP1	$Number $Inhabitant
+$Inhabitant	2	NULL	$Settlement
+	EV1	residents	Rome
+	EV2	resident	Rome
+	EV3	Residents	Amatrice
+	EV4	residents	Christchurch
+	EV5	resident	Tainan
+	EV6	resident	Santiago
+	EV7	resident	Tabriz
+	EV8	residents	Tabriz
+	EV9	residents	Hanoi
+	EV10	residents	Tainan
+	EV11	residents	Timaru
+	EV12	residents	Bohol
+	EV13	resident	Tachileik
+	EV14	resident	Christchurch
+	EV15	resident	Somerset West
+	EV16	residents	Cebu
+	EV17	Residents	Shanghai
+	EV18	Australians	Christchurch
+	EV19	Villagers	Yushu
+	EV20	resident	Chongqing
+	EV21	Residents	BEIJING
+	EV22	resident	Amatrice
+	EV23	resident	Wetherill Park
+	MP1	$Settlement where $Inhabitant
+	MP2	$Settlement $Inhabitant
+$Inhabitant	3	NULL	$Date
+	EV1	Italians	2016-08-24
+	EV2	Residents	2013-04-21
+	EV3	Italians	2016-08-27
+	EV4	Residents	2016-08-24
+	EV5	Residents	2016-02-06
+	EV6	residents	2008-05-17
+	EV7	Briton	2016-08-24
+	EV8	Residents	2013-04-20
+	EV9	RESIDENTS	2010-02-27
+	EV10	residents	2013-04-22
+	EV11	residents	2016-08-28
+	EV12	residents	2016-08-27
+	EV13	residents	2010-03-03
+	EV14	residents	2008-05-19
+	EV15	villagers	2013-04-14
+	EV16	Australians	2010-09
+	EV17	residents	2010-02-27
+	EV18	AMERICAN	2010-02-26
+	EV19	Australian	2011-XX-XX
+	EV20	SAME	2010-02-27
+	MP1	$Date $Inhabitant
+$Inhabitant	4	NULL	$Person
+	EV1	residents	neighbors
+	EV2	Residents	neighbors
+	MP1	$Inhabitant were digging their $Person
+$Inhabitant	5	NULL	$Recovery
+	EV1	residents	rescue
+	EV2	villagers	rescue
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+	MP2	$Inhabitant and $Recovery $Unit
+$Inhabitant	6	NULL	$Date $Residence $Region
+	EV1	residents	2016-08-24|homes|top
+	MP1	Accumoli, central $Country $Date A devastating $Geological_phenomenon rocked central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept.
+	MP2	central $Country $Date collapsing $Residence on $Region of $Inhabitant as they slept. At least $Number people were reported dead
+$Interaction	1	NULL	$Country
+	EV1	contact	Italian
+	EV2	contact	Taiwan
+	EV3	contact	UK
+	MP1	$Interaction with $Country
+$Interrogation	1	NULL	$Activity
+	EV1	catechism	lesson
+	MP1	$Interrogation $Activity
+$Job_action	1	NULL	$Geological_phenomenon
+	EV1	strikes	quake
+	EV2	Strikes	Earthquake
+	EV3	strikes	earthquake
+	EV4	STRIKES	EARTHQUAKE
+	EV5	strike	earthquake
+	EV6	strike	earthquakes
+	EV7	strikes	earthquakes
+	EV8	strike	quakes
+	EV9	strikes	Earthquake
+	MP1	$Geological_phenomenon $Job_action
+$Juvenile	1	NULL	$Date
+	EV1	children	2016-08-25
+	EV2	children	2016-08-26
+	MP1	$Juvenile spent the $Date inside a local $Diversion $Artifact
+$Juvenile	2	NULL	$Company
+	EV1	child	Associated Press
+	MP1	$Company A $Juvenile
+$Management	1	NULL	$Geological_phenomenon
+	EV1	administration	earthquake
+	MP1	$Geological_phenomenon $Management
+$Nonaccomplishment	1	NULL	$Crime
+	EV1	negligence	fraud
+	MP1	$Nonaccomplishment or $Crime
+$Number	1	NULL	$Date
+	EV1	6.1	2016-08-27
+	EV2	6.1	2016-08-29
+	EV3	6.2	2016-08-24
+	EV4	81	2012-09
+	EV5	6.1	2016-08-28
+	EV6	2,300	1999-XX-XX
+	EV7	6.1	2016-08-25
+	EV8	27	2016-08
+	EV9	6.2	2012-08-11
+	EV10	2016	2016-08-30
+	EV11	3	2010-02-27
+	EV12	2016	2016-08-29
+	EV13	100	2016-02-08
+	EV14	14,463	2008-05-14
+	EV15	6.1	2014-08-03
+	EV16	20,000	1999-XX-XX
+	EV17	6.8	1974-XX-XX
+	EV18	27	2010-02
+	EV19	13	2016-08-24
+	EV20	600	2013-04-23
+	EV21	6.3	2011-02-22
+	EV22	6.5	2014-08-03
+	EV23	6.3	2009-XX-XX
+	EV24	9,300	1933-08-25
+	EV25	15	2012-10
+	EV26	3	2016-08-29
+	EV27	38	2016-02-08
+	EV28	7.1	1974-XX-XX
+	EV29	246	2016-02-05
+	EV30	7.0	2013-04-20
+	EV31	41	2016-02-09
+	EV32	2,000	2016-08-23
+	EV33	80	2012-09
+	EV34	4.30	2014-08-03
+	EV35	8.8	2010-02-27
+	EV36	12	2010-03
+	EV37	3	2010-02-26
+	EV38	7.2	2010-01-20
+	EV39	30	2011-03-11
+	EV40	7.9	1923-09-01
+	EV41	5.6	2012-09
+	EV42	25	2011-03
+	EV43	144	2013-10-16
+	EV44	600	2014-08-03
+	EV45	11	2012-XX-XX
+	EV46	500	2014-08-06
+	EV47	12.5	2008-05-15
+	EV48	12	2013-10-11
+	EV49	241	2016-08-25
+	EV50	247	2016-08-25
+	EV51	15	2008-05
+	EV52	22	2016-02-07
+	EV53	22	2016-02-05
+	EV54	9.5	1960-XX-XX
+	EV55	1,363	2014-08-04
+	EV56	7.1	2011-09
+	EV57	4.35	2010-09-04
+	EV58	7.1	2010-09
+	EV59	350,000	2010-09-04
+	EV60	24	2011-03
+	EV61	40	2008-05-24
+	EV62	73	2016-XX-XX
+	EV63	29	2011-03
+	EV64	26,000	2003-XX-XX
+	EV65	95	2013-04-20
+	EV66	7.6	1999-XX-XX
+	EV67	11,300	2013-04-21
+	EV68	7.2	2011-10-23
+	EV69	4.30	2014-08-04
+	EV70	2011	2011-XX-XX
+	EV71	17	2011-XX-XX
+	EV72	4	2010-09
+	EV73	28	1976-XX-XX
+	EV74	221	2016-02-05
+	EV75	26	2012-08
+	EV76	10	2011-XX-XX
+	EV77	4.3	2012-08-22
+	EV78	300	2009-XX-XX
+	EV79	0	2008-05-13
+	EV80	4	2008-08
+	EV81	000	2010-09-04
+	EV82	-4	2011-03-25
+	EV83	381	1800-XX-XX
+	EV84	12	2010-01
+	EV85	22	2013-XX-XX
+	EV86	138	2013-04-20
+	EV87	46	2016-02-10
+	EV88	5.9	2010-03-08
+	EV89	7	XXXX-XX-XX
+	EV90	30	2008-04-21
+	EV91	145	2011-02-26
+	EV92	25	2010-03-06
+	EV93	7.2	2011-11-06
+	EV94	6.3	2011-03-01
+	EV95	14	2013-04-20
+	EV96	398	2014-08-04
+	EV97	18	2011-02-28
+	EV98	20	2009-04
+	EV99	8,181	2011-03-15
+	EV100	2,500	2013-04-20
+	EV101	109	2016-02-13
+	EV102	20	2010-03-06
+	EV103	35	2016-02-08
+	EV104	3.43	2013-10-18
+	EV105	215	2016-08-25
+	EV106	4,000	2014-08-04
+	EV107	151	2008-05-15
+	EV108	2016	2016-08-25
+	EV109	2.30	2014-08-05
+	EV110	11,921	2008-05-13
+	EV111	113	2011-02-25
+	EV112	120	2016-08-23
+	EV113	30	2010-02-27
+	EV114	2011	2011-03-18
+	EV115	200	2011-02-19
+	EV116	4.6	2011-01-01
+	EV117	708	2010-02-28
+	EV118	180	2013-10-19
+	EV119	50,000	2008-05-15
+	EV120	244	2011-03-25
+	EV121	6.3	1980-11
+	EV122	7.0	2011-03-24
+	EV123	9,47	2011-03-23
+	EV124	7.9	2008-05-12
+	EV125	4.9	2011-02-27
+	EV126	200	2011-10-24
+	EV127	2,600	2012-08-11
+	EV128	431	2013-10-19
+	EV129	15	2008-06
+	EV130	76	2016-02-11
+	EV131	159,000	2008-05-16
+	EV132	18	2014-08-04
+	EV133	10	2013-11
+	EV134	6.4	2016-01-30
+	EV135	18	2014-08-03
+	EV136	546	2881-XX-XX
+	EV137	6.8	2003-12-26
+	EV138	22	2016-02-06
+	EV139	2010	2010-02-27
+	EV140	2,600	2012-08-12
+	EV141	250	2010-04-14
+	EV142	6.3	2012-02-22
+	EV143	12.51	2011-02-22
+	EV144	700	2010-02-28
+	EV145	7	2010-03
+	EV146	24	2013-04-20
+	EV147	28	2013-XX-XX
+	EV148	16	1920-XX-XX
+	EV149	7.8	2008-05-12
+	EV150	411	2014-07-28
+	EV151	2016	2016-02-05
+	EV152	1222	2012-08-17
+	EV153	110	2013-10-16
+	EV154	22	2011-10
+	EV155	69,000	2008-04-23
+	EV156	47	2010-02-27
+	EV157	6.8	2011-03-24
+	EV158	22	2012-08-10
+	EV159	958	2012-08-18
+	EV160	7.6	1920-12-16
+	EV161	28	2013-10
+	EV162	267	2016-08-26
+	EV163	8	2013-11-07
+	EV164	460	2014-07-28
+	EV165	279	2011-10-24
+	EV166	14	2010-XX-XX
+	EV167	78,000	2005-08
+	EV168	30,000	2003-XX-XX
+	EV169	15	2013-11
+	EV170	10	2011-02-21
+	EV171	179	2013-10-19
+	EV172	142	2013-10-16
+	EV173	120	2016-XX-XX
+	EV174	35	2013-06
+	EV175	50,000	2008-05-22
+	EV176	-13	2011-03-09
+	EV177	19	XXXX-XX-XX
+	EV178	70	2011-10-23
+	EV179	589	2014-08-06
+	EV180	37	2012-08-10
+	EV181	12,000	2008-05-13
+	EV182	7,49	2011-03-14
+	EV183	1,000	1970-XX-XX
+	EV184	2014	2014-08-04
+	EV185	15,000	1970-XX-XX
+	EV186	7.7	1970-XX-XX
+	EV187	4.8	2013-04-26
+	EV188	522	2013-10-19
+	EV189	7	2010-02
+	EV190	20	2010-02-22
+	EV191	3	2008-08
+	EV192	2012	2012-07
+	EV193	460	2014-08-03
+	EV194	167	2008-05-22
+	EV195	460	2014-08-04
+	EV196	9	2011-XX-XX
+	EV197	9	2011-03-25
+	EV198	15	2011-03-22
+	EV199	68	1915-01-13
+	EV200	44	2016-02-10
+	EV201	18	2014-08-06
+	EV202	228	2011-02-25
+	EV203	2,283	2013-04-22
+	EV204	10.2	2011-03
+	EV205	6.4	2016-02-06
+	EV206	15	2008-05-15
+	EV207	9.0	2011-03-11
+	EV208	7	2012-XX-XX
+	EV209	51,151	2008-05-22
+	EV210	3,143	2014-08-06
+	EV211	9.0	2011-03
+	EV212	250	2017-08-24
+	EV213	8500	2008-05-12
+	EV214	35	2016-02-07
+	EV215	2011	1225-XX-XX
+	EV216	7	2013-11
+	EV217	1,600	2011-XX-XX
+	EV218	1.5	2013-04-21
+	EV219	11	2014-XX-XX
+	EV220	1,400	1974-XX-XX
+	EV221	5	1970-XX-XX
+	EV222	7.1	2018-08-04
+	EV223	2.30	2011-02-24
+	EV224	723	2010-03-01
+	EV225	956	2012-08
+	EV226	2011	2011-10-29
+	EV227	190	2016-08-24
+	EV228	4.8	2016-08-25
+	EV229	23	1927-XX-XX
+	EV230	6,63	2011-03-16
+	EV231	4,370	2016-08-24
+	EV232	23	2013-XX-XX
+	MP1	$Date $Number
+	MP2	$Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP3	$Number $Date
+	MP4	$Date $Number $Geological_phenomenon
+	MP5	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP6	$Number on $Date
+	MP7	rubble in $Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP8	$Date killed more than $Number
+	MP9	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP10	$Date a $Number $Geological_phenomenon
+	MP11	$Date More than $Number
+	MP12	$Date A $Number
+	MP13	$Date $Number people died and $Number were injured in a series of $Geological_phenomenon
+	MP14	central $Country $Date where a $Number
+	MP15	$Date where a $Number
+$Number	2	NULL	$Settlement
+	EV1	50	Amatrice
+	EV2	100	Rieti
+	EV3	90	L'Aquila
+	EV4	65	Rieti
+	EV5	170	Norcia
+	EV6	7.2	Bohol
+	EV7	2010	Christchurch
+	EV8	680	Tachilek
+	EV9	105	Norcia
+	EV10	1,500	Beijing
+	EV11	12	Bohol
+	EV12	200	Santiago
+	EV13	7000	Christchurch
+	EV14	18	Bohol
+	EV15	55	Chiang Rai
+	EV16	170	Rome
+	EV17	39,068	L'Aquila
+	EV18	630	Bohol
+	EV19	337	Tainan
+	EV20	89	Cebu
+	EV21	8.0	Wenchuan
+	EV22	2016	Maranello
+	EV23	1,700	Shanghai
+	EV24	300,000	Yingjiang county
+	EV25	89	Bohol
+	EV26	160	Beichuan County
+	EV27	11	Amatrice
+	EV28	6	Bilar
+	EV29	181	Cebu
+	EV30	160	Taipei
+	EV31	90	Xishuangbanna
+	EV32	5	Balilihan
+	EV33	126	Rome
+	EV34	19,266	Ascoli Piceno
+	EV35	23	Christchurch
+	EV36	150	Timaru
+	EV37	600	Juan Fernandez Islands
+	EV38	32	Christchurch
+	EV39	45	Shanghai
+	EV40	15	Cebu
+	EV41	11	Bohol
+	EV42	2	Loay
+	EV43	41,741	Rieti
+	EV44	115	Amatrice
+	EV45	307	Bato, Leyte
+	EV46	931	Christchurch
+	EV47	5	Tagbilaran
+	EV48	159	Wenchuan County
+	EV49	50	Chongqing
+	EV50	61	Chongqing
+	EV51	14	Chongqing
+	EV52	7.6	Izmit
+	EV53	4	Inabanga
+	EV54	7	Tagbilaran
+	EV55	7.1	Messina
+	EV56	4	Cebu
+	EV57	15	Sagbayan
+	EV58	80	Beichuan county
+	EV59	2011	Christchurch
+	EV60	2	Tagbilaran
+	EV61	320	Santiago
+	EV62	300	Taipei
+	EV63	1	Negros Oriental
+	EV64	1	Iloilo
+	EV65	17	Cebu
+	EV66	5.12	Wenchuan
+	EV67	89	Looc
+	EV68	34	bohol
+	EV69	159	Wenchuan county
+	EV70	54	Cebu
+	EV71	334	Tainan
+	EV72	95	Wenchuan county
+	EV73	50	Rieti
+	EV74	16	Chongqing
+	EV75	60	Wenchuan county
+	EV76	13	Catigbian
+	EV77	800	Christchurch
+	EV78	180	Christchurch
+	EV79	3	Cebu
+	EV80	7.7	Tainan
+	EV81	55	L'Aquila
+	EV82	7.1	Christchurch
+	EV83	6	Hinigaran
+	EV84	6.3	Christchurch
+	EV85	19	Shanghai
+	EV86	100	Wenchuan county
+	EV87	54	Bohol
+	EV88	2011	Hanmer
+	EV89	2	Danao
+	EV90	12	BEIJING
+	EV91	80	Rieti
+	EV92	28	Kaohsiung
+	EV93	225	Taipei
+	EV94	5	Calape
+	EV95	7.5	Beijing
+	EV96	1	Inabanga
+	EV97	5	Iloilo
+	EV98	7	Tubigon
+	EV99	1	Danao
+	EV100	151	Bohol
+	EV101	4	Balilihan
+	EV102	2,335	Cebu
+	EV103	315,000	Christchurch
+	EV104	1,000	Getafe
+	EV105	2011	Otago
+	EV106	54	Daggett
+	EV107	900	Baku
+	EV108	1,850	Loon, Bohol
+	EV109	7	Calape
+	EV110	30	Patnos
+	EV111	2016	Amatrice
+	EV112	50,000	Christchurch
+	EV113	1414	CHRISTCHURCH
+	EV114	3	Siquijor
+	EV115	4	Catigbian
+	EV116	100	Auckland Council
+	EV117	10,000	Beichuan
+	EV118	1	Sierra Bullones
+	EV119	4	Christchurch
+	EV120	2.28	Wenchuan county
+	EV121	+41	Geneva
+	EV122	1500	Beijing
+	EV123	18	Cebu
+	EV124	106	Bohol
+	EV125	1	Cebu
+	EV126	90	Chiang Rai
+	EV127	5	Tubigon
+	EV128	6.3	L'Aquila
+	EV129	60	Rieti
+	EV130	5.1	Amatrice
+	EV131	5	Catigbian
+	EV132	14	Amatrice
+	EV133	1	Siquijor
+	EV134	570	Cebu
+	EV135	171	Bohol
+	EV136	500	Getafe
+	EV137	1	Sagbayan
+	EV138	3	Catigbian
+	EV139	92	Wenchuan County
+	EV140	1	Sevilla
+	MP1	$Settlement $Number
+	MP2	$Number $Settlement
+	MP3	$Settlement about $Number
+	MP4	$Number in $Settlement
+	MP5	$Settlement some $Number
+$Number	3	NULL	$Country
+	EV1	38	Italian
+	EV2	247	Romania
+	EV3	1	Italy
+	EV4	8.8	Chile
+	EV5	589	Myanmar
+	EV6	6.4	Taiwan
+	EV7	5	Taiwan
+	EV8	168	Japanese
+	EV9	2,360	Taiwanese
+	EV10	7.2	Turkey
+	EV11	36.4	Italy
+	EV12	300	Japanese
+	EV13	82	Taiwanese
+	EV14	8.2013	China
+	EV15	247	Italy
+	EV16	100	Chile
+	EV17	44.5	Italy
+	EV18	+86	China
+	EV19	17,000	Chinese
+	EV20	1	Philippines
+	EV21	80	Japanese
+	EV22	15	Chinese
+	EV23	400	Somalis
+	EV24	16	Indonesian
+	EV25	43.0	Italy
+	EV26	10,000	Chinese
+	EV27	7.6	Turkish
+	EV28	72	President
+	EV29	2013	Chinese
+	EV30	48	Myanmar
+	EV31	955	Iran
+	EV32	1,209	Chinese
+	EV33	28	Chad
+	EV34	1.0129	Turkey
+	EV35	15	Japanese
+	EV36	18.3152	Kurdistan
+	EV37	17.3043	Kurdistan
+	EV38	11	Taiwan
+	EV39	400	Chinese
+	EV40	2012	Israel
+	EV41	6.1	Chinese
+	EV42	2010	Chile
+	EV43	16	Japanese
+	EV44	14	Taiwanese
+	EV45	6.0	Turkey
+	EV46	115	Chile
+	EV47	2012	Iran
+	EV48	20	Chinese
+	EV49	4,689	Turkish
+	EV50	9,000	China
+	EV51	528	Yemen
+	EV52	1	Myanmar
+	EV53	600	Taiwanese
+	EV54	2,897	Taiwanese
+	EV55	16.3015	Turkey
+	EV56	8	New Zealand
+	EV57	250	Iran
+	EV58	2010	China
+	EV59	1.5	Chile
+	EV60	6.3	Italy
+	EV61	4.7	Italy
+	EV62	3.2016	Italian
+	EV63	2009	Chile
+	EV64	442	Syria
+	EV65	20	China
+	EV66	501	Iran
+	EV67	100	Iran
+	EV68	2	Afghanistan
+	EV69	70	American
+	EV70	1500	Palestine
+	EV71	49	Zhou
+	EV72	156	China
+	EV73	87	Iran
+	EV74	1,800	Thailand
+	EV75	1	Taiwan
+	EV76	26	Turkish
+	EV77	320	Chile
+	EV78	41	Turkish
+	EV79	6.5	China
+	EV80	7.2	Philippines
+	EV81	5.9	Turkey
+	EV82	2	Poland
+	EV83	5.5	Italy
+	EV84	40	Chinese
+	EV85	6	Romania
+	EV86	147	Chile
+	EV87	6.3	New Zealand
+	EV88	959	Syria
+	EV89	40	Hong Kong
+	EV90	289	Philippines
+	EV91	244	Azerbaijani
+	EV92	52	Wu
+	EV93	200	Chinese
+	EV94	2007	China
+	EV95	5.1	President
+	EV96	15	Britons
+	EV97	34	American
+	EV98	932	Gaza Strip
+	EV99	600	Thai
+	EV100	16.3015	Syria
+	EV101	2009	Bolivia
+	EV102	17	Chile
+	EV103	012	China
+	EV104	937	Iran
+	EV105	670,000	Chile
+	MP1	$Number $Country
+	MP2	$Country $Number
+	MP3	$Country where a $Number $Geological_phenomenon
+$Number	4	NULL	$Geological_phenomenon
+	EV1	6.2	earthquake
+	EV2	6	temblor
+	EV3	6.9	temblor
+	EV4	7.9	earthquake
+	EV5	7.0	earthquake
+	EV6	6.5	quake
+	EV7	5.8	earthquake
+	EV8	7.5	earthquake
+	EV9	9.0	earthquake
+	EV10	7	earthquake
+	EV11	12	earthquakes
+	EV12	5.0	earthquakes
+	EV13	6.6	earthquake
+	EV14	2016	quake
+	EV15	5.4	quake
+	EV16	6.2	earthquakes
+	EV17	8.0	earthquake
+	EV18	2012	quakes
+	EV19	8.5	earthquake
+	EV20	5.6	earthquake
+	EV21	6.9	quake
+	EV22	5.2	earthquake
+	EV23	5.3	earthquake
+	EV24	470	temblors
+	EV25	5.9	earthquake
+	EV26	13	quakes
+	EV27	8.8	EARTHQUAKE
+	EV28	5.8	quake
+	EV29	3.9	earthquake
+	EV30	7.9	temblor
+	EV31	6.2	temblor
+	EV32	7	earthquakes
+	EV33	5.0	earthquake
+	EV34	7	quake
+	EV35	6.1	Earthquake
+	EV36	9.1	earthquake
+	EV37	5.3	quake
+	EV38	4.6	quake
+	EV39	12	EARTHQUAKE
+	EV40	8.8	Earthquake
+	EV41	1	earthquake
+	EV42	20	earthquake
+	EV43	4.3	earthquake
+	EV44	9.0	temblor
+	EV45	37	quake
+	EV46	9	earthquake
+	EV47	3.7	earthquake
+	EV48	921	Earthquake
+	EV49	5.6	quake
+	EV50	6.5	temblor
+	EV51	6.4	quakes
+	EV52	8.6	earthquake
+	EV53	7.0	temblor
+	EV54	100	earthquakes
+	EV55	6.1	temblor
+	EV56	8	earthquakes
+	EV57	1990	earthquakes
+	EV58	2010	quake
+	EV59	6.9	earthquake
+	EV60	50	Earthquakes
+	EV61	5.9	Earthquake
+	EV62	1,400	quake
+	EV63	7.8	temblor
+	EV64	6.0	quake
+	EV65	6.3	temblor
+	EV66	2016	earthquake
+	EV67	7.6	temblor
+	EV68	250	earthquakes
+	EV69	2.7	quakes
+	EV70	5.1	quake
+	EV71	15	earthquakes
+	EV72	8.8	temblor
+	EV73	8.7	quake
+	EV74	60	earthquake
+	EV75	2010	earthquake
+	EV76	17	earthquakes
+	EV77	3	EARTHQUAKES
+	EV78	5	earthquake
+	EV79	50,000	quake
+	EV80	9	earthquakes
+	EV81	5.7	earthquake
+	EV82	8.4	temblor
+	EV83	6	Earthquakes
+	EV84	7.5	temblor
+	EV85	2009	earthquakes
+	EV86	2011	Earthquake
+	EV87	7.2	EARTHQUAKE
+	EV88	6	earthquakes
+	EV89	4.5	earthquake
+	EV90	8.2	earthquake
+	EV91	231	quake
+	EV92	4.1	quake
+	EV93	10	quake
+	MP1	$Number $Geological_phenomenon
+	MP2	$Date $Number $Geological_phenomenon
+	MP3	magnitude $Number $Geological_phenomenon
+	MP4	$Geological_phenomenon measuring $Number
+	MP5	$Number $Earthquake
+	MP6	$Date a $Number $Geological_phenomenon
+	MP7	$Number The $Geological_phenomenon
+	MP8	$Geological_phenomenon at $Number
+	MP9	$Date A magnitude $Number $Geological_phenomenon
+$Number	5	NULL	$Tremor
+	EV1	100	aftershocks
+	EV2	36	aftershocks
+	EV3	200	aftershocks
+	EV4	1,820	aftershocks
+	EV5	35	aftershocks
+	EV6	20	aftershocks
+	EV7	39	aftershocks
+	EV8	712	aftershocks
+	EV9	4.9	aftershock
+	EV10	313	aftershocks
+	EV11	10	aftershocks
+	EV12	116	aftershocks
+	EV13	9	aftershocks
+	EV14	460	aftershocks
+	EV15	2,500	aftershocks
+	EV16	6.1	aftershock
+	EV17	90	aftershocks
+	EV18	289	aftershocks
+	EV19	500	aftershocks
+	EV20	5.3	aftershock
+	EV21	40	aftershocks
+	EV22	12	aftershocks
+	EV23	210	aftershocks
+	EV24	120	aftershocks
+	EV25	1,846	aftershocks
+	EV26	300	aftershocks
+	EV27	70	aftershocks
+	EV28	55	aftershocks
+	EV29	150	aftershocks
+	EV30	264	aftershocks
+	EV31	1,669	aftershocks
+	EV32	3	aftershocks
+	EV33	1,097	aftershocks
+	EV34	6.3	aftershock
+	EV35	110	aftershocks
+	EV36	840	aftershocks
+	EV37	4.3	aftershock
+	EV38	5.4	aftershock
+	EV39	167	aftershocks
+	EV40	2,000	aftershocks
+	EV41	3.8	aftershock
+	EV42	2000	aftershocks
+	EV43	800	aftershocks
+	EV44	122	aftershocks
+	EV45	6.0	aftershocks
+	EV46	80	aftershocks
+	EV47	4.5	aftershock
+	EV48	7,182	aftershocks
+	EV49	1,000	aftershocks
+	EV50	121	aftershocks
+	EV51	900	aftershocks
+	EV52	627	aftershocks
+	EV53	6.9	aftershock
+	EV54	823	aftershocks
+	EV55	2,278	aftershocks
+	EV56	137	aftershocks
+	EV57	525	aftershocks
+	EV58	20,000	aftershocks
+	EV59	1,300	aftershocks
+	EV60	2,283	aftershocks
+	EV61	60	aftershocks
+	EV62	33	aftershocks
+	EV63	700	aftershocks
+	EV64	1,700	aftershocks
+	EV65	15	aftershocks
+	EV66	142	aftershocks
+	EV67	470	aftershocks
+	EV68	400	aftershocks
+	EV69	115	aftershocks
+	EV70	411	aftershocks
+	EV71	14	aftershocks
+	EV72	5,000	aftershocks
+	EV73	27	aftershocks
+	EV74	869	aftershocks
+	EV75	11	aftershocks
+	MP1	$Number $Tremor
+$Number	6	NULL	$Person
+	EV1	10	guests
+	EV2	900	students
+	EV3	2,000	firefighters
+	EV4	70	guests
+	EV5	11	students
+	EV6	27	children
+	EV7	200	firefighters
+	EV8	4,000	students
+	EV9	41	children
+	EV10	37	firefighters
+	EV11	1,200	firefighters
+	EV12	100	students
+	EV13	900	teenagers
+	EV14	7,000	children
+	EV15	900	pupils
+	EV16	410	students
+	EV17	4,000	children
+	EV18	1,000	firefighters
+	EV19	2015	student
+	EV20	21	children
+	EV21	6.6	Firefighters
+	EV22	26,000	children
+	EV23	100	guests
+	EV24	360	students
+	EV25	23	students
+	EV26	50	students
+	EV27	13	student
+	EV28	10	children
+	EV29	350	students
+	EV30	100	firefighters
+	EV31	28	students
+	EV32	30	students
+	EV33	20	kids
+	EV34	52	children
+	EV35	2.06	children
+	EV36	500	firefighters
+	EV37	249	guests
+	EV38	62	firefighters
+	EV39	88	students
+	EV40	26	children
+	EV41	7	Firefighter
+	EV42	25	firefighters
+	EV43	800	students
+	EV44	25	children
+	EV45	1.37	children
+	EV46	2	children
+	EV47	40	students
+	EV48	1,000	children
+	EV49	1	student
+	EV50	3,800	students
+	EV51	420	students
+	EV52	1,000	pupils
+	EV53	60	children
+	EV54	1,200	students
+	EV55	600	firefighters
+	EV56	47	children
+	EV57	80	students
+	MP1	$Number $Person
+$Number	7	NULL	$Organization
+	EV1	250	Access World News
+	EV2	70	Access World News
+	EV3	186	Access World News
+	EV4	217	Access World News
+	EV5	188	Access World News
+	EV6	179	Access World News
+	EV7	1,300	Access World News
+	EV8	160	Access World News
+	EV9	13	Access World News
+	EV10	180	Access World News
+	EV11	156	Access World News
+	EV12	80,000	Access World News
+	EV13	74	Access World News
+	EV14	398	Access World News
+	EV15	200	Access World News
+	EV16	12	Access World News
+	EV17	4,500	Access World News
+	EV18	10	Access World News
+	EV19	600	Access World News
+	EV20	93	Access World News
+	EV21	306	Access World News
+	EV22	381	Access World News
+	EV23	170	Access World News
+	EV24	32,500	Access World News
+	EV25	55,000	Access World News
+	EV26	1,500	Access World News
+	EV27	73	Access World News
+	EV28	107	Access World News
+	EV29	46	Access World News
+	EV30	-3	Access World News
+	EV31	75	Access World News
+	EV32	215	Access World News
+	EV33	-5	Access World News
+	EV34	25	Access World News
+	EV35	2016	Access World News
+	EV36	-13	Access World News
+	EV37	32	Access World News
+	EV38	12,000	Access World News
+	EV39	138	Access World News
+	EV40	150	Access World News
+	EV41	13,000	Access World News
+	EV42	85	Access World News
+	EV43	40,000	Access World News
+	EV44	9	Access World News
+	EV45	4,300	Access World News
+	EV46	10,000	Access World News
+	EV47	175	Access World News
+	EV48	65	Access World News
+	EV49	-8	Access World News
+	EV50	41	Access World News
+	EV51	162	Access World News
+	EV52	155	Access World News
+	EV53	50,000	Access World News
+	EV54	11	Access World News
+	MP1	$Number - $Organization
+$Number	8	NULL	$Change
+	EV1	17	deaths
+	EV2	80	deaths
+	EV3	53	deaths
+	EV4	1,400	deaths
+	EV5	146	deaths
+	EV6	61	deaths
+	EV7	12	deaths
+	EV8	138	deaths
+	EV9	159	deaths
+	EV10	500	deaths
+	EV11	80,000	deaths
+	EV12	800	deaths
+	EV13	20	deaths
+	EV14	240	deaths
+	EV15	85	deaths
+	EV16	3.2016	Death
+	EV17	181	deaths
+	EV18	65	deaths
+	EV19	6.2016	Death
+	EV20	51,151	deaths
+	EV21	300	deaths
+	EV22	1,500	deaths
+	EV23	70	damage
+	EV24	185	deaths
+	EV25	42	deaths
+	EV26	103	deaths
+	EV27	160,000	deaths
+	EV28	14	death
+	EV29	8	deaths
+	EV30	12,012	deaths
+	EV31	50,000	deaths
+	EV32	50	damage
+	EV33	36	deaths
+	EV34	114	deaths
+	EV35	200,000	deaths
+	EV36	40	deaths
+	EV37	224	deaths
+	EV38	400	deaths
+	EV39	175	damage
+	EV40	144	deaths
+	EV41	170	deaths
+	EV42	3,771	deaths
+	EV43	10,000	deaths
+	EV44	700	deaths
+	EV45	217	deaths
+	EV46	799	deaths
+	EV47	70,000	deaths
+	EV48	9,000	deaths
+	EV49	190	deaths
+	EV50	3,000	deaths
+	EV51	708	deaths
+	EV52	100,000	deaths
+	MP1	$Number $Change
+$Number	9	NULL	$Building
+	EV1	12,000	houses
+	EV2	390	houses
+	EV3	10,000	houses
+	EV4	20	houses
+	EV5	15	houses
+	EV6	1,200	houses
+	EV7	3,600	houses
+	EV8	1,800	houses
+	EV9	40	houses
+	EV10	244	houses
+	EV11	19,309	houses
+	EV12	5,000	houses
+	EV13	45,641	houses
+	EV14	1,000	houses
+	EV15	57,950	houses
+	EV16	130	houses
+	EV17	50,000	greenhouses
+	EV18	11,400	houses
+	EV19	34,000	houses
+	EV20	25,800	houses
+	EV21	500,000	house
+	EV22	36,000	houses
+	EV23	26	Hotel
+	EV24	337	houses
+	EV25	80,000	houses
+	EV26	3000	hotel
+	EV27	1,264	houses
+	EV28	70	Hotel
+	EV29	600	houses
+	EV30	300	houses
+	EV31	722	houses
+	EV32	53,000	houses
+	EV33	19,000	houses
+	EV34	85	hotel
+	EV35	240	houses
+	EV36	2010	Houses
+	EV37	34,778	houses
+	EV38	1,424	houses
+	EV39	1,300	houses
+	EV40	500,000	houses
+	EV41	50	restaurant
+	EV42	25,000	houses
+	EV43	26,000	houses
+	EV44	6	houses
+	EV45	1414	houses
+	EV46	800,000	houses
+	EV47	42	houses
+	MP1	$Number $Building
+$Number	10	NULL	$Inhabitant
+	EV1	8,000	Romanians
+	EV2	10,000	Romanians
+	EV3	17	Romanians
+	EV4	11	Romanians
+	EV5	4,200	residents
+	EV6	800	residents
+	EV7	40,000	residents
+	EV8	30,000	residents
+	EV9	10,000	residents
+	EV10	600,000	residents
+	EV11	122	residents
+	EV12	200,000	residents
+	EV13	6,000	residents
+	EV14	10	residents
+	EV15	256	residents
+	EV16	22,000	residents
+	EV17	620	villagers
+	EV18	5,000	residents
+	EV19	400,000	residents
+	EV20	50,000	residents
+	EV21	6.0	Residents
+	EV22	21	Romanians
+	EV23	1,500	residents
+	EV24	20	villagers
+	EV25	2011	Australian
+	EV26	2,000	residents
+	EV27	1,000	villagers
+	EV28	16	Romanians
+	EV29	250	residents
+	EV30	5,555	residents
+	EV31	43	residents
+	EV32	8000	Australians
+	EV33	19	Romanians
+	EV34	47,000	residents
+	EV35	390,000	residents
+	EV36	400	Australians
+	EV37	1	Spaniard
+	EV38	2014	Australian
+	EV39	120	residents
+	EV40	100	residents
+	EV41	430,000	residents
+	EV42	440,000	residents
+	EV43	57,200	residents
+	EV44	8	Romanians
+	EV45	400	AUSTRALIANS
+	EV46	2	Romanians
+	EV47	0450	Residents
+	MP1	$Number $Inhabitant
+$Number	11	NULL	$Unit
+	EV1	28	families
+	EV2	250	households
+	EV3	96	households
+	EV4	92	households
+	EV5	60	households
+	EV6	25,500	households
+	EV7	39,200	households
+	EV8	90	households
+	EV9	30	team
+	EV10	676,065	families
+	EV11	558,390	families
+	EV12	2,533	families
+	EV13	593,561	families
+	EV14	700,000	households
+	EV15	1,235	teams
+	EV16	20,000	families
+	EV17	12	teams
+	EV18	2,769	families
+	EV19	21,250	families
+	EV20	466	families
+	EV21	35,000	families
+	EV22	168,000	households
+	EV23	32,941	families
+	EV24	23,000	families
+	EV25	1,039	families
+	EV26	38,000	households
+	EV27	92	teams
+	EV28	22,816	families
+	EV29	695,466	families
+	EV30	703,244	families
+	EV31	10	team
+	EV32	55,769	families
+	EV33	631,605	families
+	EV34	5,992	families
+	EV35	200	team
+	EV36	87,157	family
+	EV37	240,000	households
+	EV38	2,841,956	families
+	EV39	180	team
+	EV40	2,500	families
+	EV41	20,034	families
+	EV42	500,999	families
+	EV43	160,000	families
+	EV44	249	families
+	EV45	500	families
+	MP1	$Number $Unit
+$Number	12	NULL	$Force
+	EV1	2,500	troops
+	EV2	10,000	troops
+	EV3	300	police
+	EV4	2500	troops
+	EV5	130,000	troops
+	EV6	6,000	troops
+	EV7	85	police
+	EV8	17	troops
+	EV9	5,000	troops
+	EV10	80	staff
+	EV11	500	troops
+	EV12	18,000	troops
+	EV13	1,000	staff
+	EV14	113	Police
+	EV15	200	police
+	EV16	22	police
+	EV17	6000	troops
+	EV18	400	troops
+	EV19	3	POLICE
+	EV20	11,000	police
+	EV21	11	men
+	EV22	10	men
+	EV23	510	staff
+	EV24	35	staff
+	EV25	260	troops
+	EV26	18000	troops
+	EV27	65	staff
+	EV28	50,000	troops
+	EV29	650	staff
+	EV30	500	staff
+	EV31	1,100	troops
+	EV32	7,000	troops
+	EV33	16,000	troops
+	EV34	4,000	staff
+	EV35	167	staff
+	EV36	800	police
+	EV37	10	staff
+	EV38	140,000	troops
+	EV39	1,080	staff
+	EV40	100	staff
+	EV41	2,500	police
+	EV42	600	police
+	MP1	$Number $Force
+$Number	13	NULL	$City
+	EV1	100	Yerevan
+	EV2	115	Chengdu
+	EV3	267	New York City
+	EV4	32	Hiroshima
+	EV5	40	Ahar
+	EV6	200	Tangshan
+	EV7	70	Chengdu
+	EV8	85	Chengdu
+	EV9	140	Chengdu
+	EV10	200	Sendai
+	EV11	120	Ahar
+	EV12	2	Alburquerque
+	EV13	247	Auckland
+	EV14	6,700	Hyderabad
+	EV15	271	Madras
+	EV16	21	Shenzhen
+	EV17	51059	Seattle
+	EV18	49	Varzaghan
+	EV19	5.1	Chengdu
+	EV20	40	Ya'an
+	EV21	33	Chengdu
+	EV22	43	Tamano
+	EV23	238	Yangon
+	EV24	2,871	Guangyuan
+	EV25	3	CHICAGO
+	EV26	2008	Chengdu
+	EV27	30	Varzaghan
+	EV28	167	Talca
+	EV29	4372	New York
+	EV30	60	Varzaghan
+	EV31	172	Chengdu
+	EV32	15	Alburquerque
+	EV33	7305	Auckland
+	EV34	40	YANGON
+	EV35	2,586	Chengdu
+	EV36	2013	Chengdu
+	EV37	4	Antequera
+	EV38	10	Antequera
+	EV39	6144	Wellington
+	EV40	160	Yerevan
+	MP1	$City $Number
+	MP2	$Number $City
+$Number	14	NULL	$Structure
+	EV1	10	buildings
+	EV2	17	building
+	EV3	80	buildings
+	EV4	970	buildings
+	EV5	16	buildings
+	EV6	55	buildings
+	EV7	14	building
+	EV8	240	buildings
+	EV9	30	buildings
+	EV10	16	building
+	EV11	2,000	buildings
+	EV12	2	building
+	EV13	2,262	buildings
+	EV14	15	building
+	EV15	450	shelters
+	EV16	123	buildings
+	EV17	10,000	buildings
+	EV18	120,000	housing
+	EV19	1,000	buildings
+	EV20	40	buildings
+	EV21	900	buildings
+	EV22	400	buildings
+	EV23	25	buildings
+	EV24	35	buildings
+	EV25	50	buildings
+	EV26	583	buildings
+	EV27	4,000	housing
+	EV28	300	buildings
+	EV29	500	buildings
+	EV30	90	buildings
+	EV31	20	buildings
+	EV32	6	buildings
+	EV33	3,700	buildings
+	EV34	45	buildings
+	EV35	17	storey
+	EV36	14	buildings
+	EV37	12,000	buildings
+	EV38	125	buildings
+	EV39	2,200	buildings
+	MP1	$Number $Structure
+$Number	15	NULL	$Shelter
+	EV1	58	tent
+	EV2	5,000	tents
+	EV3	2,000	tents
+	EV4	200	tents
+	EV5	1,200	tents
+	EV6	7,500	tents
+	EV7	31,000	tents
+	EV8	10,000	tents
+	EV9	50	tents
+	EV10	5000	tents
+	EV11	20,000	tents
+	EV12	79,700	tents
+	EV13	5,600	tents
+	EV14	57	tents
+	EV15	1,000	tents
+	EV16	25	tents
+	EV17	106	tents
+	EV18	30,000	tents
+	EV19	250	tents
+	EV20	115,000	tents
+	EV21	8,000	tents
+	EV22	15,379	tents
+	EV23	13,000	tents
+	EV24	111	tents
+	EV25	35	tents
+	EV26	3,000	tents
+	EV27	150,000	tents
+	EV28	75	asylum
+	EV29	69,000	tents
+	EV30	33,000	tents
+	EV31	350	tents
+	EV32	500	tents
+	EV33	900,000	tents
+	EV34	10	tents
+	EV35	460	tents
+	EV36	4,000	Tents
+	MP1	$Number $Shelter
+$Number	16	NULL	$Unfortunate
+	EV1	1,200	homeless
+	EV2	195	victims
+	EV3	120	victims
+	EV4	267	victims
+	EV5	32	survivors
+	EV6	120	survivors
+	EV7	292	victims
+	EV8	247	survivors
+	EV9	30	survivors
+	EV10	16,000	homeless
+	EV11	350	homeless
+	EV12	248	survivors
+	EV13	38	survivors
+	EV14	240	survivors
+	EV15	242	victims
+	EV16	32	victims
+	EV17	200	prisoners
+	EV18	46	victims
+	EV19	30,000	victims
+	EV20	173124	victim
+	EV21	279	survivors
+	EV22	10	victims
+	EV23	49	survivors
+	EV24	7,000	homeless
+	EV25	249	survivors
+	EV26	39	victims
+	EV27	2,000	survivors
+	EV28	100	victims
+	EV29	2,300	survivors
+	EV30	288,431	Homeless
+	EV31	1.2	homeless
+	EV32	91	survivors
+	EV33	3,000	survivors
+	EV34	55,000	homeless
+	EV35	69	victims
+	EV36	144	victims
+	MP1	$Number $Unfortunate
+	MP2	$Unfortunate , $Number
+$Number	17	NULL	$Administrative_district
+	EV1	38	provinces
+	EV2	23	township
+	EV3	277	State
+	EV4	14	township
+	EV5	27	municipalities
+	EV6	640	province
+	EV7	40	provinces
+	EV8	12	prefectures
+	EV9	21	Township
+	EV10	52	townships
+	EV11	50	province
+	EV12	106	Province
+	EV13	16	provinces
+	EV14	22	municipalities
+	EV15	879	municipalities
+	EV16	14	Province
+	EV17	900	province
+	EV18	4	municipalities
+	EV19	27	Municipalities
+	EV20	44	prefectures
+	EV21	364	Province
+	EV22	9.2016	State
+	EV23	62	townships
+	EV24	20	provinces
+	EV25	113	Province
+	EV26	38	prefectures
+	EV27	16	Province
+	EV28	212	province
+	EV29	48	provinces
+	EV30	29	provinces
+	EV31	23	Township
+	EV32	22	provinces
+	MP1	$Number $Administrative_district
+	MP2	$Administrative_district , $Number
+$Number	18	NULL	$Residence
+	EV1	12,000	homes
+	EV2	500,000	homes
+	EV3	80,000	homes
+	EV4	10,000	homes
+	EV5	900,000	homes
+	EV6	400	homes
+	EV7	100	homes
+	EV8	20	homes
+	EV9	1,200	homes
+	EV10	200,000	homes
+	EV11	22,500	homes
+	EV12	140,000	homes
+	EV13	7,000	homes
+	EV14	225	homes
+	EV15	19,000	homes
+	EV16	126,000	homes
+	EV17	20,000	homes
+	EV18	430,000	homes
+	EV19	77	homes
+	EV20	14,000	homes
+	EV21	700	homes
+	EV22	46,500	homes
+	EV23	000	homes
+	EV24	34,000	homes
+	EV25	4,000	homes
+	EV26	2,000	homes
+	EV27	300	homes
+	EV28	150	homes
+	EV29	62,000	homes
+	MP1	$Number $Residence
+$Number	19	NULL	$Enlisted_person
+	EV1	1,000	soldiers
+	EV2	5,000	soldiers
+	EV3	2,000	soldiers
+	EV4	10,000	soldiers
+	EV5	850	soldiers
+	EV6	18,000	soldiers
+	EV7	800	soldiers
+	EV8	24	soldiers
+	EV9	400	soldiers
+	EV10	200	soldiers
+	EV11	8,000	soldiers
+	EV12	100,000	soldiers
+	EV13	7,000	soldiers
+	EV14	2,500	soldiers
+	EV15	2500	soldiers
+	EV16	17	soldiers
+	EV17	000	soldiers
+	EV18	7000	soldiers
+	EV19	326	soldiers
+	EV20	13	soldiers
+	EV21	166	soldiers
+	EV22	60	soldiers
+	EV23	20,000	soldiers
+	EV24	1,600	soldiers
+	EV25	5000	soldiers
+	EV26	19,000	soldiers
+	MP1	$Number $Enlisted_person
+$Number	20	NULL	$Number $Shelter
+	EV1	2,000	3,000|tents
+	EV2	3,000	2,000|tents
+	EV3	5,000	10,000|tents
+	EV4	10,000	5,000|tents
+	EV5	200	2,000|tents
+	EV6	828,600	79,700|tents
+	EV7	79,700	828,600|tents
+	EV8	2,000	200|tents
+	EV9	3,000	350|tents
+	EV10	1,000	15,000|tents
+	EV11	31,000	295,000|tents
+	EV12	33,000	10,000|tents
+	EV13	57	500|tents
+	EV14	20,000	13,000|tents
+	EV15	10,000	33,000|tents
+	EV16	15,000	1,000|tents
+	EV17	217,000	69,000|tents
+	EV18	295,000	31,000|tents
+	EV19	13,000	20,000|tents
+	EV20	460	40|tents
+	EV21	30,000	50,000|tents
+	EV22	40	460|tents
+	EV23	69,000	217,000|tents
+	EV24	500	57|tents
+	EV25	350	3,000|tents
+	EV26	50,000	30,000|tents
+	MP1	$Number $Shelter , $Number
+$Number	21	NULL	$Termination
+	EV1	367	kills
+	EV2	188	kills
+	EV3	186	kills
+	EV4	27	kills
+	EV5	179	kills
+	EV6	381	kills
+	EV7	85	kills
+	EV8	65	kills
+	EV9	230,000	kills
+	EV10	75	Kills
+	EV11	88	kills
+	EV12	171	kills
+	EV13	150	Kills
+	EV14	1	kills
+	EV15	180	kills
+	EV16	75	kills
+	EV17	181	Kills
+	EV18	160	kills
+	EV19	200	kills
+	EV20	45	kills
+	EV21	5	kills
+	EV22	3	kills
+	EV23	89	kills
+	EV24	18	kills
+	EV25	89	KILLS
+	MP1	$Geological_phenomenon $Termination $Number
+	MP2	$Termination $Number
+$Number	22	NULL	$Settlement $Organization
+	EV1	247	AMATRICE|Access World News
+	EV2	159	AMATRICE|Access World News
+	EV3	93	CEBU|Access World News
+	EV4	241	AMATRICE|Access World News
+	EV5	56	BEIJING|Access World News
+	EV6	290	AMATRICE|Access World News
+	EV7	2016	TAIPEI|Access World News
+	EV8	100	CEBU|Access World News
+	EV9	200	Mae Sai|Access World News
+	EV10	113	BEIJING|Access World News
+	EV11	241	PESCARA|Access World News
+	EV12	156	BEIJING|Access World News
+	EV13	73	AMATRICE|Access World News
+	EV14	32,500	Beijing|Access World News
+	EV15	12	BEIJING|Access World News
+	EV16	32	CEBU|Access World News
+	EV17	147	Santiago|Access World News
+	EV18	85	CEBU|Access World News
+	EV19	37	AMATRICE|Access World News
+	EV20	5	TAIPEI|Access World News
+	EV21	250	PESCARA|Access World News
+	EV22	124	BEIJING|Access World News
+	EV23	291	ASCOLI PICENO|Access World News
+	MP1	$Number - $Organization $Settlement
+$Number	23	NULL	$Bedclothes
+	EV1	3,000	quilts
+	EV2	22,000	blankets
+	EV3	10,000	quilts
+	EV4	1,400	quilts
+	EV5	2,000	quilts
+	EV6	3,000	blankets
+	EV7	2,180	quilts
+	EV8	25,000	blankets
+	EV9	15,000	quilts
+	EV10	50,000	blankets
+	EV11	217,000	blankets
+	EV12	295,000	quilts
+	EV13	11,940	blankets
+	EV14	11,000	blankets
+	EV15	76,500	blankets
+	EV16	15,000	blankets
+	EV17	2,000	blankets
+	EV18	122,000	blankets
+	EV19	5,000	quilts
+	EV20	100	quilts
+	EV21	4,000	blankets
+	MP1	$Number $Bedclothes
+$Number	24	NULL	$Municipality
+	EV1	75,000	city
+	EV2	1.5	city
+	EV3	380,000	city
+	EV4	3.75	city
+	EV5	350,000	city
+	EV6	1.8	city
+	EV7	75,000	town
+	EV8	635	town
+	EV9	18,000	town
+	EV10	100,000	town
+	EV11	20,000	town
+	EV12	700,000	city
+	EV13	11	city
+	EV14	80,000	town
+	EV15	90,000	city
+	EV16	350	city
+	EV17	200,000	city
+	EV18	2	city
+	EV19	100,000	city
+	MP1	$Municipality of $Number
+$Number	25	NULL	$Benefactor
+	EV1	11,000	Rescuers
+	EV2	2,000	rescuers
+	EV3	7,000	rescuers
+	EV4	1,100	rescuers
+	EV5	1,236	rescuers
+	EV6	1,400	rescuers
+	EV7	392	rescuers
+	EV8	100	rescuers
+	EV9	20	rescuers
+	EV10	700	rescuers
+	EV11	31	rescuers
+	EV12	2	Rescuers
+	EV13	28,971	rescuers
+	EV14	870	rescuers
+	EV15	600	rescuers
+	EV16	11000	Rescuers
+	EV17	150	rescuers
+	MP1	$Number $Benefactor
+$Number	26	NULL	$Duration
+	EV1	11	12Y
+	EV2	306	1D
+	EV3	1,200	1M
+	EV4	12	5Y
+	EV5	19	1Y
+	EV6	13	1Y
+	EV7	22,000	1D
+	EV8	5	1Y
+	EV9	5,500	5Y
+	EV10	24	1Y
+	EV11	1	1H
+	EV12	40	9M
+	EV13	150	2M
+	EV14	30	40S
+	EV15	2	1Y
+	EV16	2008	1D
+	EV17	15,000	1Y
+	MP1	$Number $Duration
+$Number	27	NULL	$Recovery
+	EV1	1,275	rescue
+	EV2	4.8	Rescue
+	EV3	200	rescue
+	EV4	23	rescue
+	EV5	500	rescue
+	EV6	12	rescue
+	EV7	45	rescue
+	EV8	30,000	rescue
+	EV9	40	rescue
+	EV10	217	rescue
+	EV11	33,691	rescue
+	EV12	900	rescue
+	EV13	4,370	rescue
+	EV14	4,300	rescue
+	EV15	272	rescue
+	EV16	30	rescue
+	MP1	$Number $Recovery
+$Number	28	NULL	$Housing
+	EV1	17	apartment
+	EV2	27	apartment
+	EV3	16	apartment
+	EV4	15	apartment
+	EV5	25	apartment
+	EV6	80	apartment
+	EV7	24	apartment
+	EV8	20	apartment
+	EV9	55	apartment
+	MP1	$Number $Housing
+$Number	29	NULL	$Date $Geological_phenomenon
+	EV1	6.1	2016-08-24|earthquake
+	EV2	6	2016-08-23|quake
+	EV3	6	2016-08-24|quake
+	EV4	6.1	2016-08-23|earthquake
+	EV5	6	2016-08-25|quake
+	EV6	7.2	2013-10-15|quake
+	EV7	6.1	2014-08-02|quake
+	MP1	$Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP2	$Settlement central $Country where a $Number $Geological_phenomenon struck just after $Date
+	MP3	magnitude $Number $Geological_phenomenon struck at $Date
+	MP4	central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP5	magnitude $Number $Geological_phenomenon struck at $Date and was felt across a broad swath of central $Country including $Settlement
+	MP6	rubble in $Settlement central $Country $Date where a $Number $Geological_phenomenon struck just after $Date
+	MP7	$Country $Date where a $Number $Geological_phenomenon struck just after $Date $Country
+	MP8	$Number $Geological_phenomenon struck just after $Date $Country
+	MP9	$Number $Geological_phenomenon struck at $Date
+	MP10	Arcuata del Tronto, central $Country where a $Number $Geological_phenomenon struck just after $Date
+$Number	30	NULL	$Earthquake
+	EV1	8.8	earthquake
+	EV2	9.5	earthquake
+	EV3	6.9	Loma Prieta earthquake
+	EV4	8.0	Wenchuan quake
+	EV5	5.2	aftershock
+	EV6	5.6	aftershock
+	MP1	$Number $Earthquake
+	MP2	$Number $Geological_phenomenon
+	MP3	magnitude $Number $Geological_phenomenon
+$Number	31	NULL	$Building_material
+	EV1	429,000	brick
+	EV2	000	brick
+	MP1	$Number were old and made of $Building_material ,
+$Number	32	NULL	$Examination
+	EV1	6.6	Survey
+	MP1	U.S. Geological $Examination at $Number
+$Number	33	NULL	$Military_quarters $Shelter
+	EV1	58	camps|tent
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+$Number	34	NULL	$Act
+	EV1	58	stay
+	MP1	$Number people whose $Residence collapsed or left unsafe by the $Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters
+	MP2	$Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters or other $Structure arranged by the $Organization The $Company
+$Number	35	NULL	$Organization $Company $Structure $Military_quarters $Shelter
+	EV1	58	Civil Protection agency|Associated Press|shelters|camps|tent
+	MP1	$Date $Geological_phenomenon PRESENT_REF $Act in $Number $Shelter $Military_quarters or other $Structure arranged by the $Organization The $Company
+$Officeholder	1	NULL	$Clergyman
+	EV1	Recep Tayyip Erdogan	Minister
+	EV2	John Key	Minister
+	EV3	Benjamin Netanyahu	Minister
+	EV4	Frank-Walter Steinmeier	Minister
+	EV5	Dario Franceschini	Minister
+	EV6	Paolo Gentiloni	Minister
+	EV7	Naoto Kan	Minister
+	EV8	Shinzo Abe	Minister
+	EV9	Manmohan Singh	Minister
+	EV10	Banri Kaieda	minister
+	EV11	Mostafa Mohammad Najjar	Minister
+	EV12	Dacian Ciolos	Minister
+	EV13	Bill English	Minister
+	EV14	Marzieh Vahid Dastjerdi	Minister
+	EV15	Erdogan	Minister
+	EV16	Matteo Renzi	Minister
+	EV17	Yun Byung-se	Minister
+	EV18	Samak Sundaravej	Minister
+	EV19	Angelino Alfano	minister
+	EV20	Radoslaw Sikorski	Minister
+	EV21	Mostafa Mohammad-Najjar	Minister
+	EV22	Julia Gillard	Minister
+	EV23	Safar Abiyev	Minister
+	EV24	Stephen Harper	Minister
+	EV25	Matteo Renzi	minister
+	EV26	Rudd	Minister
+	EV27	Recep Tayyip Erdogan	minister
+	EV28	Wen Jiabao	Minister
+	EV29	Sergio	Minister
+	EV30	John Key	minister
+	EV31	Raja Pervez Ashraf	Minister
+	EV32	Sheikh Hasina	Minister
+	EV33	Marty Natalegawa	Minister
+	EV34	Najib Razak	Minister
+	EV35	Masahiko Komura	Minister
+	EV36	Datuk Seri Najib Razak	Minister
+	EV37	Guido Westerwelle	Minister
+	EV38	Maurice Williamson	Minister
+	EV39	Bulent Arinc	minister
+	EV40	Muhammad Nawaz Sharif	Minister
+	EV41	Franco Frattini	Minister
+	EV42	David Choquehuanca	Minister
+	EV43	Thein Sein	Minister
+	EV44	Banri Kaieda	Minister
+	EV45	Egemen Bagis	Minister
+	EV46	Abhisit Vejjajiva	Minister
+	EV47	Renho	Minister
+	EV48	Silvio Berlusconi	Minister
+	EV49	Bill English	minister
+	EV50	Nawaz Sharif	Minister
+	EV51	Yang Jiechi	Minister
+	EV52	Datuk Seri Najib Tun Razak	Minister
+	EV53	Michele Bachelet	Minister
+	MP1	$Clergyman $Officeholder
+	MP2	Prime $Clergyman $Officeholder
+	MP3	Foreign $Clergyman $Officeholder
+$Officeholder	2	NULL	$Corporate_executive
+	EV1	Sergio Mattarella	President
+	EV2	Xi Jinping	President
+	EV3	Ma Ying-jeou	President
+	EV4	Michelle Bachelet	President
+	EV5	Abdullah Gul	President
+	EV6	Francois Hollande	President
+	EV7	Hu Jintao	President
+	EV8	Vladimir Putin	President
+	EV9	Mahmoud Ahmadinejad	President
+	EV10	Thein Sein	President
+	EV11	Nursultan Nazarbayev	President
+	EV12	Serzh Sargsyan	President
+	EV13	Dalia Grybauskaite	President
+	EV14	Ilham Aliyev	President
+	EV15	Ahmadinejad	President
+	EV16	Nicolas Sarkozy	President
+	EV17	Pranab Mukherjee	President
+	EV18	Jejomar Binay	President
+	EV19	Massoud Barzani	President
+	EV20	Hamid Karzai	President
+	EV21	Xi Jinping	president
+	EV22	Rajapaksa	President
+	EV23	Putin	President
+	EV24	Michelle Bachelet	president
+	EV25	Nicolae Timofti	President
+	EV26	Luiz Inacio Lula da Silva	President
+	EV27	Robert Zoellick	President
+	EV28	Jimmy Carter	President
+	EV29	Sergio	President
+	EV30	Alan Garcia	President
+	EV31	Rafael Correa	President
+	EV32	Jakaya Kikwete	PRESIDENT
+	EV33	Michele Bachelet	President
+	EV34	Jose Manuel Durao Barroso	President
+	EV35	Jose Mujica	President
+	EV36	Lee Myung-bak	President
+	EV37	Raul Castro	President
+	EV38	Mohammad Reza Rahimi	President
+	EV39	Cristina Fernandez	President
+	EV40	Hu Jintao	president
+	EV41	Hugo Chavez	President
+	EV42	Mamnoon Hussain	President
+	EV43	Jerzy Buzek	President
+	EV44	Sergio	president
+	MP1	$Corporate_executive $Officeholder
+	MP2	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP3	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+	MP4	$Corporate_executive $Officeholder and $Head_of_state $Officeholder
+$Officeholder	3	NULL	$Date
+	EV1	Benjamin Netanyahu	2016-08-24
+	EV2	Andrew Cuomo	2016-08-25
+	EV3	Matteo Renzi	2016-08-28
+	EV4	Li Keqiang	2014-08-04
+	EV5	Michelle Bachelet	2010-03-01
+	EV6	Mahmoud Ahmadinejad	2012-08-12
+	EV7	Putin	2013-04-22
+	EV8	Abdullah Gul	2011-10-23
+	EV9	Abdullah Gul	2011-10-24
+	EV10	Kim Jong-il	2008-05-13
+	EV11	Tsai Ing-wen	2016-02-06
+	EV12	Ma Ying-jeou	2016-02-10
+	EV13	Matteo Renzi	2016-09-04
+	EV14	Xi Jinping	2013-04-20
+	EV15	Nicolas Sarkozy	2011-03-31
+	EV16	Jakaya Kikwete	2013-04-21
+	EV17	Roxas	2013-10-22
+	EV18	Washington	2008-05
+	EV19	Pranab Mukherjee	2014-08-07
+	EV20	Rodolfo Biazon	2013-10-23
+	EV21	Egemen Bagis	2011-10-24
+	EV22	Rajapaksa	2014-08-04
+	EV23	Tsai Ing-wen	2016-02-11
+	EV24	Ma Ying-jeou	2016-02-06
+	EV25	David Miliband	2010-XX-XX
+	EV26	Lai Ching-te	2016-02-13
+	EV27	Benigno Aquino III	2013-10-18
+	EV28	Naoto Kan	2011-03-13
+	EV29	Manmohan Singh	2011-03-26
+	MP1	$Officeholder on $Date
+$Officeholder	4	NULL	$Head
+	EV1	Yukio Edano	Secretary
+	EV2	Xi Jinping	Secretary
+	EV3	Ash Carter	Secretary
+	EV4	William Hague	Secretary
+	EV5	Robert Gibbs	secretary
+	EV6	David Miliband	Secretary
+	EV7	Manuel Roxas II	Secretary
+	EV8	Roxas	Secretary
+	EV9	Yoshihide Suga	Secretary
+	EV10	Hu Jintao	Secretary
+	EV11	Janet Napolitano	Secretary
+	EV12	Robert Gibbs	Secretary
+	EV13	He Guoqiang	Secretary
+	EV14	Boris Johnson	Secretary
+	EV15	Hillary Clinton	secretary
+	MP1	$Head $Officeholder
+$Officeholder	5	NULL	$Civil_authority
+	EV1	Lai Ching-te	Mayor
+	EV2	Sergio	Mayor
+	EV3	Bob Parker	Mayor
+	EV4	Sergio	mayor
+	EV5	William Lai	Mayor
+	EV6	Bob Parker	mayor
+	EV7	BOB PARKER	Mayor
+	EV8	Lai Ching-Te	Mayor
+	EV9	William Lai	mayor
+	EV10	Han Zheng	Mayor
+	EV11	Eric Garcetti	Mayor
+	EV12	Gavin Newsom	Mayor
+	MP1	$Civil_authority $Officeholder
+	MP2	Tainan $Civil_authority $Officeholder
+$Officeholder	6	NULL	$Head_of_state
+	EV1	Matteo Renzi	Premier
+	EV2	Sergio Mattarella	Premier
+	EV3	Li Keqiang	Premier
+	EV4	Wen Jiabao	Premier
+	EV5	Xi Jinping	Premier
+	EV6	Dacian Ciolos	Premier
+	EV7	Recep Tayyip Erdogan	Premier
+	EV8	Hu Jintao	Premier
+	EV9	Matteo Renzi	premier
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP2	$Head_of_state $Officeholder
+	MP3	$Country $Head_of_state $Officeholder
+	MP4	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+	MP5	$Corporate_executive $Officeholder and $Head_of_state $Officeholder
+	MP6	$Officeholder and $Head_of_state $Officeholder
+$Officeholder	7	NULL	$Unit $Associate
+	EV1	Matteo Renzi	family|members
+	MP1	$European observed $Duration of national mourning, $Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate for a $Administrative_district $Ceremony
+	MP2	$Corporate_executive $Officeholder and $Head_of_state $Officeholder joined grieving $Unit $Associate
+$Person	1	NULL	$Country
+	EV1	official	Myanmar
+	EV2	Quake	Italy
+	EV3	leader	Israel
+	EV4	Rescuers	Taiwan
+	EV5	leader	Taiwan
+	EV6	Xi Jinping	President
+	EV7	officials	Myanmar
+	EV8	official	Taiwan
+	EV9	Benigno Aquino III	President
+	EV10	officials	Italian
+	EV11	Aquino	President
+	EV12	Benigno	President
+	EV13	officials	Thai
+	EV14	Hu Jintao	President
+	EV15	official	U.N.
+	EV16	officials	Chinese
+	EV17	Rescuers	China
+	EV18	Michelle Bachelet	President
+	EV19	Ma Ying-jeou	President
+	EV20	officials	Turkish
+	EV21	premier	Turkish
+	EV22	nationals	Chinese
+	EV23	Quake	Argentina
+	EV24	officials	Thailand
+	EV25	Aquino	Philippines
+	EV26	National	Italy
+	EV27	Quake	Chile
+	EV28	leader	Chinese
+	EV29	Premier	Chinese
+	EV30	Rubio	Chile
+	EV31	nationals	Kyrgyz
+	EV32	National	Chinese
+	EV33	rescuers	Taiwan
+	EV34	officials	U.N.
+	EV35	premier	Italian
+	EV36	Zhang Dejiang	Thailand
+	EV37	Vladimir Putin	Estonia
+	EV38	officials	Iran
+	EV39	official	China
+	EV40	Premier	Italian
+	EV41	Washington	Taiwan
+	EV42	National	Chile
+	EV43	Sergio Mattarella	President
+	EV44	Quake	Japan
+	EV45	friends	American
+	EV46	Michele Bachelet	President
+	EV47	Rescuers	Iran
+	EV48	officials	China
+	EV49	officials	Taiwanese
+	EV50	Workers	Taiwan
+	EV51	native	New Zealand
+	EV52	Benigno	Philippine President
+	EV53	Ayatollah Khamenei	Syria
+	EV54	workers	Chinese
+	EV55	Vanessa	Romania
+	EV56	Quake	N.Z.
+	EV57	Iranian President	Myanmar
+	EV58	official	UN
+	EV59	Thein Sein	Burma
+	EV60	Quake	Burma
+	EV61	Quake	Iran
+	EV62	Rescuers	Turkey
+	EV63	Suresh	China
+	EV64	National	Japan
+	EV65	rescuers	Chinese
+	EV66	Rescuers	Italy
+	EV67	expert	American
+	EV68	Yang Jiechi	China
+	EV69	Quake	Philippines
+	EV70	rescuers	Azerbaijani
+	EV71	Quake	China
+	EV72	fishermen	Myanmar
+	EV73	Yang Jiechi	Burma
+	EV74	He Guoqiang	China
+	EV75	friends	Chinese
+	EV76	scientists	Japanese
+	EV77	official	Argentine
+	EV78	Joe Crowley	American Samoa
+	EV79	engineer	Italian
+	EV80	Officials	Turkey
+	EV81	Officials	Thailand
+	EV82	leader	Korean
+	EV83	officials	Kurdistan
+	EV84	premier	Chinese
+	EV85	officials	Japanese
+	EV86	official	Kurdistan
+	EV87	Blogger	Saudi Arabia
+	EV88	Roxas	Philippines
+	EV89	National	Kurdistan
+	EV90	rescuers	Turkish
+	EV91	workers	UN
+	EV92	nationals	Japanese
+	EV93	Ban Ki-moon	UN Secretary-General
+	EV94	National	China
+	EV95	rescuers	Azerbaijan
+	EV96	scientists	Italian
+	EV97	National	Philippines
+	EV98	official	Russia
+	MP1	$Country $Person
+$Person	2	NULL	$Number
+	EV1	guests	10
+	EV2	students	900
+	EV3	firefighters	2,000
+	EV4	guests	70
+	EV5	students	11
+	EV6	children	27
+	EV7	firefighters	200
+	EV8	firefighters	37
+	EV9	children	41
+	EV10	students	4,000
+	EV11	firefighters	1,200
+	EV12	teenagers	900
+	EV13	students	100
+	EV14	children	7,000
+	EV15	children	10
+	EV16	guests	100
+	EV17	firefighters	1,000
+	EV18	pupils	900
+	EV19	students	23
+	EV20	Firefighters	6.6
+	EV21	students	360
+	EV22	student	13
+	EV23	student	2015
+	EV24	students	50
+	EV25	students	410
+	EV26	children	21
+	EV27	children	4,000
+	EV28	children	26,000
+	EV29	students	350
+	EV30	children	47
+	EV31	students	420
+	EV32	students	28
+	EV33	firefighters	100
+	EV34	students	80
+	EV35	Firefighter	7
+	EV36	student	1
+	EV37	children	1.37
+	EV38	pupils	1,000
+	EV39	students	88
+	EV40	children	2
+	EV41	guests	249
+	EV42	firefighters	62
+	EV43	children	1,000
+	EV44	firefighters	600
+	EV45	students	800
+	EV46	firefighters	500
+	EV47	students	1,200
+	EV48	students	30
+	EV49	children	2.06
+	EV50	children	60
+	EV51	children	26
+	EV52	children	25
+	EV53	firefighters	25
+	EV54	kids	20
+	EV55	students	40
+	EV56	students	3,800
+	EV57	children	52
+	MP1	$Number $Person
+$Person	3	NULL	$Date
+	EV1	searchers	2016-08-24
+	EV2	searchers	2016-08-25
+	EV3	White	2013-XX-XX
+	EV4	Ajmal	2011-03-01
+	EV5	HAVE	2009-05
+	EV6	Relatives	2016-08-27
+	EV7	workers	2008-05-12
+	EV8	Workers	2008-05-13
+	EV9	killer	2013-10
+	EV10	killer	2011-03
+	EV11	killer	2013-10-15
+	EV12	Relatives	2016-08
+	EV13	National	2008-05-12
+	EV14	Negros	2012-XX-XX
+	EV15	Scientists	2010-02-26
+	EV16	killer	2011-03-11
+	EV17	Workers	2008-05-22
+	EV18	killer	2011-03-18
+	EV19	KRISTEN WIIG	2010-02-26
+	EV20	FRIENDS	2010-02-27
+	MP1	$Date $Person
+$Person	4	NULL	$Organization
+	EV1	workers	Red Cross
+	EV2	worker	Red Cross
+	EV3	workers	Red Crescent
+	EV4	National	Access World News
+	EV5	JONATHAN MANN	Access World News
+	EV6	Experts	Access World News
+	EV7	NATIONAL	Access World News
+	EV8	workers	civil protection
+	EV9	workers	Mennonite Central Committee
+	EV10	leader	Party
+	EV11	THOMAS ROBERTS	Access World News
+	EV12	KILLER	FIRST
+	MP1	$Organization $Person
+$Person	5	NULL	$Duration
+	EV1	boy	11Y
+	EV2	boy	7Y
+	EV3	boy	5Y
+	EV4	boy	13Y
+	EV5	boy	4Y
+	EV6	boy	15Y
+	EV7	boy	1Y
+	EV8	boy	12Y
+	EV9	boy	10Y
+	EV10	boys	14Y
+	MP1	$Duration $Person
+$Person	6	NULL	$Recovery
+	EV1	workers	rescue
+	EV2	workers	Rescue
+	EV3	worker	rescue
+	EV4	experts	rescue
+	EV5	worker	Rescue
+	EV6	WORKERS	RESCUE
+	EV7	workers	RESCUE
+	EV8	Workers	Rescue
+	MP1	$Recovery $Person
+	MP2	$Company $Recovery $Person
+$Person	7	NULL	$Corporate_executive
+	EV1	Barack Obama	President
+	EV2	Shimon Peres	President
+	EV3	Jacques Rogge	President
+	EV4	Bush	President
+	EV5	Jacques Rogge	president
+	EV6	Obama	President
+	EV7	OBAMA	PRESIDENT
+	MP1	$Corporate_executive $Person
+$Person	8	NULL	$Activity
+	EV1	workers	protection
+	EV2	worker	protection
+	EV3	changer	game
+	MP1	$Activity $Person
+$Person	9	NULL	$Crisis
+	EV1	workers	emergency
+	EV2	workers	Emergency
+	EV3	worker	emergency
+	MP1	$Crisis $Person
+$Person	10	NULL	$Inhabitant
+	EV1	neighbors	residents
+	EV2	neighbors	Residents
+	MP1	$Inhabitant were digging their $Person
+$Person	11	NULL	$Base
+	EV1	African	Plate
+	MP1	$Person $Base
+$Recovery	1	NULL	$Number
+	EV1	rescue	1,275
+	EV2	Rescue	4.8
+	EV3	rescue	200
+	EV4	rescue	23
+	EV5	rescue	12
+	EV6	rescue	500
+	EV7	rescue	45
+	EV8	rescue	4,300
+	EV9	rescue	217
+	EV10	rescue	900
+	EV11	rescue	40
+	EV12	rescue	4,370
+	EV13	rescue	33,691
+	EV14	rescue	30,000
+	EV15	rescue	272
+	EV16	rescue	30
+	MP1	$Number $Recovery
+$Recovery	2	NULL	$Activity
+	EV1	rescue	search
+	EV2	Rescue	Search
+	EV3	rescue	process
+	EV4	rescue	Search
+	EV5	rescue	attempt
+	EV6	Rescue	work
+	EV7	RESCUE	HELP
+	EV8	Rescue	effort
+	EV9	RESCUE	efforts
+	MP1	$Activity and $Recovery
+	MP2	$Recovery $Activity
+$Recovery	3	NULL	$Person
+	EV1	rescue	workers
+	EV2	Rescue	workers
+	EV3	rescue	worker
+	EV4	rescue	experts
+	EV5	Rescue	worker
+	EV6	RESCUE	WORKERS
+	EV7	RESCUE	workers
+	EV8	Rescue	Workers
+	MP1	$Recovery $Person
+	MP2	$Company $Recovery $Person
+$Recovery	4	NULL	$Unit
+	EV1	rescue	crews
+	EV2	rescue	teams
+	EV3	rescue	team
+	EV4	Rescue	crews
+	EV5	Rescue	teams
+	EV6	Rescue	Team
+	EV7	rescue	crew
+	EV8	Rescue	team
+	MP1	$Recovery $Unit
+	MP2	$Inhabitant and $Recovery $Unit
+$Recovery	5	NULL	$Country
+	EV1	rescue	Italian
+	EV2	Rescue	Italy
+	EV3	rescue	Taiwan
+	EV4	rescue	Italy
+	EV5	Rescue	Taiwan
+	EV6	rescue	Iran
+	EV7	rescue	Chinese
+	MP1	$Country $Recovery
+$Recovery	6	NULL	$Company
+	EV1	Rescue	Associated Press
+	EV2	Rescue	AP
+	EV3	Rescue	Reuters
+	EV4	Rescue	NTV
+	MP1	$Company $Recovery $Person
+	MP2	$Company $Recovery
+$Recovery	7	NULL	$Transaction
+	EV1	rescue	operations
+	EV2	Rescue	operations
+	MP1	$Recovery $Transaction
+$Recovery	8	NULL	$Inhabitant
+	EV1	rescue	residents
+	EV2	rescue	villagers
+	MP1	Strong $Tremor rattled $Inhabitant and $Recovery $Unit alike $Date as hopes began to dim
+	MP2	$Inhabitant and $Recovery $Unit
+$Recovery	9	NULL	$Date
+	EV1	Rescue	2016-08-26
+	EV2	Rescue	2016-08-25
+	MP1	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+$Recovery	10	NULL	$Unit $Unfortunate
+	EV1	rescue	crews|survivors
+	MP1	hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate out of the rubble, but the toll
+	MP2	least $Number people were reported dead in three hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate
+$Recovery	11	NULL	$Date $Residence $Unit $Tremor
+	EV1	Rescue	2016-08-25|homes|crews|aftershocks
+	MP1	$Country $Date $Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+	MP2	$Recovery $Unit rattled by $Tremor dug through crumbled $Residence $Date looking for $Geological_phenomenon
+$Removal	1	NULL	$Area
+	EV1	evacuation	centers
+	EV2	evacuation	center
+	EV3	Evacuation	Center
+	MP1	$Removal $Area
+$Serviceman	1	NULL	$Force
+	EV1	officers	police
+	EV2	officer	police
+	EV3	officers	Police
+	EV4	Officer	Police
+	EV5	officers	staff
+	MP1	$Force $Serviceman
+$Sibling	1	NULL	$Geological_phenomenon
+	EV1	twin	earthquakes
+	EV2	twin	quakes
+	EV3	Twin	earthquakes
+	EV4	Twin	Quakes
+	MP1	$Sibling $Geological_phenomenon
+$Skilled_worker	1	NULL	$Date
+	EV1	officials	2016-08-25
+	EV2	officials	2011-03-25
+	EV3	official	2011-03-25
+	EV4	official	2008-05-23
+	EV5	officials	2011-04-01
+	EV6	official	2011-03-27
+	EV7	official	2013-10-20
+	EV8	officials	2011-03-26
+	EV9	officials	2011-03-13
+	EV10	official	2008-05-14
+	MP1	$Skilled_worker said $Date
+$Skilled_worker	2	NULL	$Polity
+	EV1	officials	government
+	EV2	official	government
+	EV3	officials	Government
+	MP1	$Polity $Skilled_worker
+$Skilled_worker	3	NULL	$Broadcastnetwork
+	EV1	official	Xinhua News Agency
+	EV2	official	Xinhua
+	EV3	official	IRNA
+	MP1	$Country $Skilled_worker $Broadcastnetwork
+	MP2	$Skilled_worker $Broadcastnetwork
+$Skilled_worker	4	NULL	$Activity
+	EV1	officials	protection
+	MP1	civil $Activity $Skilled_worker
+$Skilled_worker	5	NULL	$Country
+	EV1	official	China
+	MP1	$Country $Skilled_worker $Broadcastnetwork
+$Social_control	1	NULL	$Administrative_unit
+	EV1	Management	Council
+	EV2	Management	Agency
+	EV3	management	agency
+	EV4	management	agencies
+	EV5	Management	Committee
+	EV6	Management	council
+	MP1	$Social_control $Administrative_unit
+$Social_control	2	NULL	$Change_of_magnitude
+	EV1	Management	Reduction
+	EV2	management	reduction
+	MP1	Disaster Risk $Change_of_magnitude and $Social_control
+	MP2	$Change_of_magnitude and $Social_control
+$Social_control	3	NULL	$Crisis
+	EV1	management	emergency
+	EV2	Management	Emergency
+	MP1	$Crisis $Social_control
+$Speech_act	1	NULL	$Activity
+	EV1	offers	help
+	EV2	offer	help
+	EV3	offer	assistance
+	EV4	offers	assistance
+	EV5	offers	support
+	MP1	$Speech_act of $Activity
+$Speech_act	2	NULL	$European
+	EV1	bid	Italians
+	MP1	village of Santi Lorenzo e Flaviano, central $Country $Date $European $Speech_act
+	MP2	$European $Speech_act
+	MP3	$Country $Date $European $Speech_act
+	MP4	central $Country $Date $European $Speech_act
+$Termination	1	NULL	$Number
+	EV1	kills	367
+	EV2	kills	179
+	EV3	kills	27
+	EV4	kills	188
+	EV5	kills	186
+	EV6	kills	381
+	EV7	kills	85
+	EV8	kills	65
+	EV9	kills	230,000
+	EV10	Kills	75
+	EV11	kills	171
+	EV12	kills	88
+	EV13	kills	89
+	EV14	kills	45
+	EV15	Kills	150
+	EV16	kills	5
+	EV17	kills	3
+	EV18	kills	1
+	EV19	kills	180
+	EV20	kills	200
+	EV21	kills	160
+	EV22	kills	75
+	EV23	Kills	181
+	EV24	kills	18
+	EV25	KILLS	89
+	MP1	$Geological_phenomenon $Termination $Number
+	MP2	$Termination $Number
+$Termination	2	NULL	$Geological_phenomenon
+	EV1	kills	quake
+	EV2	kills	earthquake
+	EV3	kills	Earthquake
+	EV4	Kills	Earthquake
+	EV5	KILLS	QUAKE
+	MP1	$Geological_phenomenon $Termination $Number
+	MP2	$Geological_phenomenon $Termination
+$Transaction	1	NULL	$Recovery
+	EV1	operations	rescue
+	EV2	operations	Rescue
+	MP1	$Recovery $Transaction
+$Unfortunate	1	NULL	$Number
+	EV1	homeless	1,200
+	EV2	victims	195
+	EV3	victims	120
+	EV4	survivors	32
+	EV5	victims	267
+	EV6	survivors	120
+	EV7	survivors	247
+	EV8	victims	292
+	EV9	survivors	30
+	EV10	homeless	16,000
+	EV11	prisoners	200
+	EV12	victims	46
+	EV13	survivors	240
+	EV14	survivors	248
+	EV15	survivors	38
+	EV16	victims	242
+	EV17	victims	32
+	EV18	victims	30,000
+	EV19	homeless	350
+	EV20	survivors	49
+	EV21	survivors	2,300
+	EV22	homeless	1.2
+	EV23	survivors	249
+	EV24	survivors	2,000
+	EV25	homeless	7,000
+	EV26	survivors	3,000
+	EV27	victims	144
+	EV28	victims	100
+	EV29	survivors	279
+	EV30	Homeless	288,431
+	EV31	homeless	55,000
+	EV32	victims	69
+	EV33	victims	10
+	EV34	victims	39
+	EV35	victim	173124
+	EV36	survivors	91
+	MP1	$Number $Unfortunate
+	MP2	$Unfortunate , $Number
+$Unfortunate	2	NULL	$Geological_phenomenon
+	EV1	victims	earthquake
+	EV2	victims	quake
+	EV3	survivors	earthquake
+	EV4	homeless	quake
+	EV5	survivors	quake
+	EV6	homeless	earthquake
+	EV7	survivors	Earthquake
+	EV8	survivor	earthquake
+	EV9	victims	Earthquake
+	EV10	victim	earthquake
+	EV11	Victims	Earthquake
+	EV12	victims	temblor
+	EV13	homeless	Earthquake
+	EV14	Victims	quake
+	EV15	VICTIMS	QUAKE
+	EV16	survivor	quake
+	EV17	Survivors	earthquake
+	EV18	victim	quake
+	MP1	$Geological_phenomenon $Unfortunate
+	MP2	$Unfortunate of the devastating $Geological_phenomenon
+	MP3	$Earthquake $Unfortunate
+	MP4	$Unfortunate of the $Geological_phenomenon
+	MP5	$Unfortunate by the $Geological_phenomenon
+	MP6	$Unfortunate of the $Geological_phenomenon ,
+$Unfortunate	3	NULL	$Date
+	EV1	victims	2016-08-24
+	EV2	victims	2011-10-23
+	EV3	victims	2016-02-06
+	EV4	survivors	2011-04
+	EV5	victims	2013-10
+	EV6	victim	2012-08-11
+	EV7	victims	2014-08-10
+	EV8	victim	2016-08-24
+	EV9	victims	2016-08
+	EV10	victims	2016-02
+	EV11	survivors	2014-08-03
+	EV12	victims	2013-04-20
+	MP1	$Unfortunate of $Date $Geological_phenomenon
+	MP2	$Unfortunate of $Date
+$Unfortunate	4	NULL	$Settlement
+	EV1	victims	Ascoli Piceno
+	EV2	homeless	Amatrice
+	EV3	victims	Bohol
+	EV4	survivors	Amatrice
+	EV5	survivor	Beichuan
+	EV6	victims	Christchurch
+	EV7	survivors	Tainan
+	EV8	Victims	Bohol
+	EV9	victims	Tainan
+	EV10	victim	Amatrice
+	EV11	victims	Loon, Bohol
+	MP1	$Unfortunate in $Settlement
+$Unfortunate	5	NULL	$Activity
+	EV1	survivors	search
+	EV2	survivors	searches
+	EV3	victims	search
+	EV4	survivors	Search
+	EV5	victims	efforts
+	EV6	victims	help
+	EV7	Victims	Assistance
+	EV8	survivors	effort
+	MP1	$Activity for $Unfortunate
+$Unfortunate	6	NULL	$Country
+	EV1	victims	Italy
+	EV2	victim	Italy
+	EV3	Survivors	China
+	EV4	survivors	Turkish
+	EV5	victims	Japan
+	EV6	Victims	Chile
+	MP1	$Unfortunate of $Country
+$Unfortunate	7	NULL	$Organization
+	EV1	victims	Access World News
+	EV2	survivors	Access World News
+	EV3	Victims	Access World News
+	EV4	Survivors	Access World News
+	EV5	homeless	Access World News
+	MP1	$Unfortunate - $Organization
+$Unfortunate	8	NULL	$Company
+	EV1	Mourners	Associated Press
+	EV2	Homeless	Associated Press
+	EV3	Victims	Associated Press
+	EV4	DESPERATE	MAN
+	MP1	$Company $Unfortunate
+$Unfortunate	9	NULL	$Geological_phenomenon $Structure
+	EV1	homeless	quake|housing
+	EV2	survivors	earthquake|housing
+	MP1	$Structure for $Geological_phenomenon $Unfortunate
+$Unfortunate	10	NULL	$Country $Geological_phenomenon
+	EV1	survivors	Italy|earthquake
+	EV2	victims	Italy|earthquake
+	MP1	$Unfortunate from $Country $Geological_phenomenon
+	MP2	$Unfortunate of an $Geological_phenomenon in $Country
+$Unfortunate	11	NULL	$Recovery $Unit
+	EV1	survivors	rescue|crews
+	MP1	hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate out of the rubble, but the toll
+	MP2	least $Number people were reported dead in three hard-hit $Municipality where $Recovery $Unit raced to dig $Unfortunate
+$Unfortunate	12	NULL	$Ceremony
+	EV1	victims	funeral
+	MP1	$Ceremony for some of the $Unfortunate
+	MP2	ahead of a $Administrative_district $Ceremony for some of the $Unfortunate
+$Unfortunate	13	NULL	$Earthquake
+	EV1	victims	Bohol earthquake
+	MP1	$Earthquake $Unfortunate
