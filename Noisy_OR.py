@@ -6,6 +6,7 @@ import os
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
+import matplotlib.pyplot as plt
 # change the tense of verb
 def change_tense(sen):
     tags = nltk.pos_tag(sen)
@@ -53,14 +54,31 @@ for i in range(0,len(train)):
             pattern_dict[mixed_pattern] = [i]
 #get the list of occured patterns in each paper
 pattern_list = list(pattern_dict.keys())
-c1 = [0]*len(pattern_list)
-c = []
-for i in range(0,len(lst)):
-    c.append(deepcopy(c1))
-for i in range(0,len(pattern_list)):
-    temp = pattern_dict[pattern_list[i]]
-    for j in temp:
-        c[j][i] = 1
+
+pattern_dict_f = {}
+for_graph = []
+for cur_key in pattern_list:
+    l = len(pattern_dict[cur_key])
+    if(l>=10):
+        pattern_dict_f[cur_key] = l
+        for_graph.append(l)
+for_graph.sort(reverse = True)
+pattern_list_f = list(pattern_dict_f.keys())
+good_patterns = {}
+graph_2 = []
+for cur_key in pattern_list_f:
+    occurance = pattern_dict[cur_key]
+    occurance = set(occurance)
+    occurance = list(occurance)
+    temp_graph = []
+    temp_graph.append(len(pattern_dict[cur_key]))
+    temp_graph.append(len(occurance))
+    graph_2.append(temp_graph)
+    if(len(occurance)>=5):
+        temp = []
+        temp.append(len(occurance))
+        temp.append(pattern_dict_f[cur_key])
+        good_patterns[cur_key] = temp
 #a noisy-or class
 class Noisy_OR(object):
     def __init__(self, num_event = 5, num_pattern = 3, D = 10):
@@ -69,7 +87,7 @@ class Noisy_OR(object):
         self.Pr_ek_1_P_list = []
         self.Pr_zik_1_P_list = []
         self.D = D
-        self.qk = np.random.rand(1, num_event + 1)
+        self.qk = np.random.rand(1, num_event)
         #self.qk = np.zeros((1, num_event + 1))
         self.qk[0][0] = 1
         #self.qik = np.random.rand(num_event, num_pattern)
@@ -135,14 +153,24 @@ class Noisy_OR(object):
                     p_zik_1[i][k] = zik_1_pi_1
         self.Pr_zik_1_P_list += [p_zik_1]
         return zik
+good_patterns_list = list(good_patterns.keys())
+c1 = [0]*len(good_patterns_list)
+c = []
+for i in range(0,len(lst)):
+    c.append(deepcopy(c1))
+for i in range(0,len(good_patterns_list)):
+    temp = pattern_dict[good_patterns_list[i]]
+    for j in temp:
+        c[j][i] = 1
 # input the number of events to be considered
-events = 5
-noisy_model = Noisy_OR(events, len(pattern_list), len(lst))
+events = 11
+noisy_model = Noisy_OR(events, len(good_patterns_list), len(lst))
 cur_qk = noisy_model.qk
 print(cur_qk)
 # input the maximum steps
 steps = 40
 for i in range(0,steps):
+    print("Step:",i)
     for j in range(0,len(lst)):
         noisy_model._e_step(c[j])
     noisy_model._m_step()
@@ -151,3 +179,63 @@ for i in range(0,steps):
     else:
         cur_qk = noisy_model.qk
 print(noisy_model.qk)
+print(noisy_model.qik)
+
+plt.plot(for_graph)
+graph_2.sort(reverse = True)
+graph_2_value = []
+for i in range(0, len(graph_2)):
+    graph_2_value.append(graph_2[i][0]*(graph_2[i][1]-1))
+plt.plot(graph_2_value)
+plt.xlabel('frequent pattern ID')
+plt.ylabel('F value')
+plt.plot(for_graph)
+plt.xlabel('frequent pattern ID')
+plt.ylabel('F value')
+def kl_div(p_x):
+    temp_dict = {}
+    ret = 0
+    for cur_key in p_x:
+        try: 
+            temp_dict[cur_key] += 1
+        except KeyError:
+            temp_dict[cur_key] = 1
+    qx = len(p_x)/len(lst)
+    key_list = list(temp_dict.keys())
+    for new_key in key_list:
+        px = temp_dict[new_key]/len(p_x)
+        ret+=px*np.log(px/qx)
+    return ret
+graph_3 = []
+for cur_key in pattern_list_f:
+    temp = []
+    temp.append(pattern_dict_f[cur_key])
+    kl = kl_div(pattern_dict[cur_key])
+    temp.append(kl)
+    graph_3.append(temp)
+graph_3.sort(reverse = True)
+graph_3_value = []
+for i in range(0, len(graph_3)):
+    graph_3_value.append(graph_3[i][1])
+plt.plot(graph_3_value)
+plt.xlabel('frequent pattern ID')
+plt.ylabel('F value')
+plt.grid(True)
+plt.savefig('kl_div1.png',quality = 0)
+
+qik5_1 = noisy_model.qik
+graph_5_1 = [0]*6
+for i in range(0,304):
+    temp_m = max(qik5_1[i])
+    for j in range(0,6):
+        if(qik5_1[i][j]==temp_m):
+            graph_5_1[j]+=1
+plt.bar([0,1,2,3,4,5],graph_5_1)
+qik10_1 = noisy_model.qik
+graph_10_1 = [0]*11
+for i in range(0,304):
+    temp_m = max(qik10_1[i])
+    for j in range(0,11):
+        if(qik10_1[i][j]==temp_m):
+            graph_10_1[j]+=1
+plt.bar([0,1,2,3,4,5,6,7,8,9,10],graph_10_1)
