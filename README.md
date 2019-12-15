@@ -3,7 +3,7 @@
 Pattern Extraction and Clustering for Events
 ============
 
-This is the repo aims to develop the reimplementation code for the Faster RCNN architecture.
+This is the repo aims to develop the implementation code for CS412 term project.
 
 Authors:
 
