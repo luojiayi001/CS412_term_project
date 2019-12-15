@@ -16,6 +16,7 @@ Some useful resources:
 [Standford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)
 
 [MetaPAD papaer](https://arxiv.org/pdf/1703.04213.pdf)
+
 Usage:
 -------------
 1. Create a temporary folder named "temp"
